@@ -17,7 +17,7 @@
       <pubDate>Tue, 14 Aug 2018 21:27:07 +0800</pubDate>
       
       <guid>https://cethink.gitee.io/evolution/post/2018/%E7%94%9F%E6%88%90ssh-key/</guid>
-      <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;quot;xxx@xxx.com&amp;quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
+      <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;quot;xxx@163.com&amp;quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
     </item>
     
   </channel>
