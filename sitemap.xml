@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cethink.gitee.io/evolution/about/</loc>
+    <lastmod>2018-09-16T18:44:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://cethink.gitee.io/evolution/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</loc>
     <lastmod>2018-08-14T21:27:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -563,7 +570,7 @@
   
   <url>
     <loc>https://cethink.gitee.io/evolution/</loc>
-    <lastmod>2018-08-14T21:27:07+08:00</lastmod>
+    <lastmod>2018-09-16T18:44:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
