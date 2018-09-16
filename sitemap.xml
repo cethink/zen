@@ -10,6 +10,48 @@
   </url>
   
   <url>
+    <loc>https://cethink.gitee.io/evolution/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
+    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</loc>
+    <lastmod>2015-03-18T19:38:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/post/2015/0111.%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9Dnpm%E9%95%9C%E5%83%8F/</loc>
+    <lastmod>2015-01-11T20:28:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://cethink.gitee.io/evolution/post/2014/1104.connecting-to-azure-website-via-ftp/</loc>
     <lastmod>2014-11-04T17:34:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -233,6 +275,13 @@
   </url>
   
   <url>
+    <loc>https://cethink.gitee.io/evolution/tags/cnpm/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cethink.gitee.io/evolution/tags/dns/</loc>
     <lastmod>2014-07-12T01:07:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -269,7 +318,21 @@
   
   <url>
     <loc>https://cethink.gitee.io/evolution/tags/fedora/</loc>
-    <lastmod>2014-11-03T20:44:40+08:00</lastmod>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/categories/fedora/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/tags/fsck/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -303,6 +366,13 @@
   </url>
   
   <url>
+    <loc>https://cethink.gitee.io/evolution/tags/grub2/</loc>
+    <lastmod>2015-03-18T19:38:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cethink.gitee.io/evolution/tags/grunt/</loc>
     <lastmod>2014-07-22T18:20:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -311,7 +381,7 @@
   
   <url>
     <loc>https://cethink.gitee.io/evolution/tags/iis/</loc>
-    <lastmod>2014-11-02T04:36:41+08:00</lastmod>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -319,6 +389,20 @@
   <url>
     <loc>https://cethink.gitee.io/evolution/tags/jshint/</loc>
     <lastmod>2014-11-02T18:32:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/tags/javascript/</loc>
+    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/tags/kodexplorer/</loc>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -352,8 +436,29 @@
   </url>
   
   <url>
+    <loc>https://cethink.gitee.io/evolution/tags/nodejs/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cethink.gitee.io/evolution/tags/npm/</loc>
-    <lastmod>2014-09-07T17:36:03+08:00</lastmod>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/tags/nvm/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/tags/php/</loc>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -424,6 +529,13 @@
   <url>
     <loc>https://cethink.gitee.io/evolution/tags/</loc>
     <lastmod>2014-11-04T17:34:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cethink.gitee.io/evolution/tags/this/</loc>
+    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/javascript/</link>
+    <description>Recent content in Javascript on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Sat, 11 Apr 2015 21:41:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>理解JavaScript中的this关键字</title>
+      <link>https://cethink.gitee.io/evolution/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <pubDate>Sat, 11 Apr 2015 21:41:38 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <description>原文：Understanding the &amp;ldquo;this&amp;rdquo; keyword in JavaScript 许多人被JavaScript中的this关键字给困扰住了，我想混乱的根源来自人们理所当然地认为Ja</description>
+    </item>
+    
+  </channel>
+</rss>

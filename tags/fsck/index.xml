@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fsck on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/fsck/</link>
+    <description>Recent content in Fsck on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Sat, 11 Apr 2015 18:16:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/fsck/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fedora 21 always boots into Emergency Mode</title>
+      <link>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</link>
+      <pubDate>Sat, 11 Apr 2015 18:16:25 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</guid>
+      <description>从 Fedora 20 升级到 21 之后，总是在启动时进入 Emergency Mode，每次都要按 Ctrl+D 才能进入系统，很是困扰。后来看提示输入命令journalctl -xb查看启动日志</description>
+    </item>
+    
+  </channel>
+</rss>

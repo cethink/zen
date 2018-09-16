@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grub2 on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/grub2/</link>
+    <description>Recent content in Grub2 on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Wed, 18 Mar 2015 19:38:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/grub2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fedora 20 reinstall grub2</title>
+      <link>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</link>
+      <pubDate>Wed, 18 Mar 2015 19:38:40 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</guid>
+      <description>安装 Windows 8.1 和 Fedora 20 双系统时没有将 grub2 引导写入 MBR（没有使用 LVM 格式），而是使用 EasyBCD 的 menu.lst 文件来引导，现在使用 fedup 升级 Fedora 到 21 时需要 grub 菜单来完成更新 PS：W</description>
+    </item>
+    
+  </channel>
+</rss>
