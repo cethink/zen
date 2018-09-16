@@ -76,7 +76,7 @@
 
 <meta itemprop="datePublished" content="2015-04-11T21:41:38&#43;08:00" />
 <meta itemprop="dateModified" content="2015-04-11T21:41:38&#43;08:00" />
-<meta itemprop="wordCount" content="2291">
+<meta itemprop="wordCount" content="2273">
 
 
 
@@ -155,7 +155,7 @@
       <div class="post-meta">
         <span class="post-time"> 2015-04-11 </span>
         
-        <span class="more-meta"> 约 2291 字 </span>
+        <span class="more-meta"> 约 2273 字 </span>
         <span class="more-meta"> 预计阅读 5 分钟 </span>
         
       </div>
@@ -205,19 +205,19 @@
 
 <p>每一行JavaScript代码都运行在一个“执行上下文”中。JavaScript运行时环境用一个栈维持着这些上下文，栈顶的一个就是当前正在运行的执行上下文。</p>
 
-<p>有三类可执行代码：*全局代码（global code）*，*函数代码（function code）*，*eval代码（eval code）*。大概的说，*全局代码*是应用程序最顶层的代码，不被包含在任何方法中，*函数代码*是在函数（function）体中的代码，*eval代码*是被<code>eval</code>解释的全局代码。</p>
+<p>有三类可执行代码：<strong>全局代码（global code）</strong>，<strong>函数代码（function code）</strong>，<strong>eval代码（eval code）</strong>。大概的说，<strong>全局代码</strong>是应用程序最顶层的代码，不被包含在任何方法中，<strong>函数代码</strong>是在函数（function）体中的代码，<strong>eval代码</strong>是被<code>eval</code>解释的全局代码。</p>
 
 <p><code>this</code>对象每次控制进入一个新的执行上下文时会被重新确定指向，直到控制切换到一个不同的上下文。<code>this</code>的值取决于两件事：被执行的代码的类型（global,function,eval）和调用代码的对象。</p>
 
 <h3 id="全局对象">全局对象</h3>
 
-<p>所有的JavaScript运行时都有一个唯一的*全局对象*。他的属性包括内置的对象如<code>Math</code>和<code>String</code>，以及其他由主环境变量定义的属性。</p>
+<p>所有的JavaScript运行时都有一个唯一的<strong>全局对象</strong>。他的属性包括内置的对象如<code>Math</code>和<code>String</code>，以及其他由主环境变量定义的属性。</p>
 
 <p>在浏览器中，全局对象是<code>window</code>对象。在Node.js中，它就叫作“global object”。（我假定你将在浏览器中运行代码，然而，我所说的一切也同样适用于Node.js。）</p>
 
 <h3 id="确定-this-的值">确定<code>this</code>的值</h3>
 
-<p>第一条规则很简单：<code>this</code>指向*全局对象*在所有*全局代码*中。由于所有的程序都是由执行全局代码开始的，并且<code>this</code>在给定的执行上下文中会被修正，所以，默认的<code>this</code>指全局对象。</p>
+<p>第一条规则很简单：<code>this</code>指向<strong>全局对象</strong>在所有<strong>全局代码</strong>中。由于所有的程序都是由执行全局代码开始的，并且<code>this</code>在给定的执行上下文中会被修正，所以，默认的<code>this</code>指全局对象。</p>
 
 <p>当控制进入一个新的执行上下文时发生了什么呢？只有三种<code>this</code>的值发生改变的情况：方法调用，new一个函数对象，函数被<code>call</code>和<code>apply</code>调用。我将逐一解释。</p>
 
