@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/azure/</link>
+    <description>Recent content in Azure on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Tue, 04 Nov 2014 17:34:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connecting to Azure website via FTP</title>
+      <link>https://cethink.gitee.io/evolution/post/2014/1104.connecting-to-azure-website-via-ftp/</link>
+      <pubDate>Tue, 04 Nov 2014 17:34:42 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2014/1104.connecting-to-azure-website-via-ftp/</guid>
+      <description>http://weblogs.asp.net/bleroy/azure-web-sites-ftp-credentials 仪表板 -&amp;gt; 速览 -&amp;gt; 下载发布配置文件 &amp;lt;publishData&amp;gt; &amp;lt;publishProfile profileName=&amp;quot;nameofyoursite - Web Deploy&amp;quot; publishMethod=&amp;quot;MSDeploy&amp;quot; publishUrl=&amp;quot;waws-prod-blu-001.publish.azurewebsites.windows.net:443&amp;quot; msdeploySite=&amp;quot;nameofyoursite&amp;quot; userName=&amp;quot;$NameOfYourSite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot; destinationAppUrl=&amp;quot;http://nameofyoursite.azurewebsites.net&amp;quot; SQLServerDBConnectionString=&amp;quot;&amp;quot; mySQLDBConnectionString=&amp;quot;&amp;quot; hostingProviderForumLink=&amp;quot;&amp;quot; controlPanelLink=&amp;quot;http://windows.azure.com&amp;quot;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;publishProfile profileName=&amp;quot;nameofyoursite - FTP&amp;quot; publishMethod=&amp;quot;FTP&amp;quot; publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; ftpPassiveMode=&amp;quot;True&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot; destinationAppUrl=&amp;quot;http://nameofyoursite.azurewebsites.net&amp;quot; SQLServerDBConnectionString=&amp;quot;&amp;quot; mySQLDBConnectionString=&amp;quot;&amp;quot; hostingProviderForumLink=&amp;quot;&amp;quot; controlPanelLink=&amp;quot;http://windows.azure.com&amp;quot;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;/publishData&amp;gt; 使用这三个数据即可 publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot;</description>
+    </item>
+    
+  </channel>
+</rss>

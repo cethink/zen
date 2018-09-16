@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Npm on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/npm/</link>
+    <description>Recent content in Npm on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Sun, 07 Sep 2014 17:36:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>npm中dependencies的版本区间</title>
+      <link>https://cethink.gitee.io/evolution/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/</link>
+      <pubDate>Sun, 07 Sep 2014 17:36:03 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/</guid>
+      <description>dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies  version Must match version exactly &amp;gt;version Must be greater than version &amp;gt;=version etc &amp;lt;version &amp;lt;=version ~version &amp;ldquo;Approximately equivalent to version&amp;rdquo; See semver(7) ^version &amp;ldquo;Compatible with version&amp;rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &amp;lsquo;URLs as Dependencies&amp;rsquo; below * Matches any version &amp;quot;&amp;quot; (just an empty string) Same as * version1 - version2 Same as &amp;gt;=version1 &amp;lt;=version2. range1 || range2 Passes if either range1 or range2 are satisfied.</description>
+    </item>
+    
+  </channel>
+</rss>

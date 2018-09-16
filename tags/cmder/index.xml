@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cmder on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/cmder/</link>
+    <description>Recent content in Cmder on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Sun, 02 Nov 2014 01:55:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/cmder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cmder</title>
+      <link>https://cethink.gitee.io/evolution/post/2014/1102.cmder/</link>
+      <pubDate>Sun, 02 Nov 2014 01:55:42 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2014/1102.cmder/</guid>
+      <description>http://bliker.github.io/cmder/ 全安装版 cmder 自带了 msysgit, 压缩包 23M, 除了 git 本身这个命令之外, 里面可以使用大量的 linux 命令。 1、添加 cmder 到右键菜单 在管理员权限的终端输入以下语句即可 Cmder.exe /REGISTER ALL 定</description>
+    </item>
+    
+  </channel>
+</rss>

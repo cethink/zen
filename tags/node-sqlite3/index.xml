@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node-sqlite3 on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/node-sqlite3/</link>
+    <description>Recent content in Node-sqlite3 on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Sat, 06 Sep 2014 18:34:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/node-sqlite3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在win8.1中为node-webkit编译node-sqlite3</title>
+      <link>https://cethink.gitee.io/evolution/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</link>
+      <pubDate>Sat, 06 Sep 2014 18:34:48 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</guid>
+      <description>安装nodejs 本文nodejs版本0.10.31 下载node-webkit https://github.com/rogerwang/node-webkit#downloads If your native Node module works only with Node v0.10, then you should use node-webkit v0.8.x, which is also a maintained branch. 下载0.8.6版 安</description>
+    </item>
+    
+  </channel>
+</rss>

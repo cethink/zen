@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Grunt使用 - ZEN</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="夏末" />
+  <meta name="description" content="Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr" />
+
+  <meta name="keywords" content="blog, evolution" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="https://cethink.gitee.io/evolution/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/evolution/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/evolution/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/evolution/favicon-16x16.png">
+<link rel="manifest" href="/evolution/manifest.json">
+<link rel="mask-icon" href="/evolution/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/evolution/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/evolution/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Grunt使用" />
+<meta property="og:description" content="Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cethink.gitee.io/evolution/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/" />
+
+
+
+<meta property="article:published_time" content="2014-07-22T18:20:02&#43;08:00"/>
+
+<meta property="article:modified_time" content="2014-07-22T18:20:02&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Grunt使用">
+<meta itemprop="description" content="Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr">
+
+
+<meta itemprop="datePublished" content="2014-07-22T18:20:02&#43;08:00" />
+<meta itemprop="dateModified" content="2014-07-22T18:20:02&#43;08:00" />
+<meta itemprop="wordCount" content="1105">
+
+
+
+<meta itemprop="keywords" content="Grunt," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Grunt使用"/>
+<meta name="twitter:description" content="Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/evolution/" class="logo">ZEN</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/evolution/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/evolution/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/evolution/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/evolution/categories/">
+        <li class="mobile-menu-item">目录</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/evolution/" class="logo">ZEN</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/evolution/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/categories/">目录</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Grunt使用</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2014-07-22 </span>
+        
+        <span class="more-meta"> 约 1105 字 </span>
+        <span class="more-meta"> 预计阅读 3 分钟 </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#getting-started-http-gruntjs-com-getting-started"><a href="http://gruntjs.com/getting-started">Getting started</a></a></li>
+<li><a href="#常用模块">常用模块</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<h3 id="getting-started-http-gruntjs-com-getting-started"><a href="http://gruntjs.com/getting-started">Getting started</a></h3>
+
+<p>安装命令行工具</p>
+
+<pre><code class="language-bash">sudo npm install -g grunt-cli
+</code></pre>
+
+<p><a href="http://javascript.ruanyifeng.com/tool/grunt.html">Grunt：任务自动管理工具 </a><br />
+<a href="http://docs.spmjs.org/contrib/simple-grunt">关于Grunt，从一个简单的配置开始！</a><br />
+<a href="http://blog.fens.me/nodejs-grunt-intro/">Grunt让Nodejs规范起来</a></p>
+
+<p>一个几乎是Gruntfile.js通用的写法：</p>
+
+<pre><code class="language-javascript">module.exports = function(grunt) {
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json');
+  });
+};
+</code></pre>
+
+<p>示例：</p>
+
+<pre><code class="language-javascript">module.exports = function(grunt) {
+
+  // 配置Grunt各种模块的参数
+  grunt.initConfig({
+    jshint: { /* jshint的参数 */ },
+    concat: { /* concat的参数 */ },
+    uglify: { /* uglify的参数 */ },
+    watch:  { /* watch的参数 */ }
+  });
+
+  // 从node_modules目录加载模块文件
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+  // 每行registerTask定义一个任务
+  grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
+  grunt.registerTask('check', ['jshint']);
+
+};
+</code></pre>
+
+<ul>
+<li>grunt.initConfig：定义各种模块的参数，每一个成员项对应一个同名模块。</li>
+<li>grunt.loadNpmTasks：加载完成任务所需的模块。</li>
+<li>grunt.registerTask：定义具体的任务。第一个参数为任务名，第二个参数是一个数组，表示该任务需要依次使用的模块。default任务名表示，如果直接输入grunt命令，后面不跟任何参数，这时所调用的模块（该例为jshint，concat和uglify）；该例的check任务则表示使用jshint插件对代码进行语法检查。</li>
+</ul>
+
+<p>你需要使用几个模块，就要写几条grunt.loadNpmTasks语句，将各个模块一一加载。</p>
+
+<p>如果加载模块很多，这部分会非常冗长。而且，还存在一个问题，就是凡是在这里加载的模块，也同时出现在package.json文件中。如果使用npm命令卸载模块以后，模块会自动从package.json文件中消失，但是必须手动从Gruntfile.js文件中清除，这样很不方便，一旦忘记，还会出现运行错误。这里有一个解决办法，就是安装load-grunt-tasks模块，然后在Gruntfile.js文件中，用下面的语句替代所有的grunt.loadNpmTasks语句。</p>
+
+<pre><code class="language-javascript">require('load-grunt-tasks')(grunt);
+</code></pre>
+
+<p>这条语句的作用是自动分析package.json文件，自动加载所找到的grunt模块。</p>
+
+<pre><code class="language-javascript">require('time-grunt')(grunt);
+</code></pre>
+
+<p>在命令行中显示执行grunt任务所花的时间</p>
+
+<h3 id="常用模块">常用模块</h3>
+
+<ul>
+<li>grunt-contrib-clean：删除文件。</li>
+<li>grunt-contrib-compass：使用compass编译sass文件。</li>
+<li>grunt-contrib-concat：合并文件。</li>
+<li>grunt-contrib-copy：复制文件。</li>
+<li>grunt-contrib-cssmin：压缩以及合并CSS文件。</li>
+<li>grunt-contrib-imagemin：图像压缩模块。</li>
+<li>grunt-contrib-jshint：检查JavaScript语法。</li>
+<li>grunt-contrib-uglify：压缩以及合并JavaScript文件。</li>
+<li>grunt-contrib-watch：监视文件变动，做出相应动作。</li>
+</ul>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">夏末</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2014-07-22</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/evolution/tags/grunt/">Grunt</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/evolution/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">EditorConfig配置</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/evolution/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/">
+            <span class="next-text nav-default">node-orm2使用</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="SOHUCS"></div>
+    <script type="text/javascript">
+    (function(){
+      if (window.location.hostname === 'localhost') return;
+
+      var appid = 'cytOTewnv';
+      var conf = 'prod_f397771d39e824e733fd71a7941fc41b';
+      var width = window.innerWidth || document.documentElement.clientWidth; 
+      if (width < 960) {window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); }
+    })();
+    </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="http://weibo.com/zxppc" class="iconfont icon-weibo" title="weibo"></a>
+  <a href="https://cethink.gitee.io/evolution/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">冒牌天神</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/evolution/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/evolution/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/evolution/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/evolution/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/evolution/dist/even.min.js?v=3.2.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

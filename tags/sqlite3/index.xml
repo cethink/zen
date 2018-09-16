@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlite3 on ZEN</title>
+    <link>https://cethink.gitee.io/evolution/tags/sqlite3/</link>
+    <description>Recent content in Sqlite3 on ZEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Thu, 10 Jul 2014 21:03:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://cethink.gitee.io/evolution/tags/sqlite3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQLite3基础知识</title>
+      <link>https://cethink.gitee.io/evolution/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Thu, 10 Jul 2014 21:03:43 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <description>官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite</description>
+    </item>
+    
+  </channel>
+</rss>

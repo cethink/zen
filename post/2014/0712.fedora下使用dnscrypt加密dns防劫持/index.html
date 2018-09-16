@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Fedora下使用DNSCrypt加密DNS防劫持 - ZEN</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="夏末" />
+  <meta name="description" content="OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;amp;&amp;amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;amp;&amp;amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件" />
+
+  <meta name="keywords" content="blog, evolution" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="https://cethink.gitee.io/evolution/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/evolution/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/evolution/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/evolution/favicon-16x16.png">
+<link rel="manifest" href="/evolution/manifest.json">
+<link rel="mask-icon" href="/evolution/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/evolution/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/evolution/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Fedora下使用DNSCrypt加密DNS防劫持" />
+<meta property="og:description" content="OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;&amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;&amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cethink.gitee.io/evolution/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/" />
+
+
+
+<meta property="article:published_time" content="2014-07-12T01:07:40&#43;08:00"/>
+
+<meta property="article:modified_time" content="2014-07-12T01:07:40&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Fedora下使用DNSCrypt加密DNS防劫持">
+<meta itemprop="description" content="OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;&amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;&amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件">
+
+
+<meta itemprop="datePublished" content="2014-07-12T01:07:40&#43;08:00" />
+<meta itemprop="dateModified" content="2014-07-12T01:07:40&#43;08:00" />
+<meta itemprop="wordCount" content="379">
+
+
+
+<meta itemprop="keywords" content="DNS,DNSCrypt," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fedora下使用DNSCrypt加密DNS防劫持"/>
+<meta name="twitter:description" content="OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;&amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;&amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/evolution/" class="logo">ZEN</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/evolution/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/evolution/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/evolution/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/evolution/categories/">
+        <li class="mobile-menu-item">目录</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/evolution/" class="logo">ZEN</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/evolution/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/categories/">目录</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Fedora下使用DNSCrypt加密DNS防劫持</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2014-07-12 </span>
+        
+        <span class="more-meta"> 约 379 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#dnscrypt项目">DNSCrypt项目</a>
+<ul>
+<li><a href="#安装依赖">安装依赖</a></li>
+<li><a href="#安装">安装</a></li>
+<li><a href="#修改dns">修改DNS</a></li>
+<li><a href="#可用nds源">可用NDS源</a></li>
+<li><a href="#使用方式">使用方式</a></li>
+<li><a href="#清理dns缓存">清理DNS缓存</a></li>
+</ul></li>
+<li><a href="#这个太难搞定-也可直接使用-别的dns-http-www-v2ex-com-t-121071">这个太难搞定，也可直接使用<a href="http://www.v2ex.com/t/121071">别的DNS</a></a>
+<ul>
+<li><a href="#国内">国内</a></li>
+<li><a href="#国际">国际</a></li>
+</ul></li>
+<li><a href="#dns相关知识">DNS相关知识</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<p><em>OS: Fedora 20</em></p>
+
+<h3 id="dnscrypt项目">DNSCrypt项目</h3>
+
+<p><a href="https://github.com/jedisct1/dnscrypt-proxy">https://github.com/jedisct1/dnscrypt-proxy</a> <a href="http://dnscrypt.org">下载</a></p>
+
+<h4 id="安装依赖">安装依赖</h4>
+
+<p>libsodium, <a href="http://doc.libsodium.org/installation/README.html">http://doc.libsodium.org/installation/README.html</a></p>
+
+<pre><code class="language-bash">$ ./configure
+$ make &amp;&amp; make check
+$ make install
+</code></pre>
+
+<h4 id="安装">安装</h4>
+
+<p><a href="https://github.com/jedisct1/dnscrypt-proxy#installation">https://github.com/jedisct1/dnscrypt-proxy#installation</a></p>
+
+<pre><code class="language-bash">$ ./configure --host=i686
+$ make &amp;&amp; make check
+$ make install
+</code></pre>
+
+<h4 id="修改dns">修改DNS</h4>
+
+<pre><code class="language-bash">$ sudo kate /etc/resolv.conf
+# 替换为下面内容
+# nameserver 127.0.0.1
+</code></pre>
+
+<p>这个文件是由NetworkManager生成的，可能需要在NM中也改一下</p>
+
+<h4 id="可用nds源">可用NDS源</h4>
+
+<p><a href="https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv">https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv</a></p>
+
+<pre><code class="language-text">opennic-jp-ns2
+d0wn-sg-ns1
+opendns
+</code></pre>
+
+<h4 id="使用方式">使用方式</h4>
+
+<pre><code class="language-bash">$ sudo /usr/local/sbin/dnscrypt-proxy --resolver-name=opennic-jp-ns2
+# 或者
+$ dnscrypt-proxy --daemonize --resolver-name=opennic-jp-ns2
+</code></pre>
+
+<blockquote>
+<p><code>--daemonize</code> in order to run the server as a background process</p>
+</blockquote>
+
+<h4 id="清理dns缓存">清理DNS缓存</h4>
+
+<pre><code class="language-bash">$ sudo systemctl restart dnsmasq
+</code></pre>
+
+<h3 id="这个太难搞定-也可直接使用-别的dns-http-www-v2ex-com-t-121071">这个太难搞定，也可直接使用<a href="http://www.v2ex.com/t/121071">别的DNS</a></h3>
+
+<h4 id="国内">国内</h4>
+
+<pre><code class="language-text">114DNS：     114.114.114.114, 114.114.115.115  
+aliDNS：     223.5.5.5, 223.6.6.6  
+OpenerDNS：  42.120.21.30  
+oneDNS：     112.124.47.27  
+</code></pre>
+
+<h4 id="国际">国际</h4>
+
+<pre><code class="language-text">Google DNS： 8.8.8.8, 8.8.4.4  
+OpenDNS：    208.67.222.222, 208.67.220.220  
+V2EX DNS：   199.91.73.222, 178.79.131.110  
+</code></pre>
+
+<p><a href="http://blog.dnspod.cn/2009/12/why-not-opendns-and-google-public-dns/">我为什么不建议使用OpenDNS和Google Public DNS</a></p>
+
+<h3 id="dns相关知识">DNS相关知识</h3>
+
+<p><a href="http://www.williamlong.info/archives/2195.html">如何区分国内上网环境中不同的人为网络故障-月光博客</a><br />
+<a href="http://www.williamlong.info/archives/2263.html">Google的HTTPS搜索服务遭DNS污染-月光博客</a><br />
+<a href="http://www.williamlong.info/archives/3890.html">使用DNSCrypt解决DNS污染问题-月光博客</a><br />
+<a href="http://www.williamlong.info/archives/3356.html">DNS劫持和DNS污染的区别-月光博客</a></p>
+
+<p><em>2015/1/13 最近在win8.1下试了下，不能用。</em></p>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">夏末</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2014-07-12</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/evolution/tags/dns/">DNS</a>
+          
+          <a href="/evolution/tags/dnscrypt/">DNSCrypt</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/evolution/post/2014/0716.yeoman%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Yeoman安装使用</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/evolution/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/">
+            <span class="next-text nav-default">Git子模块</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="SOHUCS"></div>
+    <script type="text/javascript">
+    (function(){
+      if (window.location.hostname === 'localhost') return;
+
+      var appid = 'cytOTewnv';
+      var conf = 'prod_f397771d39e824e733fd71a7941fc41b';
+      var width = window.innerWidth || document.documentElement.clientWidth; 
+      if (width < 960) {window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); }
+    })();
+    </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="http://weibo.com/zxppc" class="iconfont icon-weibo" title="weibo"></a>
+  <a href="https://cethink.gitee.io/evolution/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">冒牌天神</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/evolution/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/evolution/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/evolution/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/evolution/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/evolution/dist/even.min.js?v=3.2.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

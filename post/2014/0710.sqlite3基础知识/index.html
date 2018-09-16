@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>SQLite3基础知识 - ZEN</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="夏末" />
+  <meta name="description" content="官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite" />
+
+  <meta name="keywords" content="blog, evolution" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="https://cethink.gitee.io/evolution/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/evolution/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/evolution/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/evolution/favicon-16x16.png">
+<link rel="manifest" href="/evolution/manifest.json">
+<link rel="mask-icon" href="/evolution/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/evolution/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/evolution/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="SQLite3基础知识" />
+<meta property="og:description" content="官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cethink.gitee.io/evolution/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" />
+
+
+
+<meta property="article:published_time" content="2014-07-10T21:03:43&#43;08:00"/>
+
+<meta property="article:modified_time" content="2014-07-10T21:03:43&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="SQLite3基础知识">
+<meta itemprop="description" content="官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite">
+
+
+<meta itemprop="datePublished" content="2014-07-10T21:03:43&#43;08:00" />
+<meta itemprop="dateModified" content="2014-07-10T21:03:43&#43;08:00" />
+<meta itemprop="wordCount" content="222">
+
+
+
+<meta itemprop="keywords" content="sqlite3," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SQLite3基础知识"/>
+<meta name="twitter:description" content="官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/evolution/" class="logo">ZEN</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/evolution/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/evolution/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/evolution/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/evolution/categories/">
+        <li class="mobile-menu-item">目录</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/evolution/" class="logo">ZEN</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/evolution/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/evolution/categories/">目录</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">SQLite3基础知识</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2014-07-10 </span>
+        
+        <span class="more-meta"> 约 222 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p><a href="http://www.sqlite.org/docs.html">官方文档首页</a><br />
+<a href="http://www.sqlite.org/lang.html">SQLite中的SQL语法</a></p>
+
+<p><strong>创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行</strong></p>
+
+<pre><code class="language-bash">$ sqlite3 test.db
+</code></pre>
+
+<p><strong>查看当前数据库</strong></p>
+
+<pre><code class="language-bash">.databases
+</code></pre>
+
+<p><strong>创建表，<a href="http://www.sqlite.org/datatype3.html">SQLite数据类型</a></strong></p>
+
+<pre><code class="language-sql">CREATE TABLE ocnote (
+  &quot;id&quot; CHAR(12) NOT NULL PRIMARY KEY,
+  &quot;title&quot; NVARCHAR(50),
+  &quot;content&quot; TEXT,
+  &quot;createtime&quot; DATETIME NOT NULL,
+  &quot;updatetime&quot; DATETIME NOT NULL,
+  &quot;delstate&quot; INTEGER NOT NULL DEFAULT (0)
+);
+</code></pre>
+
+<p><strong>查询表</strong></p>
+
+<pre><code class="language-bash">.table
+</code></pre>
+
+<p><strong>查看建表代码</strong></p>
+
+<pre><code class="language-bash">.schema
+</code></pre>
+
+<p><strong>删除表</strong></p>
+
+<pre><code class="language-sql">DROP TABLE ocnote;
+</code></pre>
+
+<p><strong>插入数据</strong></p>
+
+<pre><code class="language-sql">INSERT INTO ocnote VALUES (
+  'w8ehewfwklds',
+  '这是一段测试文字',
+  '内容也是空空的，么么哒。',
+  '2014-07-10 19:55:26',
+  '2014-07-10 19:55:26',
+  0
+);
+</code></pre>
+
+<p><strong>修改数据</strong></p>
+
+<pre><code class="language-sql">UPDATE ocnote SET title = 'blablabla' WHERE ROWID = 1;
+</code></pre>
+
+<p><strong>删除数据</strong></p>
+
+<pre><code class="language-sql">DELETE FROM ocnote WHERE title = 'blablabla';
+</code></pre>
+
+<p><strong>查询数据</strong></p>
+
+<pre><code class="language-sql">SELECT ROWID, * FROM ocnote;
+</code></pre>
+
+<p><strong>退出命令行</strong></p>
+
+<pre><code class="language-bash">.exit
+</code></pre>
+
+<p><strong>其它 &ldquo;dot commands&rdquo; 参考官方文档 <a href="http://www.sqlite.org/cli.html">Command Line Shell</a></strong></p>
+
+<pre><code class="language-bash">.help
+</code></pre>
+
+<p><strong>参考博客</strong></p>
+
+<p><a href="http://blog.csdn.net/ithomer/article/details/7027424">http://blog.csdn.net/ithomer/article/details/7027424</a><br />
+<a href="http://blog.csdn.net/ithomer/article/details/6665024">http://blog.csdn.net/ithomer/article/details/6665024</a></p>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">夏末</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2014-07-10</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/evolution/tags/sqlite3/">sqlite3</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/evolution/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Git子模块</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/evolution/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/">
+            <span class="next-text nav-default">版本号管理策略</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="SOHUCS"></div>
+    <script type="text/javascript">
+    (function(){
+      if (window.location.hostname === 'localhost') return;
+
+      var appid = 'cytOTewnv';
+      var conf = 'prod_f397771d39e824e733fd71a7941fc41b';
+      var width = window.innerWidth || document.documentElement.clientWidth; 
+      if (width < 960) {window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); }
+    })();
+    </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="http://weibo.com/zxppc" class="iconfont icon-weibo" title="weibo"></a>
+  <a href="https://cethink.gitee.io/evolution/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">冒牌天神</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/evolution/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/evolution/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/evolution/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/evolution/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/evolution/dist/even.min.js?v=3.2.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
