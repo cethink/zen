@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>生成SSH key - ZEN</title>
+  <title>子div垂直居中 - ZEN</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="夏末" />
-  <meta name="description" content="参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;quot;xxx@163.com&amp;quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端" />
+  <meta name="description" content="&amp;lt;div id=&amp;quot;outer&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;inner&amp;quot;&amp;gt; 居个中 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }" />
 
   <meta name="keywords" content="blog, evolution" />
 
@@ -29,7 +29,7 @@
 <meta name="generator" content="Hugo 0.46" />
 
 
-<link rel="canonical" href="https://cethink.gitee.io/evolution/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/" />
+<link rel="canonical" href="https://cethink.gitee.io/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/evolution/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/evolution/favicon-32x32.png">
@@ -49,20 +49,16 @@
 
 
 
-<meta property="og:title" content="生成SSH key" />
-<meta property="og:description" content="参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &quot;xxx@163.com&quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端" />
+<meta property="og:title" content="子div垂直居中" />
+<meta property="og:description" content="&lt;div id=&quot;outer&quot;&gt; &lt;div id=&quot;inner&quot;&gt; 居个中 &lt;/div&gt; &lt;/div&gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cethink.gitee.io/evolution/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/" />
+<meta property="og:url" content="https://cethink.gitee.io/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/" />
 
 
 
-<meta property="article:published_time" content="2018-08-14T21:27:07&#43;08:00"/>
+<meta property="article:published_time" content="2018-09-17T13:26:07&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-08-14T21:27:07&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-09-17T13:26:07&#43;08:00"/>
 
 
 
@@ -70,20 +66,24 @@
 
 
 
-<meta itemprop="name" content="生成SSH key">
-<meta itemprop="description" content="参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &quot;xxx@163.com&quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端">
-
-
-<meta itemprop="datePublished" content="2018-08-14T21:27:07&#43;08:00" />
-<meta itemprop="dateModified" content="2018-08-14T21:27:07&#43;08:00" />
-<meta itemprop="wordCount" content="129">
 
 
 
-<meta itemprop="keywords" content="SSH," />
+
+<meta itemprop="name" content="子div垂直居中">
+<meta itemprop="description" content="&lt;div id=&quot;outer&quot;&gt; &lt;div id=&quot;inner&quot;&gt; 居个中 &lt;/div&gt; &lt;/div&gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }">
+
+
+<meta itemprop="datePublished" content="2018-09-17T13:26:07&#43;08:00" />
+<meta itemprop="dateModified" content="2018-09-17T13:26:07&#43;08:00" />
+<meta itemprop="wordCount" content="139">
+
+
+
+<meta itemprop="keywords" content="css,div,居中," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="生成SSH key"/>
-<meta name="twitter:description" content="参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &quot;xxx@163.com&quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端"/>
+<meta name="twitter:title" content="子div垂直居中"/>
+<meta name="twitter:description" content="&lt;div id=&quot;outer&quot;&gt; &lt;div id=&quot;inner&quot;&gt; 居个中 &lt;/div&gt; &lt;/div&gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -150,12 +150,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">生成SSH key</h1>
+      <h1 class="post-title">子div垂直居中</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-08-14 </span>
+        <span class="post-time"> 2018-09-17 </span>
         
-        <span class="more-meta"> 约 129 字 </span>
+        <span class="more-meta"> 约 139 字 </span>
         <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -167,7 +167,19 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#利用绝对布局">利用绝对布局</a></li>
+<li><a href="#利用vertical-align">利用vertical-align</a></li>
+<li><a href="#利用display-flex">利用display: flex</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
@@ -176,34 +188,66 @@
 
     
     <div class="post-content">
-      <p>参考：<a href="http://git.mydoc.io/?t=154712">生成并部署SSH key</a></p>
+      
 
-<p>查看 ssh-keygen 帮助文档</p>
-
-<pre><code class="language-bash">ssh-keygen help
+<pre><code class="language-html">&lt;div id=&quot;outer&quot;&gt;
+	&lt;div id=&quot;inner&quot;&gt;
+		居个中
+	&lt;/div&gt;
+&lt;/div&gt;
 </code></pre>
 
-<p>按如下命令生成 sshkey</p>
+<h3 id="利用绝对布局">利用绝对布局</h3>
 
-<pre><code class="language-bash">ssh-keygen -t rsa -C &quot;xxx@163.com&quot; -f ~/.ssh/giteekey
-# 或者
-ssh-keygen
-# 可按提示输入密码
+<pre><code class="language-css">#outer {
+	width: 300px;
+	height: 200px;
+	position: relative;
+}
+
+#inner {
+	width: 50px;
+	height: 20px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
 </code></pre>
 
-<p>查看 public key</p>
+<h3 id="利用vertical-align">利用vertical-align</h3>
 
-<pre><code class="language-bash">cat ~/.ssh/id_rsa.pub
+<pre><code class="language-css">#outer {
+	width: 300px;
+	height: 200px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#inner {
+	width: 50px;
+	height: 20px;
+	margin: 0 auto;
+}
 </code></pre>
 
-<p>将公钥添加到码云中，然后在终端中输入</p>
+<h3 id="利用display-flex">利用display: flex</h3>
 
-<pre><code class="language-bash">ssh -T git@gitee.com
-# 返回如下则表示成功
-# Hi name! You've successfully authenticated, but Gitee.com does not provide shell access.
+<pre><code class="language-css">#outer {
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;/*水平居中*/
+	align-items: center;/*垂直居中*/
+}
+
+#inner {
+	width: 50px;
+	height: 20px;
+}
 </code></pre>
-
-<p>一般而言，项目的 key 只有拉取权限，用户的 key 具有推送和拉取权限。</p>
 
     </div>
 
@@ -215,7 +259,7 @@ ssh-keygen
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-08-14</span>
+    <span class="item-content">2018-09-17</span>
   </p>
   
   
@@ -244,21 +288,20 @@ ssh-keygen
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/evolution/tags/ssh/">SSH</a>
+          <a href="/evolution/tags/css/">css</a>
+          
+          <a href="/evolution/tags/div/">div</a>
+          
+          <a href="/evolution/tags/%E5%B1%85%E4%B8%AD/">居中</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">子div垂直居中</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/evolution/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/">
-            <span class="next-text nav-default">理解JavaScript中的this关键字</span>
+          <a class="next" href="/evolution/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/">
+            <span class="next-text nav-default">生成SSH key</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>

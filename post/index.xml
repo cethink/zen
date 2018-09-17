@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
-    <lastBuildDate>Tue, 14 Aug 2018 21:27:07 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Sep 2018 13:26:07 +0800</lastBuildDate>
     
 	<atom:link href="https://cethink.gitee.io/evolution/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>子div垂直居中</title>
+      <link>https://cethink.gitee.io/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</link>
+      <pubDate>Mon, 17 Sep 2018 13:26:07 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</guid>
+      <description>&amp;lt;div id=&amp;quot;outer&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;inner&amp;quot;&amp;gt; 居个中 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }</description>
+    </item>
     
     <item>
       <title>生成SSH key</title>
