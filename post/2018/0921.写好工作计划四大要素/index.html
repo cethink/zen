@@ -267,7 +267,23 @@
         
   
 
-  
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="/evolution/lib/gitalk/gitalk-1.2.2.min.css">
+    <script src="/evolution/lib/gitalk/gitalk-1.2.2.min.js"></script>
+  <script type="text/javascript">
+  var gitalk = new Gitalk({
+    id: '2018-09-21 17:59:04 \x2b0800 CST',
+    title: '写好工作计划四大要素',
+    clientID: '2259f39afdd451aa1223',
+    clientSecret: '64eaa58031a8b3360547a4dc69c9923d99bcce01',
+    repo: 'git@github.com:mfkddcwy\/zen-comments.git',
+    owner: 'mfkddcwy',
+    admin: ['mfkddcwy'],
+    body: decodeURI(location.href)
+  });
+  gitalk.render('gitalk-container');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
 
       </div>
     </main>
