@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
-    <lastBuildDate>Mon, 03 Nov 2014 20:44:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Sep 2018 17:49:54 +0800</lastBuildDate>
     
 	<atom:link href="https://cethink.gitee.io/evolution/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac terminal proxy</title>
+      <link>https://cethink.gitee.io/evolution/post/2018/0921.mac-terminal-proxy/</link>
+      <pubDate>Fri, 21 Sep 2018 17:49:54 +0800</pubDate>
+      
+      <guid>https://cethink.gitee.io/evolution/post/2018/0921.mac-terminal-proxy/</guid>
+      <description>使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭 可以去 https://www.privoxy.org/ 下载安装包 http://www.wllog.net/2014/10/16/1042.html forward-socks5 / 127.0.0.1:1080 . 修改配置文</description>
+    </item>
     
     <item>
       <title>Shadowsocks in Fedora</title>
