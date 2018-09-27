@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/linux/</link>
+    <link>https://evolution.cethink.tk/tags/linux/</link>
     <description>Recent content in Linux on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Mon, 03 Nov 2014 20:44:40 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shadowsocks in Fedora</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1103.shadowsocks-in-fedora/</link>
+      <link>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</link>
       <pubDate>Mon, 03 Nov 2014 20:44:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1103.shadowsocks-in-fedora/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</guid>
       <description>使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password</description>
     </item>
     

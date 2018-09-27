@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grunt on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/grunt/</link>
+    <link>https://evolution.cethink.tk/tags/grunt/</link>
     <description>Recent content in Grunt on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Tue, 22 Jul 2014 18:20:02 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/grunt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/grunt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Grunt使用</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</link>
+      <link>https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Tue, 22 Jul 2014 18:20:02 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</guid>
       <description>Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr</description>
     </item>
     

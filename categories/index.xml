@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/categories/</link>
+    <link>https://evolution.cethink.tk/categories/</link>
     <description>Recent content in Categories on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     
-	<atom:link href="https://cethink.gitee.io/evolution/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora</title>
-      <link>https://cethink.gitee.io/evolution/categories/fedora/</link>
+      <link>https://evolution.cethink.tk/categories/fedora/</link>
       <pubDate>Sat, 11 Apr 2015 18:16:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/categories/fedora/</guid>
+      <guid>https://evolution.cethink.tk/categories/fedora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://cethink.gitee.io/evolution/categories/git/</link>
+      <link>https://evolution.cethink.tk/categories/git/</link>
       <pubDate>Fri, 11 Jul 2014 13:09:05 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/categories/git/</guid>
+      <guid>https://evolution.cethink.tk/categories/git/</guid>
       <description></description>
     </item>
     

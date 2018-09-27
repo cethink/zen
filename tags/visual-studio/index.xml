@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visual Studio on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/visual-studio/</link>
+    <link>https://evolution.cethink.tk/tags/visual-studio/</link>
     <description>Recent content in Visual Studio on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sun, 02 Nov 2014 04:36:12 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Visual Studio and libgit2 Git Push Error</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1102.visual-studio-and-libgit2-git-push-error/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.visual-studio-and-libgit2-git-push-error/</link>
       <pubDate>Sun, 02 Nov 2014 04:36:12 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1102.visual-studio-and-libgit2-git-push-error/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.visual-studio-and-libgit2-git-push-error/</guid>
       <description>在VS2013中使用Git作为版本控制时，向远程push出现如下错误 An error was raised by libgit2. Category = Tag (Error). This transport isn&amp;rsquo;t implemented. Sorry 解决方法参考 http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution Unfortunately, Visual Studio Tools for Git do not yet support remote repositories using the</description>
     </item>
     

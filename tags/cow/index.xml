@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COW on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/cow/</link>
+    <link>https://evolution.cethink.tk/tags/cow/</link>
     <description>Recent content in COW on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Mon, 03 Nov 2014 13:14:33 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/cow/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/cow/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IE&#43;Shadowsocks&#43;Privoxy配置</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</link>
+      <link>https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 03 Nov 2014 13:14:33 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</guid>
       <description>IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给</description>
     </item>
     

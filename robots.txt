@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://cethink.gitee.io/evolution/sitemap.xml
+Sitemap: https://evolution.cethink.tk/sitemap.xml

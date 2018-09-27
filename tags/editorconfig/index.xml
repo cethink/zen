@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EditorConfig on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/editorconfig/</link>
+    <link>https://evolution.cethink.tk/tags/editorconfig/</link>
     <description>Recent content in EditorConfig on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Wed, 23 Jul 2014 21:48:23 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/editorconfig/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/editorconfig/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>EditorConfig配置</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</link>
+      <link>https://evolution.cethink.tk/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Wed, 23 Jul 2014 21:48:23 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</guid>
       <description>EditorConfig 主页 相关说明 When opening a file, EditorConfig plugins look for a file named .editorconfig in the directory of the opened file and in every parent directory. A search for .editorconfig files will stop if the root filepath is reached or an EditorConfig file with root=true is found. For Windows Users: To create an .editorconfig file within Windows Explorer, you need to create a file named</description>
     </item>
     

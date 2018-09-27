@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nodejs on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/nodejs/</link>
+    <link>https://evolution.cethink.tk/tags/nodejs/</link>
     <description>Recent content in Nodejs on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Fri, 20 Mar 2015 20:09:25 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora 21 install nodejs via nvm</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</link>
+      <link>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</link>
       <pubDate>Fri, 20 Mar 2015 20:09:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
       <description>安装 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash 重新打开命令行使用nvm nvm --version 0.24.0 在.bashrc添加镜像服务器 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/dist 重新登陆一下 查看可安装nodejs nvm ls-remote nvm install v0.12.0 查看安装路径 nvm which v0.12.0 查</description>
     </item>
     

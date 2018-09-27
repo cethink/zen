@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EF on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/ef/</link>
+    <link>https://evolution.cethink.tk/tags/ef/</link>
     <description>Recent content in EF on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sun, 02 Nov 2014 04:36:41 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/ef/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/ef/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>EntityFramework: The underlying provider failed on Open</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</link>
       <pubDate>Sun, 02 Nov 2014 04:36:41 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</guid>
       <description>数据库连接字符串使用Integrated Security=True验证，在VS2013中可以运行，但在IIS中会报如下错误 System.Data.Entity.Core.EntityException Message=The underlying provider failed on Open. Source=EntityFramework InnerException:</description>
     </item>
     

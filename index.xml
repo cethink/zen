@@ -2,202 +2,211 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ZEN</title>
-    <link>https://cethink.gitee.io/evolution/</link>
+    <link>https://evolution.cethink.tk/</link>
     <description>Recent content on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sun, 16 Sep 2018 18:44:45 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于</title>
-      <link>https://cethink.gitee.io/evolution/about/</link>
+      <link>https://evolution.cethink.tk/about/</link>
       <pubDate>Sun, 16 Sep 2018 18:44:45 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/about/</guid>
+      <guid>https://evolution.cethink.tk/about/</guid>
       <description>不忘初心，方能始终。</description>
     </item>
     
     <item>
+      <title>多余文字显示三个点</title>
+      <link>https://evolution.cethink.tk/post/2018/0924.%E5%A4%9A%E4%BD%99%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E4%B8%89%E4%B8%AA%E7%82%B9/</link>
+      <pubDate>Mon, 24 Sep 2018 14:57:21 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2018/0924.%E5%A4%9A%E4%BD%99%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E4%B8%89%E4%B8%AA%E7%82%B9/</guid>
+      <description>{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }  </description>
+    </item>
+    
+    <item>
       <title>写好工作计划四大要素</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E5%86%99%E5%A5%BD%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92%E5%9B%9B%E5%A4%A7%E8%A6%81%E7%B4%A0/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E5%86%99%E5%A5%BD%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92%E5%9B%9B%E5%A4%A7%E8%A6%81%E7%B4%A0/</link>
       <pubDate>Fri, 21 Sep 2018 17:59:04 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E5%86%99%E5%A5%BD%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92%E5%9B%9B%E5%A4%A7%E8%A6%81%E7%B4%A0/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E5%86%99%E5%A5%BD%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92%E5%9B%9B%E5%A4%A7%E8%A6%81%E7%B4%A0/</guid>
       <description>1、工作内容:做什么(WHAT)&amp;mdash;&amp;mdash;&amp;ndash;工作目标、任务。 计划应规定出在一定时间内所完成的目标、任务和应达到</description>
     </item>
     
     <item>
       <title>如何做好工作中每天的工作安排,工作计划</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E5%A6%82%E4%BD%95%E5%81%9A%E5%A5%BD%E5%B7%A5%E4%BD%9C%E4%B8%AD%E6%AF%8F%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%89%E6%8E%92%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E5%A6%82%E4%BD%95%E5%81%9A%E5%A5%BD%E5%B7%A5%E4%BD%9C%E4%B8%AD%E6%AF%8F%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%89%E6%8E%92%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/</link>
       <pubDate>Fri, 21 Sep 2018 17:57:52 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E5%A6%82%E4%BD%95%E5%81%9A%E5%A5%BD%E5%B7%A5%E4%BD%9C%E4%B8%AD%E6%AF%8F%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%89%E6%8E%92%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E5%A6%82%E4%BD%95%E5%81%9A%E5%A5%BD%E5%B7%A5%E4%BD%9C%E4%B8%AD%E6%AF%8F%E5%A4%A9%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%89%E6%8E%92%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/</guid>
       <description>1、把所有工作划分成&amp;rdquo;事务型&amp;rdquo;和&amp;rdquo;思考型&amp;rdquo;两类,分别对待: 所有的工作无非两类:“事务型”的工</description>
     </item>
     
     <item>
       <title>埃里克森心理社会发展八个阶段和一个新阶段</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E5%9F%83%E9%87%8C%E5%85%8B%E6%A3%AE%E5%BF%83%E7%90%86%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95%E5%85%AB%E4%B8%AA%E9%98%B6%E6%AE%B5%E5%92%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E9%98%B6%E6%AE%B5/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E5%9F%83%E9%87%8C%E5%85%8B%E6%A3%AE%E5%BF%83%E7%90%86%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95%E5%85%AB%E4%B8%AA%E9%98%B6%E6%AE%B5%E5%92%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E9%98%B6%E6%AE%B5/</link>
       <pubDate>Fri, 21 Sep 2018 17:56:33 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E5%9F%83%E9%87%8C%E5%85%8B%E6%A3%AE%E5%BF%83%E7%90%86%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95%E5%85%AB%E4%B8%AA%E9%98%B6%E6%AE%B5%E5%92%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E9%98%B6%E6%AE%B5/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E5%9F%83%E9%87%8C%E5%85%8B%E6%A3%AE%E5%BF%83%E7%90%86%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95%E5%85%AB%E4%B8%AA%E9%98%B6%E6%AE%B5%E5%92%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E9%98%B6%E6%AE%B5/</guid>
       <description>阶段 危机 解决 未解决 品质 婴儿期 基本信任对基本不信任 需求得到满足的信心 又不确定的满足导致的愤怒 希望 儿童早期 自主对羞怯和疑虑 来源与自我控制的独立 又</description>
     </item>
     
     <item>
       <title>小孩才分对错,大人只看利弊</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%88%86%E5%AF%B9%E9%94%99%E5%A4%A7%E4%BA%BA%E5%8F%AA%E7%9C%8B%E5%88%A9%E5%BC%8A/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%88%86%E5%AF%B9%E9%94%99%E5%A4%A7%E4%BA%BA%E5%8F%AA%E7%9C%8B%E5%88%A9%E5%BC%8A/</link>
       <pubDate>Fri, 21 Sep 2018 17:54:56 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%88%86%E5%AF%B9%E9%94%99%E5%A4%A7%E4%BA%BA%E5%8F%AA%E7%9C%8B%E5%88%A9%E5%BC%8A/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%88%86%E5%AF%B9%E9%94%99%E5%A4%A7%E4%BA%BA%E5%8F%AA%E7%9C%8B%E5%88%A9%E5%BC%8A/</guid>
       <description>让我们回到原来的议题:从心理学的视角来看,到底是不是“小孩才分对错,大人只看利弊”的单向发展? 我们对道德发展六阶段进行对错——利弊的二元分类</description>
     </item>
     
     <item>
       <title>马斯洛需求层次理论</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E9%A9%AC%E6%96%AF%E6%B4%9B%E9%9C%80%E6%B1%82%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E9%A9%AC%E6%96%AF%E6%B4%9B%E9%9C%80%E6%B1%82%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA/</link>
       <pubDate>Fri, 21 Sep 2018 17:53:22 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E9%A9%AC%E6%96%AF%E6%B4%9B%E9%9C%80%E6%B1%82%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E9%A9%AC%E6%96%AF%E6%B4%9B%E9%9C%80%E6%B1%82%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA/</guid>
       <description>一、生理上的需要 这是人类维持自身生存的最基本要求，包括饥、渴、衣、住、行的方面的要求。如果这些需要得不到满足，人类的生存就成了问题。在这个意</description>
     </item>
     
     <item>
       <title>思维体力</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E6%80%9D%E7%BB%B4%E4%BD%93%E5%8A%9B/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E6%80%9D%E7%BB%B4%E4%BD%93%E5%8A%9B/</link>
       <pubDate>Fri, 21 Sep 2018 17:51:06 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E6%80%9D%E7%BB%B4%E4%BD%93%E5%8A%9B/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E6%80%9D%E7%BB%B4%E4%BD%93%E5%8A%9B/</guid>
       <description>理解一个费解的东西本身需要长时间投入注意力，无形中练了理解能力和思维体力（专注）。 有的时候我们能短时间创造性的想一个问题，这是聪明；有时候我</description>
     </item>
     
     <item>
       <title>Mac terminal proxy</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.mac-terminal-proxy/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/</link>
       <pubDate>Fri, 21 Sep 2018 17:49:54 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.mac-terminal-proxy/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/</guid>
       <description>使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭 可以去 https://www.privoxy.org/ 下载安装包 http://www.wllog.net/2014/10/16/1042.html forward-socks5 / 127.0.0.1:1080 . 修改配置文</description>
     </item>
     
     <item>
       <title>三观</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.%E4%B8%89%E8%A7%82/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.%E4%B8%89%E8%A7%82/</link>
       <pubDate>Fri, 21 Sep 2018 17:49:54 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.%E4%B8%89%E8%A7%82/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.%E4%B8%89%E8%A7%82/</guid>
       <description>人生观，你想成为什么样的人？ 人生观是你对自己这一生总体的期待，你觉得作为一个人，就应该这样这样这样。比如你是想成为有钱人，过别人羡慕的富裕生</description>
     </item>
     
     <item>
       <title>子div垂直居中</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</link>
+      <link>https://evolution.cethink.tk/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</link>
       <pubDate>Mon, 17 Sep 2018 13:26:07 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</guid>
       <description>&amp;lt;div id=&amp;quot;outer&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;inner&amp;quot;&amp;gt; 居个中 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }</description>
     </item>
     
     <item>
       <title>生成SSH key</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</link>
+      <link>https://evolution.cethink.tk/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</link>
       <pubDate>Tue, 14 Aug 2018 21:27:07 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</guid>
       <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;quot;xxx@163.com&amp;quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
     </item>
     
     <item>
       <title>理解JavaScript中的this关键字</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <link>https://evolution.cethink.tk/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</link>
       <pubDate>Sat, 11 Apr 2015 21:41:38 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
       <description>原文：Understanding the &amp;ldquo;this&amp;rdquo; keyword in JavaScript 许多人被JavaScript中的this关键字给困扰住了，我想混乱的根源来自人们理所当然地认为Ja</description>
     </item>
     
     <item>
       <title>Fedora 21 always boots into Emergency Mode</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</link>
+      <link>https://evolution.cethink.tk/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</link>
       <pubDate>Sat, 11 Apr 2015 18:16:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</guid>
       <description>从 Fedora 20 升级到 21 之后，总是在启动时进入 Emergency Mode，每次都要按 Ctrl+D 才能进入系统，很是困扰。后来看提示输入命令journalctl -xb查看启动日志</description>
     </item>
     
     <item>
       <title>Fedora 21 install nodejs via nvm</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</link>
+      <link>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</link>
       <pubDate>Fri, 20 Mar 2015 20:09:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
       <description>安装 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash 重新打开命令行使用nvm nvm --version 0.24.0 在.bashrc添加镜像服务器 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/dist 重新登陆一下 查看可安装nodejs nvm ls-remote nvm install v0.12.0 查看安装路径 nvm which v0.12.0 查</description>
     </item>
     
     <item>
       <title>Fedora 20 reinstall grub2</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</link>
+      <link>https://evolution.cethink.tk/post/2015/0318.fedora-20-reinstall-grub2/</link>
       <pubDate>Wed, 18 Mar 2015 19:38:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0318.fedora-20-reinstall-grub2/</guid>
       <description>安装 Windows 8.1 和 Fedora 20 双系统时没有将 grub2 引导写入 MBR（没有使用 LVM 格式），而是使用 EasyBCD 的 menu.lst 文件来引导，现在使用 fedup 升级 Fedora 到 21 时需要 grub 菜单来完成更新 PS：W</description>
     </item>
     
     <item>
       <title>IIS安装PHP模块</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/</link>
+      <link>https://evolution.cethink.tk/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Mon, 19 Jan 2015 03:41:07 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/</guid>
       <description>IIS 8.5 + PHP 5.6.5 PHP下载 选择NTS_VC11版，安装依赖Visual C++ Redistributable for Visual Studio 2012 Update 4。 将下载文件解压到C盘根目录，如C:\php。复制文件php</description>
     </item>
     
     <item>
       <title>使用淘宝 NPM 镜像</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0111.%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9Dnpm%E9%95%9C%E5%83%8F/</link>
+      <link>https://evolution.cethink.tk/post/2015/0111.%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9Dnpm%E9%95%9C%E5%83%8F/</link>
       <pubDate>Sun, 11 Jan 2015 20:28:10 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0111.%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9Dnpm%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0111.%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9Dnpm%E9%95%9C%E5%83%8F/</guid>
       <description>http://npm.taobao.org/ 这是一个完整npmjs.org镜像，你可以用此代替官方版本(只读)。 安装nodejs node -v v0.10.36 Win8.1下添加安装目录到当 前用户环境变量，否</description>
     </item>
     
     <item>
       <title>Connecting to Azure website via FTP</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1104.connecting-to-azure-website-via-ftp/</link>
+      <link>https://evolution.cethink.tk/post/2014/1104.connecting-to-azure-website-via-ftp/</link>
       <pubDate>Tue, 04 Nov 2014 17:34:42 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1104.connecting-to-azure-website-via-ftp/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1104.connecting-to-azure-website-via-ftp/</guid>
       <description>http://weblogs.asp.net/bleroy/azure-web-sites-ftp-credentials 仪表板 -&amp;gt; 速览 -&amp;gt; 下载发布配置文件 &amp;lt;publishData&amp;gt; &amp;lt;publishProfile profileName=&amp;quot;nameofyoursite - Web Deploy&amp;quot; publishMethod=&amp;quot;MSDeploy&amp;quot; publishUrl=&amp;quot;waws-prod-blu-001.publish.azurewebsites.windows.net:443&amp;quot; msdeploySite=&amp;quot;nameofyoursite&amp;quot; userName=&amp;quot;$NameOfYourSite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot; destinationAppUrl=&amp;quot;http://nameofyoursite.azurewebsites.net&amp;quot; SQLServerDBConnectionString=&amp;quot;&amp;quot; mySQLDBConnectionString=&amp;quot;&amp;quot; hostingProviderForumLink=&amp;quot;&amp;quot; controlPanelLink=&amp;quot;http://windows.azure.com&amp;quot;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;publishProfile profileName=&amp;quot;nameofyoursite - FTP&amp;quot; publishMethod=&amp;quot;FTP&amp;quot; publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; ftpPassiveMode=&amp;quot;True&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot; destinationAppUrl=&amp;quot;http://nameofyoursite.azurewebsites.net&amp;quot; SQLServerDBConnectionString=&amp;quot;&amp;quot; mySQLDBConnectionString=&amp;quot;&amp;quot; hostingProviderForumLink=&amp;quot;&amp;quot; controlPanelLink=&amp;quot;http://windows.azure.com&amp;quot;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;/publishData&amp;gt; 使用这三个数据即可 publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot;</description>
     </item>
     
     <item>
       <title>Shadowsocks in Fedora</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1103.shadowsocks-in-fedora/</link>
+      <link>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</link>
       <pubDate>Mon, 03 Nov 2014 20:44:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1103.shadowsocks-in-fedora/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</guid>
       <description>使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password</description>
     </item>
     
     <item>
       <title>IE&#43;Shadowsocks&#43;Privoxy配置</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</link>
+      <link>https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 03 Nov 2014 13:14:33 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</guid>
       <description>IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给</description>
     </item>
     
     <item>
       <title>JSHint strict mode and JQuery: &#39;$&#39; is not defined</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/</link>
       <pubDate>Sun, 02 Nov 2014 18:32:06 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/</guid>
       <description>http://stackoverflow.com/questions/8852765/jshint-strict-mode-and-jquery-is-not-defined
 Add this at the top of the script file
 /*global $:false*/  Or can also add two lines to your .jshintrc
@@ -206,145 +215,145 @@ Add this at the top of the script file
     
     <item>
       <title>EntityFramework: The underlying provider failed on Open</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</link>
       <pubDate>Sun, 02 Nov 2014 04:36:41 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</guid>
       <description>数据库连接字符串使用Integrated Security=True验证，在VS2013中可以运行，但在IIS中会报如下错误 System.Data.Entity.Core.EntityException Message=The underlying provider failed on Open. Source=EntityFramework InnerException:</description>
     </item>
     
     <item>
       <title>Visual Studio and libgit2 Git Push Error</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1102.visual-studio-and-libgit2-git-push-error/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.visual-studio-and-libgit2-git-push-error/</link>
       <pubDate>Sun, 02 Nov 2014 04:36:12 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1102.visual-studio-and-libgit2-git-push-error/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.visual-studio-and-libgit2-git-push-error/</guid>
       <description>在VS2013中使用Git作为版本控制时，向远程push出现如下错误 An error was raised by libgit2. Category = Tag (Error). This transport isn&amp;rsquo;t implemented. Sorry 解决方法参考 http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution Unfortunately, Visual Studio Tools for Git do not yet support remote repositories using the</description>
     </item>
     
     <item>
       <title>Cmder</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1102.cmder/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.cmder/</link>
       <pubDate>Sun, 02 Nov 2014 01:55:42 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1102.cmder/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.cmder/</guid>
       <description>http://bliker.github.io/cmder/ 全安装版 cmder 自带了 msysgit, 压缩包 23M, 除了 git 本身这个命令之外, 里面可以使用大量的 linux 命令。 1、添加 cmder 到右键菜单 在管理员权限的终端输入以下语句即可 Cmder.exe /REGISTER ALL 定</description>
     </item>
     
     <item>
       <title>Vim初步</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1031.vim%E5%88%9D%E6%AD%A5/</link>
+      <link>https://evolution.cethink.tk/post/2014/1031.vim%E5%88%9D%E6%AD%A5/</link>
       <pubDate>Fri, 31 Oct 2014 19:50:28 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1031.vim%E5%88%9D%E6%AD%A5/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1031.vim%E5%88%9D%E6%AD%A5/</guid>
       <description>官网，下载 教程参考 http://coolshell.cn/tag/vim http://coolshell.cn/articles/5426.html http://www.cnblogs.com/chijianqiang/archive/2012/11/06/vim-1.html 基础： i → Insert 模式，按 ESC 回到 Normal 模式. x → 删当前光标所在的一个字符。 :wq → 存盘 + 退出 (:w 存盘, :q 退出) （注：:w 后可以跟文件</description>
     </item>
     
     <item>
       <title>Ruby on Rails</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0912.ruby-on-rails/</link>
+      <link>https://evolution.cethink.tk/post/2014/0912.ruby-on-rails/</link>
       <pubDate>Fri, 12 Sep 2014 04:10:51 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0912.ruby-on-rails/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0912.ruby-on-rails/</guid>
       <description>安装ruby sudo yum install ruby ruby-devel ruby -v #ruby 2.0.0p353 (2013-11-22 revision 43784) [i386-linux] 更新gem sudo gem update --system gem -v #2.4.1 安装rails gem install rails --no-ri --no-rdoc #27 gems installed rails -v #Rails 4.1.6 新建项目 rails new app/dir cd app/dir rails server 访问 http://0.0.0.0:3000/</description>
     </item>
     
     <item>
       <title>npm中dependencies的版本区间</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/</link>
+      <link>https://evolution.cethink.tk/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/</link>
       <pubDate>Sun, 07 Sep 2014 17:36:03 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/</guid>
       <description>dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies  version Must match version exactly &amp;gt;version Must be greater than version &amp;gt;=version etc &amp;lt;version &amp;lt;=version ~version &amp;ldquo;Approximately equivalent to version&amp;rdquo; See semver(7) ^version &amp;ldquo;Compatible with version&amp;rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &amp;lsquo;URLs as Dependencies&amp;rsquo; below * Matches any version &amp;quot;&amp;quot; (just an empty string) Same as * version1 - version2 Same as &amp;gt;=version1 &amp;lt;=version2. range1 || range2 Passes if either range1 or range2 are satisfied.</description>
     </item>
     
     <item>
       <title>在win8.1中为node-webkit编译node-sqlite3</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</link>
+      <link>https://evolution.cethink.tk/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</link>
       <pubDate>Sat, 06 Sep 2014 18:34:48 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</guid>
       <description>安装nodejs 本文nodejs版本0.10.31 下载node-webkit https://github.com/rogerwang/node-webkit#downloads If your native Node module works only with Node v0.10, then you should use node-webkit v0.8.x, which is also a maintained branch. 下载0.8.6版 安</description>
     </item>
     
     <item>
       <title>EditorConfig配置</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</link>
+      <link>https://evolution.cethink.tk/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Wed, 23 Jul 2014 21:48:23 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/</guid>
       <description>EditorConfig 主页 相关说明 When opening a file, EditorConfig plugins look for a file named .editorconfig in the directory of the opened file and in every parent directory. A search for .editorconfig files will stop if the root filepath is reached or an EditorConfig file with root=true is found. For Windows Users: To create an .editorconfig file within Windows Explorer, you need to create a file named</description>
     </item>
     
     <item>
       <title>Grunt使用</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</link>
+      <link>https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Tue, 22 Jul 2014 18:20:02 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</guid>
       <description>Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr</description>
     </item>
     
     <item>
       <title>node-orm2使用</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</link>
+      <link>https://evolution.cethink.tk/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Tue, 22 Jul 2014 16:13:47 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</guid>
       <description>https://github.com/dresende/node-orm2 npm install orm --save The drivers and versions that are tested. driver npm package version mysql mysql 2.0.0-alpha9 postgres redshift pg 2.6.2 [1] sqlite sqlite3 2.1.7 mongodb mongodb 1.3.19 [1] If you&amp;rsquo;re connecting to Heroku, use version 2.5.0. sqlite 字符串连接数据库 连接字符串语法: driver://username:password@hostname/database?option1=value1&amp;amp;option2=value2.. https://github.com/dresende/node-orm2/issues/20 https://github.com/dresende/node-orm2/commit/691470accace4e59079960410e20140ee556de4b // if use sqlite orm.connect(&#39;sqlite:///path/to/file&#39;, function (err, db) { // ...</description>
     </item>
     
     <item>
       <title>SublimeText3快捷键</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <link>https://evolution.cethink.tk/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Mon, 21 Jul 2014 18:32:06 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
       <description>选择类 Ctrl+D 选中光标所占的文本，继续操作则会选中下一个相同的文本。 Alt+F3 选中文本按下快捷键，即可一次性选择全部的相同文本进行同时编辑。举个栗子：快速</description>
     </item>
     
     <item>
       <title>赖永祥中国图书分类法</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0719.%E5%9B%BE%E4%B9%A6%E5%88%86%E7%B1%BB%E6%B3%95/</link>
+      <link>https://evolution.cethink.tk/post/2014/0719.%E5%9B%BE%E4%B9%A6%E5%88%86%E7%B1%BB%E6%B3%95/</link>
       <pubDate>Sat, 19 Jul 2014 03:14:23 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0719.%E5%9B%BE%E4%B9%A6%E5%88%86%E7%B1%BB%E6%B3%95/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0719.%E5%9B%BE%E4%B9%A6%E5%88%86%E7%B1%BB%E6%B3%95/</guid>
       <description>赖永祥中国图书分类法 000 总类 000 特藏 001 善本 004 纪念文库 007 乡土文库 009 禁书 010 目录学总论 011 图书学 012 总目录 013 国家书目 014 特种书目 015 其他特种目录 016 专科目录 017 个</description>
     </item>
     
     <item>
       <title>意志力</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0718.%E6%84%8F%E5%BF%97%E5%8A%9B/</link>
+      <link>https://evolution.cethink.tk/post/2014/0718.%E6%84%8F%E5%BF%97%E5%8A%9B/</link>
       <pubDate>Fri, 18 Jul 2014 23:22:20 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0718.%E6%84%8F%E5%BF%97%E5%8A%9B/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0718.%E6%84%8F%E5%BF%97%E5%8A%9B/</guid>
       <description>人与人之间是相互影响的，不是你被他影响，就是他被你影响，这种影响究竟会倒向哪一方，就要看谁的影响力更大一些。而能够形成强大影响力的源泉这一，</description>
     </item>
     
     <item>
       <title>普通心理学之个体心理</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0718.%E4%B8%AA%E4%BD%93%E5%BF%83%E7%90%86/</link>
+      <link>https://evolution.cethink.tk/post/2014/0718.%E4%B8%AA%E4%BD%93%E5%BF%83%E7%90%86/</link>
       <pubDate>Fri, 18 Jul 2014 00:15:29 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0718.%E4%B8%AA%E4%BD%93%E5%BF%83%E7%90%86/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0718.%E4%B8%AA%E4%BD%93%E5%BF%83%E7%90%86/</guid>
       <description>个体心理异常复杂，认知、情绪和动机、能力和人格是个体心理现象的三个重要方面，是心理学的主要研究对象。这三个方面不是割裂的，而是互相联系、互相</description>
     </item>
     
     <item>
       <title>文献检索</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0717.%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/</link>
+      <link>https://evolution.cethink.tk/post/2014/0717.%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/</link>
       <pubDate>Thu, 17 Jul 2014 19:51:44 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0717.%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0717.%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/</guid>
       <description>文献检索 概念 文献检索的概念有狭义和广义之分： 狭义的检索（Retrieval）是指依据一定的方法，从已经组织好的大量有关文献集合中，查找并获取</description>
     </item>
     
     <item>
       <title>使用yeoman开发node-webkit程序</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0716.%E4%BD%BF%E7%94%A8yeoman%E5%BC%80%E5%8F%91node-webkit%E7%A8%8B%E5%BA%8F/</link>
+      <link>https://evolution.cethink.tk/post/2014/0716.%E4%BD%BF%E7%94%A8yeoman%E5%BC%80%E5%8F%91node-webkit%E7%A8%8B%E5%BA%8F/</link>
       <pubDate>Wed, 16 Jul 2014 19:38:17 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0716.%E4%BD%BF%E7%94%A8yeoman%E5%BC%80%E5%8F%91node-webkit%E7%A8%8B%E5%BA%8F/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0716.%E4%BD%BF%E7%94%A8yeoman%E5%BC%80%E5%8F%91node-webkit%E7%A8%8B%E5%BA%8F/</guid>
       <description>generator-node-webkit
 bower api#install
 sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-node-webkit mkdir nwapp cd nwapp yo node-webkit ## Yeoman Steps [?] What do you want to call your app? Allowed characters ^[a-zA-Z0-9]+$ Octoo [?] A little description for your app? Markdown Note based on node-webkit [?] Would you mind telling me your username on GitHub? mfkddcwy [?] Do you want to download latest node-webkit? No [?</description>
@@ -352,73 +361,73 @@ sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-node-w
     
     <item>
       <title>Yeoman安装使用</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0716.yeoman%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/</link>
+      <link>https://evolution.cethink.tk/post/2014/0716.yeoman%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Wed, 16 Jul 2014 16:52:08 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0716.yeoman%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0716.yeoman%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/</guid>
       <description>OS: Fedora 20 参考 http://yeoman.io/learning/index.html 命令 sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-webapp mkdir yeoman cd yeoman yo webapp bower install &amp;amp; npm install grunt serve</description>
     </item>
     
     <item>
       <title>Fedora下使用DNSCrypt加密DNS防劫持</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</link>
+      <link>https://evolution.cethink.tk/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</link>
       <pubDate>Sat, 12 Jul 2014 01:07:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</guid>
       <description>OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;amp;&amp;amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;amp;&amp;amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件</description>
     </item>
     
     <item>
       <title>Git子模块</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</link>
+      <link>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Fri, 11 Jul 2014 13:09:05 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</guid>
       <description>参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看</description>
     </item>
     
     <item>
       <title>SQLite3基础知识</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <link>https://evolution.cethink.tk/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
       <pubDate>Thu, 10 Jul 2014 21:03:43 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
       <description>官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite</description>
     </item>
     
     <item>
       <title>版本号管理策略</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/</link>
+      <link>https://evolution.cethink.tk/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/</link>
       <pubDate>Thu, 10 Jul 2014 18:15:51 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/</guid>
       <description>主版本号.子版本号[.修正版本号[.编译版本号]] Major_Version_Number.Minor_Version_Number[.Revision_Number[.Build_Number]] 示例：1.2.0.1234 说明 项目初版，版本号为 1.0 或 1.00; 当项目在进行了局部修改或 bug 修正时，</description>
     </item>
     
     <item>
       <title>Git常用命令</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://evolution.cethink.tk/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Thu, 10 Jul 2014 14:47:41 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>整理一些平时用到的命令，参考文档 初始化本地库 git init 添加当前目录所有新文件，递归子目录，不包括跟踪后删除的文件 git add . git add * 添加所有修改或删除的文</description>
     </item>
     
     <item>
       <title>道德经</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0706.%E9%81%93%E5%BE%B7%E7%BB%8F/</link>
+      <link>https://evolution.cethink.tk/post/2014/0706.%E9%81%93%E5%BE%B7%E7%BB%8F/</link>
       <pubDate>Sun, 06 Jul 2014 20:44:42 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0706.%E9%81%93%E5%BE%B7%E7%BB%8F/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0706.%E9%81%93%E5%BE%B7%E7%BB%8F/</guid>
       <description>《老子》第一章 道可道，非常道；名可名，非常名。 无名，天地之始；有名，万物之母。 故常无欲，以观其妙；常有欲，以观其徼。 此两者同出而异名，同谓之</description>
     </item>
     
     <item>
       <title>墨子·修身</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0703.%E5%A2%A8%E5%AD%90%E4%BF%AE%E8%BA%AB/</link>
+      <link>https://evolution.cethink.tk/post/2014/0703.%E5%A2%A8%E5%AD%90%E4%BF%AE%E8%BA%AB/</link>
       <pubDate>Thu, 03 Jul 2014 20:56:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0703.%E5%A2%A8%E5%AD%90%E4%BF%AE%E8%BA%AB/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0703.%E5%A2%A8%E5%AD%90%E4%BF%AE%E8%BA%AB/</guid>
       <description>君子战虽有陈，而勇为本焉；丧虽有礼，而哀为本焉；士虽有学，而行为本焉。是故置本不安者，无务丰末；近者不亲，无务来远；亲戚不附，无务外交；事无</description>
     </item>
     

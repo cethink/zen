@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SublimeText on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/sublimetext/</link>
+    <link>https://evolution.cethink.tk/tags/sublimetext/</link>
     <description>Recent content in SublimeText on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Mon, 21 Jul 2014 18:32:06 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SublimeText3快捷键</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <link>https://evolution.cethink.tk/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Mon, 21 Jul 2014 18:32:06 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
       <description>选择类 Ctrl+D 选中光标所占的文本，继续操作则会选中下一个相同的文本。 Alt+F3 选中文本按下快捷键，即可一次性选择全部的相同文本进行同时编辑。举个栗子：快速</description>
     </item>
     

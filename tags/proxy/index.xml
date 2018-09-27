@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proxy on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/proxy/</link>
+    <link>https://evolution.cethink.tk/tags/proxy/</link>
     <description>Recent content in Proxy on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Fri, 21 Sep 2018 17:49:54 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac terminal proxy</title>
-      <link>https://cethink.gitee.io/evolution/post/2018/0921.mac-terminal-proxy/</link>
+      <link>https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/</link>
       <pubDate>Fri, 21 Sep 2018 17:49:54 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2018/0921.mac-terminal-proxy/</guid>
+      <guid>https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/</guid>
       <description>使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭 可以去 https://www.privoxy.org/ 下载安装包 http://www.wllog.net/2014/10/16/1042.html forward-socks5 / 127.0.0.1:1080 . 修改配置文</description>
     </item>
     

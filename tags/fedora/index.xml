@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fedora on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/fedora/</link>
+    <link>https://evolution.cethink.tk/tags/fedora/</link>
     <description>Recent content in Fedora on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sat, 11 Apr 2015 18:16:25 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora 21 always boots into Emergency Mode</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</link>
+      <link>https://evolution.cethink.tk/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</link>
       <pubDate>Sat, 11 Apr 2015 18:16:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0411.fedora-21-always-boots-into-emergency-mode/</guid>
       <description>从 Fedora 20 升级到 21 之后，总是在启动时进入 Emergency Mode，每次都要按 Ctrl+D 才能进入系统，很是困扰。后来看提示输入命令journalctl -xb查看启动日志</description>
     </item>
     
     <item>
       <title>Fedora 21 install nodejs via nvm</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</link>
+      <link>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</link>
       <pubDate>Fri, 20 Mar 2015 20:09:25 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
       <description>安装 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash 重新打开命令行使用nvm nvm --version 0.24.0 在.bashrc添加镜像服务器 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/dist 重新登陆一下 查看可安装nodejs nvm ls-remote nvm install v0.12.0 查看安装路径 nvm which v0.12.0 查</description>
     </item>
     
     <item>
       <title>Fedora 20 reinstall grub2</title>
-      <link>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</link>
+      <link>https://evolution.cethink.tk/post/2015/0318.fedora-20-reinstall-grub2/</link>
       <pubDate>Wed, 18 Mar 2015 19:38:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2015/0318.fedora-20-reinstall-grub2/</guid>
+      <guid>https://evolution.cethink.tk/post/2015/0318.fedora-20-reinstall-grub2/</guid>
       <description>安装 Windows 8.1 和 Fedora 20 双系统时没有将 grub2 引导写入 MBR（没有使用 LVM 格式），而是使用 EasyBCD 的 menu.lst 文件来引导，现在使用 fedup 升级 Fedora 到 21 时需要 grub 菜单来完成更新 PS：W</description>
     </item>
     
     <item>
       <title>Shadowsocks in Fedora</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/1103.shadowsocks-in-fedora/</link>
+      <link>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</link>
       <pubDate>Mon, 03 Nov 2014 20:44:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/1103.shadowsocks-in-fedora/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</guid>
       <description>使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password</description>
     </item>
     
     <item>
       <title>Fedora下使用DNSCrypt加密DNS防劫持</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</link>
+      <link>https://evolution.cethink.tk/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</link>
       <pubDate>Sat, 12 Jul 2014 01:07:40 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</guid>
       <description>OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;amp;&amp;amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;amp;&amp;amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件</description>
     </item>
     

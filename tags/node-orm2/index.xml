@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node-orm2 on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/tags/node-orm2/</link>
+    <link>https://evolution.cethink.tk/tags/node-orm2/</link>
     <description>Recent content in Node-orm2 on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Tue, 22 Jul 2014 16:13:47 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/tags/node-orm2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/tags/node-orm2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>node-orm2使用</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</link>
+      <link>https://evolution.cethink.tk/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Tue, 22 Jul 2014 16:13:47 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</guid>
       <description>https://github.com/dresende/node-orm2 npm install orm --save The drivers and versions that are tested. driver npm package version mysql mysql 2.0.0-alpha9 postgres redshift pg 2.6.2 [1] sqlite sqlite3 2.1.7 mongodb mongodb 1.3.19 [1] If you&amp;rsquo;re connecting to Heroku, use version 2.5.0. sqlite 字符串连接数据库 连接字符串语法: driver://username:password@hostname/database?option1=value1&amp;amp;option2=value2.. https://github.com/dresende/node-orm2/issues/20 https://github.com/dresende/node-orm2/commit/691470accace4e59079960410e20140ee556de4b // if use sqlite orm.connect(&#39;sqlite:///path/to/file&#39;, function (err, db) { // ...</description>
     </item>
     

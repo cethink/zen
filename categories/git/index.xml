@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on ZEN</title>
-    <link>https://cethink.gitee.io/evolution/categories/git/</link>
+    <link>https://evolution.cethink.tk/categories/git/</link>
     <description>Recent content in Git on ZEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Fri, 11 Jul 2014 13:09:05 +0800</lastBuildDate>
     
-	<atom:link href="https://cethink.gitee.io/evolution/categories/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://evolution.cethink.tk/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git子模块</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</link>
+      <link>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Fri, 11 Jul 2014 13:09:05 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</guid>
       <description>参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看</description>
     </item>
     
     <item>
       <title>Git常用命令</title>
-      <link>https://cethink.gitee.io/evolution/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://evolution.cethink.tk/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Thu, 10 Jul 2014 14:47:41 +0800</pubDate>
       
-      <guid>https://cethink.gitee.io/evolution/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>整理一些平时用到的命令，参考文档 初始化本地库 git init 添加当前目录所有新文件，递归子目录，不包括跟踪后删除的文件 git add . git add * 添加所有修改或删除的文</description>
     </item>
     
