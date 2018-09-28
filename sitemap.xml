@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/</loc>
+    <lastmod>2018-09-28T12:28:21+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2018/0927.vuido%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2018-09-27T11:33:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -408,6 +415,20 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/electron/</loc>
+    <lastmod>2018-09-28T12:28:21+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/categories/electron/</loc>
+    <lastmod>2018-09-28T12:28:21+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/tags/ellipsis/</loc>
     <lastmod>2018-09-24T14:57:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -577,7 +598,7 @@
   
   <url>
     <loc>https://evolution.cethink.tk/post/</loc>
-    <lastmod>2018-09-27T11:33:39+08:00</lastmod>
+    <lastmod>2018-09-28T12:28:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
