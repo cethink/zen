@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Electron初步 - ZEN</title>
+  <title>Electron窗口操作 - ZEN</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="夏末" />
-  <meta name="description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;quot;name&amp;quot;: &amp;quot;journal&amp;quot;, &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;, &amp;quot;description&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;main&amp;quot;: &amp;quot;index.js&amp;quot;, &amp;quot;scripts&amp;quot;:" />
+  <meta name="description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false" />
 
   <meta name="keywords" content="blog, evolution, zen" />
 
@@ -29,7 +29,7 @@
 <meta name="generator" content="Hugo 0.46" />
 
 
-<link rel="canonical" href="https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/" />
+<link rel="canonical" href="https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,20 +49,16 @@
 
 
 
-<meta property="og:title" content="Electron初步" />
-<meta property="og:description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &quot;name&quot;: &quot;journal&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;:" />
+<meta property="og:title" content="Electron窗口操作" />
+<meta property="og:description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/" />
+<meta property="og:url" content="https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/" />
 
 
 
-<meta property="article:published_time" content="2018-09-28T12:28:21&#43;08:00"/>
+<meta property="article:published_time" content="2018-09-30T07:42:33&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-09-28T12:28:21&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-09-30T07:42:33&#43;08:00"/>
 
 
 
@@ -70,20 +66,24 @@
 
 
 
-<meta itemprop="name" content="Electron初步">
-<meta itemprop="description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &quot;name&quot;: &quot;journal&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;:">
 
 
-<meta itemprop="datePublished" content="2018-09-28T12:28:21&#43;08:00" />
-<meta itemprop="dateModified" content="2018-09-28T12:28:21&#43;08:00" />
-<meta itemprop="wordCount" content="259">
+
+
+<meta itemprop="name" content="Electron窗口操作">
+<meta itemprop="description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false">
+
+
+<meta itemprop="datePublished" content="2018-09-30T07:42:33&#43;08:00" />
+<meta itemprop="dateModified" content="2018-09-30T07:42:33&#43;08:00" />
+<meta itemprop="wordCount" content="287">
 
 
 
 <meta itemprop="keywords" content="electron," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Electron初步"/>
-<meta name="twitter:description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &quot;name&quot;: &quot;journal&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;:"/>
+<meta name="twitter:title" content="Electron窗口操作"/>
+<meta name="twitter:description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -150,16 +150,16 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Electron初步</h1>
+      <h1 class="post-title">Electron窗口操作</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-09-28 </span>
+        <span class="post-time"> 2018-09-30 </span>
         <div class="post-category">
             
               <a href="/categories/electron/"> Electron </a>
             
           </div>
-        <span class="more-meta"> 约 259 字 </span>
+        <span class="more-meta"> 约 287 字 </span>
         <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -171,7 +171,20 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#无边框窗口">无边框窗口</a></li>
+<li><a href="#可拖拽区">可拖拽区</a></li>
+<li><a href="#页面渲染完成再加载">页面渲染完成再加载</a></li>
+<li><a href="#页面中关闭窗口">页面中关闭窗口</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
@@ -180,82 +193,48 @@
 
     
     <div class="post-content">
-      <p><a href="https://electronjs.org/docs">Electron文档</a></p>
+      
 
-<pre><code class="language-bash">mkdir myapp
-cd myapp
-npm init
+<h3 id="无边框窗口">无边框窗口</h3>
+
+<p><a href="https://electronjs.org/docs/api/frameless-window#创建无框窗口">https://electronjs.org/docs/api/frameless-window#创建无框窗口</a></p>
+
+<pre><code class="language-js">mainWindow = new BrowserWindow({
+    width: 900,
+    height: 700,
+    frame: false // 无边框
+});
 </code></pre>
 
-<p>生成的package.json如下，然后添加一行<code>&quot;start&quot;: &quot;electron .&quot;</code></p>
+<h3 id="可拖拽区">可拖拽区</h3>
 
-<pre><code class="language-json">{
-  &quot;name&quot;: &quot;journal&quot;,
-  &quot;version&quot;: &quot;1.0.0&quot;,
-  &quot;description&quot;: &quot;&quot;,
-  &quot;main&quot;: &quot;index.js&quot;,
-  &quot;scripts&quot;: {
-    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;,
-    &quot;start&quot;: &quot;electron .&quot;
-  },
-  &quot;keywords&quot;: [
-    &quot;journal&quot;
-  ],
-  &quot;author&quot;: &quot;Octo&quot;,
-  &quot;license&quot;: &quot;ISC&quot;,
+<p><a href="https://electronjs.org/docs/api/frameless-window#可拖拽区">https://electronjs.org/docs/api/frameless-window#可拖拽区</a></p>
+
+<p>请注意, 如果您已使整个窗口draggable, 则必须将按钮标记为 non-draggable, 否则用户将无法单击它们。</p>
+
+<pre><code class="language-css">{
+    -webkit-app-region: drag;
+    -webkit-app-region: no-drag;
 }
 </code></pre>
 
-<p>安装electron，也可全局安装，不过不好对不同app做版本控制</p>
+<h3 id="页面渲染完成再加载">页面渲染完成再加载</h3>
 
-<pre><code class="language-bash">npm install electron --save-dev
-# 全局安装
-npm install electron -g
-</code></pre>
+<p><a href="https://electronjs.org/docs/api/browser-window#优雅地显示窗口">https://electronjs.org/docs/api/browser-window#优雅地显示窗口</a></p>
 
-<p>package.json文件更新如下</p>
-
-<pre><code class="language-json">  &quot;devDependencies&quot;: {
-    &quot;electron&quot;: &quot;^3.0.1&quot;
-  }
-</code></pre>
-
-<p>当前目录下新建index.js文件 <a href="https://github.com/electron/electron-quick-start/blob/master/main.js">https://github.com/electron/electron-quick-start/blob/master/main.js</a></p>
-
-<pre><code class="language-js">const {
-    app,
-    BrowserWindow
-} = require(&quot;electron&quot;);
-
-let mainWindow;
-
-function createWindow() {
-    mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600
-    });
-    mainWindow.loadFile(&quot;../src/index.html&quot;);
-    mainWindow.on(&quot;closed&quot;, function() {
-        mainWindow = null;
-    });
-};
-
-app.on(&quot;ready&quot;, createWindow);
-app.on(&quot;window-all-closed&quot;, function() {
-    if (process.platform !== &quot;darwin&quot;) {
-        app.quit();
-    }
-});
-app.on(&quot;activate&quot;, function() {
-    if (mainWindow === null) {
-        createWindow();
-    }
+<pre><code class="language-js">const {BrowserWindow} = require('electron');
+let win = new BrowserWindow({show: false});
+win.once('ready-to-show', () =&gt; {
+    win.show()
 });
 </code></pre>
 
-<p>运行<code>npm start</code>即可查看效果。</p>
+<h3 id="页面中关闭窗口">页面中关闭窗口</h3>
 
-<p><a href="https://github.com/electron/electron-api-demos">Electron API 演示应用程序</a></p>
+<p>使用<code>window</code>的<code>close</code>方法。</p>
+
+<pre><code class="language-js">javascript:window.close()
+</code></pre>
 
     </div>
 
@@ -267,7 +246,7 @@ app.on(&quot;activate&quot;, function() {
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-09-28</span>
+    <span class="item-content">2018-09-30</span>
   </p>
   
   
@@ -303,14 +282,9 @@ app.on(&quot;activate&quot;, function() {
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Electron窗口操作</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/2018/0927.vuido%E5%BC%80%E5%8F%91/">
-            <span class="next-text nav-default">Vuido开发</span>
+          <a class="next" href="/post/2018/0928.electron%E5%88%9D%E6%AD%A5/">
+            <span class="next-text nav-default">Electron初步</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -326,8 +300,8 @@ app.on(&quot;activate&quot;, function() {
     <script src="/lib/gitalk/gitalk-1.2.2.min.js"></script>
   <script type="text/javascript">
   var gitalk = new Gitalk({
-    id: '2018-09-28 12:28:21 \x2b0800 CST',
-    title: 'Electron初步',
+    id: '2018-09-30 07:42:33 \x2b0800 CST',
+    title: 'Electron窗口操作',
     clientID: '2259f39afdd451aa1223',
     clientSecret: '64eaa58031a8b3360547a4dc69c9923d99bcce01',
     repo: 'zen-comments',
