@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</loc>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2018-09-30T07:42:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -401,6 +408,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/deepinlinux/</loc>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/tags/div/</loc>
     <lastmod>2018-09-17T13:26:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -423,14 +437,14 @@
   
   <url>
     <loc>https://evolution.cethink.tk/tags/electron/</loc>
-    <lastmod>2018-09-30T07:42:33+08:00</lastmod>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://evolution.cethink.tk/categories/electron/</loc>
-    <lastmod>2018-09-30T07:42:33+08:00</lastmod>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -563,7 +577,7 @@
   
   <url>
     <loc>https://evolution.cethink.tk/tags/node-sqlite3/</loc>
-    <lastmod>2014-09-06T18:34:48+08:00</lastmod>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -605,7 +619,7 @@
   
   <url>
     <loc>https://evolution.cethink.tk/post/</loc>
-    <lastmod>2018-09-30T07:42:33+08:00</lastmod>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
