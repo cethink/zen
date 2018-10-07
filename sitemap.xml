@@ -366,13 +366,6 @@
   </url>
   
   <url>
-    <loc>https://evolution.cethink.tk/</loc>
-    <lastmod>2018-09-16T18:44:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://evolution.cethink.tk/tags/ftp/</loc>
     <lastmod>2014-11-04T17:34:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -669,6 +662,13 @@
   <url>
     <loc>https://evolution.cethink.tk/tags/%E5%B1%85%E4%B8%AD/</loc>
     <lastmod>2018-09-17T13:26:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/</loc>
+    <lastmod>2018-09-16T18:44:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
