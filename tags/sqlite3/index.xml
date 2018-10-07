@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sqlite3 on ZEN</title>
+    <title>Sqlite3 on Evolution</title>
     <link>https://evolution.cethink.tk/tags/sqlite3/</link>
-    <description>Recent content in Sqlite3 on ZEN</description>
+    <description>Recent content in Sqlite3 on Evolution</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
