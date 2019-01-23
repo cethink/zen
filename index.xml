@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Android: Grant current user access to /dev/kvm</title>
+      <link>https://evolution.cethink.tk/post/2019/0123.android-grant-current-user-access-to-dev-kvm/</link>
+      <pubDate>Wed, 23 Jan 2019 11:23:06 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0123.android-grant-current-user-access-to-dev-kvm/</guid>
+      <description>安装android模拟器时提示 KVM is required to run this AVD. /dev/kvm device: permission denied. Grant current user access to /dev/kvm 需要添加当前用户到kvm组以获取权限 sudo adduser your_linux_user kvm 如果提示组不存在，安装一下qem</description>
+    </item>
+    
+    <item>
       <title>Linux下批量删除操作</title>
       <link>https://evolution.cethink.tk/post/2018/1210.linux%E4%B8%8B%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Mon, 10 Dec 2018 20:23:33 +0800</pubDate>
