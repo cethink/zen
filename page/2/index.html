@@ -56,7 +56,7 @@
 
 
 
-<meta property="og:updated_time" content="2015-04-11T21:41:38&#43;08:00"/>
+<meta property="og:updated_time" content="2018-08-14T21:27:07&#43;08:00"/>
 
 
 
@@ -140,6 +140,28 @@
   <section id="posts" class="posts">
     
     
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/">生成SSH key</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-08-14 </span>
+      
+      <span class="more-meta"> 约 129 字 </span>
+      <span class="more-meta"> 预计阅读 1 分钟 </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &quot;xxx@163.com&quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端
+    </div>
+    <div class="read-more">
+      <a href="/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/" class="read-more-link">阅读更多</a>
+    </div>
+  </div>
+</article>
+
     
       <article class="post">
   <header class="post-header">
@@ -350,31 +372,6 @@
     </div>
     <div class="read-more">
       <a href="/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/">JSHint strict mode and JQuery: &#39;$&#39; is not defined</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2014-11-02 </span>
-      
-      <span class="more-meta"> 约 33 字 </span>
-      <span class="more-meta"> 预计阅读 1 分钟 </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      http://stackoverflow.com/questions/8852765/jshint-strict-mode-and-jquery-is-not-defined
-Add this at the top of the script file
-/*global $:false*/  Or can also add two lines to your .jshintrc
-&quot;globals&quot;: { &quot;$&quot;:false, &quot;jQuery&quot;:false, // other explicit global names to exclude }  
-    </div>
-    <div class="read-more">
-      <a href="/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/" class="read-more-link">阅读更多</a>
     </div>
   </div>
 </article>
