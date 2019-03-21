@@ -14,10 +14,10 @@
     
     <item>
       <title>JSHint strict mode and JQuery: &#39;$&#39; is not defined</title>
-      <link>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/</link>
+      <link>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery-is-not-defined/</link>
       <pubDate>Sun, 02 Nov 2014 18:32:06 +0800</pubDate>
       
-      <guid>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery--is-not-defined/</guid>
+      <guid>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery-is-not-defined/</guid>
       <description>http://stackoverflow.com/questions/8852765/jshint-strict-mode-and-jquery-is-not-defined
 Add this at the top of the script file
 /*global $:false*/  Or can also add two lines to your .jshintrc

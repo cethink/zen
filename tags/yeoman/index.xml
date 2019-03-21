@@ -18,9 +18,7 @@
       <pubDate>Wed, 16 Jul 2014 19:38:17 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0716.%E4%BD%BF%E7%94%A8yeoman%E5%BC%80%E5%8F%91node-webkit%E7%A8%8B%E5%BA%8F/</guid>
-      <description>generator-node-webkit
-bower api#install
-sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-node-webkit mkdir nwapp cd nwapp yo node-webkit ## Yeoman Steps [?] What do you want to call your app? Allowed characters ^[a-zA-Z0-9]+$ Octoo [?] A little description for your app? Markdown Note based on node-webkit [?] Would you mind telling me your username on GitHub? mfkddcwy [?] Do you want to download latest node-webkit? No [?</description>
+      <description>generator-node-webkit bower api#install sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-node-webkit mkdir nwapp cd nwapp yo node-webkit ## Yeoman Steps [?] What do you want to call your app? Allowed characters ^[a-zA-Z0-9]+$ Octoo [?] A little description for your app? Markdown Note based on node-webkit [?] Would you mind telling me your username on GitHub? mfkddcwy [?] Do you want to download latest node-webkit? No</description>
     </item>
     
     <item>

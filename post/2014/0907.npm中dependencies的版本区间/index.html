@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="夏末" />
-  <meta name="description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies  version Must match version exactly &amp;gt;version Must be greater than version &amp;gt;=version etc &amp;lt;version &amp;lt;=version ~version &amp;ldquo;Approximately equivalent to version&amp;rdquo; See semver(7) ^version &amp;ldquo;Compatible with version&amp;rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &amp;lsquo;URLs as Dependencies&amp;rsquo; below * Matches any version &amp;quot;&amp;quot; (just an empty string) Same as * version1 - version2 Same as &amp;gt;=version1 &amp;lt;=version2. range1 || range2 Passes if either range1 or range2 are satisfied." />
+  <meta name="description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &amp;gt;version Must be greater than version &amp;gt;=version etc &amp;lt;version &amp;lt;=version ~version &amp;ldquo;Approximately equivalent to version&amp;rdquo; See semver(7) ^version &amp;ldquo;Compatible with version&amp;rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &amp;lsquo;URLs as Dependencies&amp;rsquo; below * Matches any version &amp;quot;&amp;quot; (just an empty string) Same as * version1 - version2 Same as &amp;gt;=version1 &amp;lt;=version2. range1 || range2 Passes if either range1" />
 
   <meta name="keywords" content="blog, evolution, zen" />
 
@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.46" />
+<meta name="generator" content="Hugo 0.54.0" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/" />
@@ -50,28 +50,14 @@
 
 
 <meta property="og:title" content="npm中dependencies的版本区间" />
-<meta property="og:description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies  version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1 or range2 are satisfied." />
+<meta property="og:description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/" />
-
-
-
 <meta property="article:published_time" content="2014-09-07T17:36:03&#43;08:00"/>
-
 <meta property="article:modified_time" content="2014-09-07T17:36:03&#43;08:00"/>
 
-
-
-
-
-
-
-
-
-
-
 <meta itemprop="name" content="npm中dependencies的版本区间">
-<meta itemprop="description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies  version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1 or range2 are satisfied.">
+<meta itemprop="description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1">
 
 
 <meta itemprop="datePublished" content="2014-09-07T17:36:03&#43;08:00" />
@@ -83,7 +69,7 @@
 <meta itemprop="keywords" content="npm,semantic version," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="npm中dependencies的版本区间"/>
-<meta name="twitter:description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies  version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1 or range2 are satisfied."/>
+<meta name="twitter:description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>

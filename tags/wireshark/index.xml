@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wireshark on 莫提时光</title>
+    <link>https://evolution.cethink.tk/tags/wireshark/</link>
+    <description>Recent content in wireshark on 莫提时光</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Thu, 21 Mar 2019 16:56:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://evolution.cethink.tk/tags/wireshark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>deepin下wireshark权限问题</title>
+      <link>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 21 Mar 2019 16:56:24 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</guid>
+      <description>解决方法如下： 1.添加wireshark用户组 sudo groupadd wireshark 2.将dumpcap更改为wireshark用户组 sudo chgrp wireshark /usr/bin/dumpcap 3.让wireshark用户组</description>
+    </item>
+    
+  </channel>
+</rss>
