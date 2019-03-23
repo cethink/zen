@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mdf on 莫提时光</title>
+    <link>https://evolution.cethink.tk/tags/mdf/</link>
+    <description>Recent content in mdf on 莫提时光</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Sat, 23 Mar 2019 16:50:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://evolution.cethink.tk/tags/mdf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MSSQL attach mdf</title>
+      <link>https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/</link>
+      <pubDate>Sat, 23 Mar 2019 16:50:54 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/</guid>
+      <description>https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  </description>
+    </item>
+    
+  </channel>
+</rss>

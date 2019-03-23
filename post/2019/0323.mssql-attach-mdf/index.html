@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>莫提时光</title>
+  <title>MSSQL attach mdf - 莫提时光</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,6 +17,9 @@
 
 
 <meta name="author" content="夏末" />
+  <meta name="description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  " />
+
   <meta name="keywords" content="blog, evolution, zen" />
 
 
@@ -27,9 +30,7 @@
 <meta name="generator" content="Hugo 0.54.0" />
 
 
-<link rel="canonical" href="https://evolution.cethink.tk/" />
-<link href="https://evolution.cethink.tk/index.xml" rel="alternate" type="application/rss+xml" title="莫提时光" />
-  <link href="https://evolution.cethink.tk/index.xml" rel="feed" type="application/rss+xml" title="莫提时光" />
+<link rel="canonical" href="https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,19 +50,30 @@
 
 
 
-<meta property="og:title" content="莫提时光" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://evolution.cethink.tk/" />
+<meta property="og:title" content="MSSQL attach mdf" />
+<meta property="og:description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/" />
+<meta property="article:published_time" content="2019-03-23T16:50:54&#43;08:00"/>
+<meta property="article:modified_time" content="2019-03-23T16:50:54&#43;08:00"/>
 
-<meta property="og:updated_time" content="2014-07-10T18:15:51&#43;08:00"/>
+<meta itemprop="name" content="MSSQL attach mdf">
+<meta itemprop="description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  ">
 
-<meta itemprop="name" content="莫提时光">
-<meta itemprop="description" content="">
 
+<meta itemprop="datePublished" content="2019-03-23T16:50:54&#43;08:00" />
+<meta itemprop="dateModified" content="2019-03-23T16:50:54&#43;08:00" />
+<meta itemprop="wordCount" content="13">
+
+
+
+<meta itemprop="keywords" content="mssql,mdf," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="莫提时光"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="MSSQL attach mdf"/>
+<meta name="twitter:description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  "/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -125,72 +137,121 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  <section id="posts" class="posts">
+          <article class="post">
     
-    
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/">版本号管理策略</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2014-07-10 </span>
-      
-      <span class="more-meta"> 约 285 字 </span>
-      <span class="more-meta"> 预计阅读 1 分钟 </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      主版本号.子版本号[.修正版本号[.编译版本号]] Major_Version_Number.Minor_Version_Number[.Revision_Number[.Build_Number]] 示例：1.2.0.1234 说明 项目初版，版本号为 1.0 或 1.00; 当项目在进行了局部修改或 bug 修正时，
-    </div>
-    <div class="read-more">
-      <a href="/post/2014/0710.%E7%89%88%E6%9C%AC%E5%8F%B7%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
+    <header class="post-header">
+      <h1 class="post-title">MSSQL attach mdf</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-03-23 </span>
+        
+        <span class="more-meta"> 约 13 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+        
+      </div>
+    </header>
 
     
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">Git常用命令</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2014-07-10 </span>
-      <div class="post-category">
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p><a href="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1">https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1</a></p>
+
+<pre><code>CREATE DATABASE Timeless
+  ON (FILENAME = '/home/wuu/CSharp/Timeless.mdf'),
+  (FILENAME = '/home/wuu/CSharp/Timeless_log.ldf')
+  FOR ATTACH; 
+</code></pre>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">夏末</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2019-03-23</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/wechatpay.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/alipay5.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
           
-            <a href="/categories/git/"> Git </a>
+          <a href="/tags/mssql/">mssql</a>
+          
+          <a href="/tags/mdf/">mdf</a>
           
         </div>
-      <span class="more-meta"> 约 696 字 </span>
-      <span class="more-meta"> 预计阅读 2 分钟 </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      整理一些平时用到的命令，参考文档 初始化本地库 git init 添加当前目录所有新文件，递归子目录，不包括跟踪后删除的文件 git add . git add * 添加所有修改或删除的文
-    </div>
-    <div class="read-more">
-      <a href="/post/2014/0710.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="read-more-link">阅读更多</a>
-    </div>
-  </div>
-</article>
 
-    
-  </section>
-  
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-  </nav>
-
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/">
+            <span class="next-text nav-default">deepin下wireshark权限问题</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
+  
+
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="/lib/gitalk/gitalk-1.2.2.min.css">
+    <script src="/lib/gitalk/gitalk-1.2.2.min.js"></script>
+  <script type="text/javascript">
+  var gitalk = new Gitalk({
+    id: '2019-03-23 16:50:54 \x2b0800 CST',
+    title: 'MSSQL attach mdf',
+    clientID: '2259f39afdd451aa1223',
+    clientSecret: '64eaa58031a8b3360547a4dc69c9923d99bcce01',
+    repo: 'zen-comments',
+    owner: 'cethink',
+    admin: ['cethink'],
+    body: decodeURI(location.href)
+  });
+  gitalk.render('gitalk-container');
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
 
       </div>
     </main>
