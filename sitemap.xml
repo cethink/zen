@@ -388,13 +388,6 @@
   </url>
   
   <url>
-    <loc>https://evolution.cethink.tk/tags/fedora/</loc>
-    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://evolution.cethink.tk/categories/fedora/</loc>
     <lastmod>2015-04-11T18:16:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -402,8 +395,8 @@
   </url>
   
   <url>
-    <loc>https://evolution.cethink.tk/tags/git/</loc>
-    <lastmod>2014-11-02T04:36:12+08:00</lastmod>
+    <loc>https://evolution.cethink.tk/tags/fedora/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -411,6 +404,13 @@
   <url>
     <loc>https://evolution.cethink.tk/categories/git/</loc>
     <lastmod>2014-07-11T13:09:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/git/</loc>
+    <lastmod>2014-11-02T04:36:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

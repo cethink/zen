@@ -28,7 +28,8 @@
       
       <guid>https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/</guid>
       <description>https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  </description>
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
     </item>
     
     <item>

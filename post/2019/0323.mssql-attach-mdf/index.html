@@ -18,7 +18,8 @@
 
 <meta name="author" content="夏末" />
   <meta name="description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  " />
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  " />
 
   <meta name="keywords" content="blog, evolution, zen" />
 
@@ -52,7 +53,8 @@ CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;)
 
 <meta property="og:title" content="MSSQL attach mdf" />
 <meta property="og:description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  " />
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/" />
 <meta property="article:published_time" content="2019-03-23T16:50:54&#43;08:00"/>
@@ -60,12 +62,13 @@ CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;)
 
 <meta itemprop="name" content="MSSQL attach mdf">
 <meta itemprop="description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  ">
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  ">
 
 
 <meta itemprop="datePublished" content="2019-03-23T16:50:54&#43;08:00" />
 <meta itemprop="dateModified" content="2019-03-23T16:50:54&#43;08:00" />
-<meta itemprop="wordCount" content="13">
+<meta itemprop="wordCount" content="18">
 
 
 
@@ -73,7 +76,8 @@ CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;)
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MSSQL attach mdf"/>
 <meta name="twitter:description" content="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  "/>
+CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  "/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -145,7 +149,7 @@ CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;)
       <div class="post-meta">
         <span class="post-time"> 2019-03-23 </span>
         
-        <span class="more-meta"> 约 13 字 </span>
+        <span class="more-meta"> 约 18 字 </span>
         <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -168,10 +172,15 @@ CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;)
     <div class="post-content">
       <p><a href="https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1">https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1</a></p>
 
-<pre><code>CREATE DATABASE Timeless
+<pre><code class="language-sql">CREATE DATABASE Timeless
   ON (FILENAME = '/home/wuu/CSharp/Timeless.mdf'),
   (FILENAME = '/home/wuu/CSharp/Timeless_log.ldf')
-  FOR ATTACH; 
+  FOR ATTACH;
+</code></pre>
+
+<p><a href="https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1">https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1</a></p>
+
+<pre><code class="language-sql">EXEC sp_detach_db 'AdventureWorks2012', 'true';
 </code></pre>
 
     </div>

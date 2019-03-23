@@ -136,7 +136,7 @@
     <div class="post-meta">
       <span class="post-time"> 2019-03-23 </span>
       
-      <span class="more-meta"> 约 13 字 </span>
+      <span class="more-meta"> 约 18 字 </span>
       <span class="more-meta"> 预计阅读 1 分钟 </span>
     </div>
   </header>
@@ -144,7 +144,8 @@
   <div class="post-content">
     <div class="post-summary">
       https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = '/home/wuu/CSharp/Timeless.mdf'), (FILENAME = '/home/wuu/CSharp/Timeless_log.ldf') FOR ATTACH;  
+CREATE DATABASE Timeless ON (FILENAME = '/home/wuu/CSharp/Timeless.mdf'), (FILENAME = '/home/wuu/CSharp/Timeless_log.ldf') FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db 'AdventureWorks2012', 'true';  
     </div>
     <div class="read-more">
       <a href="/post/2019/0323.mssql-attach-mdf/" class="read-more-link">阅读更多</a>
