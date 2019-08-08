@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Linux下pem转ppk</title>
+      <link>https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/</link>
+      <pubDate>Thu, 08 Aug 2019 20:01:13 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/</guid>
+      <description>安装putty sudo apt install putty putty-tools 进入 pem 所在文件执行转换命令 puttygen mykey.pem -o mykey.ppk</description>
+    </item>
+    
+    <item>
       <title>MSSQL attach mdf</title>
       <link>https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/</link>
       <pubDate>Sat, 23 Mar 2019 16:50:54 +0800</pubDate>

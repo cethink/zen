@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ppk on 莫提时光</title>
+    <link>https://evolution.cethink.tk/tags/ppk/</link>
+    <description>Recent content in ppk on 莫提时光</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Thu, 08 Aug 2019 20:01:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://evolution.cethink.tk/tags/ppk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux下pem转ppk</title>
+      <link>https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/</link>
+      <pubDate>Thu, 08 Aug 2019 20:01:13 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/</guid>
+      <description>安装putty sudo apt install putty putty-tools 进入 pem 所在文件执行转换命令 puttygen mykey.pem -o mykey.ppk</description>
+    </item>
+    
+  </channel>
+</rss>
