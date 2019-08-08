@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>AWS SSH Permission denied (publickey)</title>
+      <link>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</link>
+      <pubDate>Thu, 08 Aug 2019 20:45:51 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</guid>
+      <description>从命令行使用SSH登录AWS时报错 ssh -i &amp;quot;~/Documents/amazon.pem&amp;quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;quot;/home/wuu/Documents/amazon.pem&amp;quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命</description>
+    </item>
+    
+    <item>
       <title>Linux下pem转ppk</title>
       <link>https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/</link>
       <pubDate>Thu, 08 Aug 2019 20:01:13 +0800</pubDate>

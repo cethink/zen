@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Linux下pem转ppk - 莫提时光</title>
+  <title>AWS SSH Permission denied (publickey) - 莫提时光</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="夏末" />
-  <meta name="description" content="安装putty sudo apt install putty putty-tools 进入 pem 所在文件执行转换命令 puttygen mykey.pem -o mykey.ppk" />
+  <meta name="description" content="从命令行使用SSH登录AWS时报错 ssh -i &amp;quot;~/Documents/amazon.pem&amp;quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;quot;/home/wuu/Documents/amazon.pem&amp;quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命" />
 
   <meta name="keywords" content="blog, evolution, zen" />
 
@@ -29,7 +29,7 @@
 <meta name="generator" content="Hugo 0.54.0" />
 
 
-<link rel="canonical" href="https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/" />
+<link rel="canonical" href="https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,27 +49,27 @@
 
 
 
-<meta property="og:title" content="Linux下pem转ppk" />
-<meta property="og:description" content="安装putty sudo apt install putty putty-tools 进入 pem 所在文件执行转换命令 puttygen mykey.pem -o mykey.ppk" />
+<meta property="og:title" content="AWS SSH Permission denied (publickey)" />
+<meta property="og:description" content="从命令行使用SSH登录AWS时报错 ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/" />
-<meta property="article:published_time" content="2019-08-08T20:01:13&#43;08:00"/>
-<meta property="article:modified_time" content="2019-08-08T20:01:13&#43;08:00"/>
+<meta property="og:url" content="https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/" />
+<meta property="article:published_time" content="2019-08-08T20:45:51&#43;08:00"/>
+<meta property="article:modified_time" content="2019-08-08T20:45:51&#43;08:00"/>
 
-<meta itemprop="name" content="Linux下pem转ppk">
-<meta itemprop="description" content="安装putty sudo apt install putty putty-tools 进入 pem 所在文件执行转换命令 puttygen mykey.pem -o mykey.ppk">
-
-
-<meta itemprop="datePublished" content="2019-08-08T20:01:13&#43;08:00" />
-<meta itemprop="dateModified" content="2019-08-08T20:01:13&#43;08:00" />
-<meta itemprop="wordCount" content="29">
+<meta itemprop="name" content="AWS SSH Permission denied (publickey)">
+<meta itemprop="description" content="从命令行使用SSH登录AWS时报错 ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命">
 
 
+<meta itemprop="datePublished" content="2019-08-08T20:45:51&#43;08:00" />
+<meta itemprop="dateModified" content="2019-08-08T20:45:51&#43;08:00" />
+<meta itemprop="wordCount" content="76">
 
-<meta itemprop="keywords" content="Linux,pem,ppk," />
+
+
+<meta itemprop="keywords" content="AWS,SSH," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Linux下pem转ppk"/>
-<meta name="twitter:description" content="安装putty sudo apt install putty putty-tools 进入 pem 所在文件执行转换命令 puttygen mykey.pem -o mykey.ppk"/>
+<meta name="twitter:title" content="AWS SSH Permission denied (publickey)"/>
+<meta name="twitter:description" content="从命令行使用SSH登录AWS时报错 ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -136,12 +136,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Linux下pem转ppk</h1>
+      <h1 class="post-title">AWS SSH Permission denied (publickey)</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2019-08-08 </span>
         
-        <span class="more-meta"> 约 29 字 </span>
+        <span class="more-meta"> 约 76 字 </span>
         <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -162,14 +162,23 @@
 
     
     <div class="post-content">
-      <p>安装putty</p>
+      <p>从命令行使用SSH登录AWS时报错</p>
 
-<pre><code>sudo apt install putty putty-tools
+<pre><code>ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for '/home/wuu/Documents/amazon.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions
+ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey).
 </code></pre>
 
-<p>进入 pem 所在文件执行转换命令</p>
+<p>执行如下命令即可</p>
 
-<pre><code>puttygen mykey.pem -o mykey.ppk
+<pre><code>chmod 400 amazon.pem
 </code></pre>
 
     </div>
@@ -211,25 +220,18 @@
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/tags/linux/">Linux</a>
+          <a href="/tags/aws/">AWS</a>
           
-          <a href="/tags/pem/">pem</a>
-          
-          <a href="/tags/ppk/">ppk</a>
+          <a href="/tags/ssh/">SSH</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/2019/0808.aws-ssh-permission-denied-publickey/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">AWS SSH Permission denied (publickey)</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/2019/0323.mssql-attach-mdf/">
-            <span class="next-text nav-default">MSSQL attach mdf</span>
+          <a class="next" href="/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/">
+            <span class="next-text nav-default">Linux下pem转ppk</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -245,8 +247,8 @@
     <script src="/lib/gitalk/gitalk-1.2.2.min.js"></script>
   <script type="text/javascript">
   var gitalk = new Gitalk({
-    id: '2019-08-08 20:01:13 \x2b0800 CST',
-    title: 'Linux下pem转ppk',
+    id: '2019-08-08 20:45:51 \x2b0800 CST',
+    title: 'AWS SSH Permission denied (publickey)',
     clientID: '2259f39afdd451aa1223',
     clientSecret: '64eaa58031a8b3360547a4dc69c9923d99bcce01',
     repo: 'zen-comments',

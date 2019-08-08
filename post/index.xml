@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
-    <lastBuildDate>Thu, 08 Aug 2019 20:01:13 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2019 20:45:51 +0800</lastBuildDate>
     
 	<atom:link href="https://evolution.cethink.tk/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS SSH Permission denied (publickey)</title>
+      <link>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</link>
+      <pubDate>Thu, 08 Aug 2019 20:45:51 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</guid>
+      <description>从命令行使用SSH登录AWS时报错 ssh -i &amp;quot;~/Documents/amazon.pem&amp;quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;quot;/home/wuu/Documents/amazon.pem&amp;quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命</description>
+    </item>
     
     <item>
       <title>Linux下pem转ppk</title>
