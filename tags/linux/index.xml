@@ -22,6 +22,33 @@
     </item>
     
     <item>
+      <title>navicat 12.1.12.0 linux crack</title>
+      <link>https://evolution.cethink.tk/post/2019/0125.navicat-12.1.12.0-linux-crack/</link>
+      <pubDate>Fri, 25 Jan 2019 10:48:44 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0125.navicat-12.1.12.0-linux-crack/</guid>
+      <description>下载地址：https://github.com/DoubleLabyrinth/navicat-keygen/releases 命令行执行 wine navicat-patcher.exe</description>
+    </item>
+    
+    <item>
+      <title>Linux下批量删除操作</title>
+      <link>https://evolution.cethink.tk/post/2018/1210.linux%E4%B8%8B%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Mon, 10 Dec 2018 20:23:33 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2018/1210.linux%E4%B8%8B%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C/</guid>
+      <description>一、批量删除目录 # 批量删除名为.git的目录 find ./ -type d -name &amp;quot;.git&amp;quot; -exec rm -rf {} \; 说明： ./ 为待查询的开始目录，从此目录开始搜索，包括本目录下的子目录 -type d 目标</description>
+    </item>
+    
+    <item>
+      <title>DeepinLinux下为electron安装sqlite3</title>
+      <link>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</link>
+      <pubDate>Sun, 30 Sep 2018 08:44:11 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</guid>
+      <description>https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项</description>
+    </item>
+    
+    <item>
       <title>Shadowsocks in Fedora</title>
       <link>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</link>
       <pubDate>Mon, 03 Nov 2014 20:44:40 +0800</pubDate>
