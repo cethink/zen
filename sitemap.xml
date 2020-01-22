@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/</loc>
+    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</loc>
     <lastmod>2019-08-08T20:45:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -375,7 +382,14 @@
   
   <url>
     <loc>https://evolution.cethink.tk/tags/deepin/</loc>
-    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
+    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/categories/deepin/</loc>
+    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -487,7 +501,7 @@
   
   <url>
     <loc>https://evolution.cethink.tk/post/</loc>
-    <lastmod>2019-08-08T20:45:51+08:00</lastmod>
+    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -662,7 +676,7 @@
   
   <url>
     <loc>https://evolution.cethink.tk/tags/linux/</loc>
-    <lastmod>2019-08-08T20:01:13+08:00</lastmod>
+    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

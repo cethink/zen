@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Deepin伪装Ubuntu</title>
+      <link>https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/</link>
+      <pubDate>Wed, 22 Jan 2020 20:37:30 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/</guid>
+      <description>首先使用add-apt-repository命令需要进行安装 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTemp</description>
+    </item>
+    
+    <item>
       <title>AWS SSH Permission denied (publickey)</title>
       <link>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</link>
       <pubDate>Thu, 08 Aug 2019 20:45:51 +0800</pubDate>
@@ -51,7 +60,7 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
     </item>
     
     <item>
-      <title>deepin下wireshark权限问题</title>
+      <title>Deepin下wireshark权限问题</title>
       <link>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</link>
       <pubDate>Thu, 21 Mar 2019 16:56:24 +0800</pubDate>
       

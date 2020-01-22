@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepin on 莫提时光</title>
+    <link>https://evolution.cethink.tk/categories/deepin/</link>
+    <description>Recent content in Deepin on 莫提时光</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>冒牌天神</copyright>
+    <lastBuildDate>Wed, 22 Jan 2020 20:37:30 +0800</lastBuildDate>
+    
+	<atom:link href="https://evolution.cethink.tk/categories/deepin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deepin伪装Ubuntu</title>
+      <link>https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/</link>
+      <pubDate>Wed, 22 Jan 2020 20:37:30 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/</guid>
+      <description>首先使用add-apt-repository命令需要进行安装 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTemp</description>
+    </item>
+    
+    <item>
+      <title>Deepin下wireshark权限问题</title>
+      <link>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 21 Mar 2019 16:56:24 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</guid>
+      <description>解决方法如下： 1.添加wireshark用户组 sudo groupadd wireshark 2.将dumpcap更改为wireshark用户组 sudo chgrp wireshark /usr/bin/dumpcap 3.让wireshark用户组</description>
+    </item>
+    
+    <item>
+      <title>DeepinLinux下为electron安装sqlite3</title>
+      <link>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</link>
+      <pubDate>Sun, 30 Sep 2018 08:44:11 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</guid>
+      <description>https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项</description>
+    </item>
+    
+  </channel>
+</rss>
