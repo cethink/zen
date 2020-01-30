@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/sqlite3/</link>
     <description>Recent content in sqlite3 on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Thu, 10 Jul 2014 21:03:43 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Thu, 10 Jul 2014 21:03:43 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
-      <description>官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 $ sqlite3 test.db 查看当前数据库 .databases 创建表，SQLite</description>
+      <description>官方文档首页 SQLite中的SQL语法 创建数据库，在终端中输入，没有创建，有则打开，同时进入命令行 1 $ sqlite3 test.db 查看当前数据库 1 .databases 创建表，SQLi</description>
     </item>
     
   </channel>

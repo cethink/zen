@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/wireshark/</link>
     <description>Recent content in wireshark on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Thu, 21 Mar 2019 16:56:24 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Thu, 21 Mar 2019 16:56:24 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</guid>
-      <description>解决方法如下： 1.添加wireshark用户组 sudo groupadd wireshark 2.将dumpcap更改为wireshark用户组 sudo chgrp wireshark /usr/bin/dumpcap 3.让wireshark用户组</description>
+      <description>解决方法如下： 1.添加wireshark用户组 1 sudo groupadd wireshark 2.将dumpcap更改为wireshark用户组 1 sudo chgrp wireshark /usr/bin/dumpcap 3.让wireshark用</description>
     </item>
     
   </channel>

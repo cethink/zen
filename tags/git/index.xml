@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/git/</link>
     <description>Recent content in Git on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sun, 02 Nov 2014 04:36:12 +0800</lastBuildDate>
     
@@ -27,7 +27,7 @@
       <pubDate>Fri, 11 Jul 2014 13:09:05 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</guid>
-      <description>参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &amp;#39;git submodule&amp;#39; # 查看</description>
+      <description>参考文档 将项目中的子目录转换为子模块，记得先备份文件 1 2 3 4 5 6 7 8 9 10 11 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交</description>
     </item>
     
     <item>

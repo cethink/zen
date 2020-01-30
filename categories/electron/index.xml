@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/categories/electron/</link>
     <description>Recent content in Electron on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Thu, 30 Jan 2020 15:52:31 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Thu, 30 Jan 2020 15:52:31 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</guid>
-      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包，修</description>
+      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 1 2 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sun, 30 Sep 2018 08:44:11 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</guid>
-      <description>https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项</description>
+      <description>https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 1 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Sun, 30 Sep 2018 07:42:33 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/</guid>
-      <description>无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false</description>
+      <description>无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 1 2 3 4 5 mainWindow = new BrowserWindow({ width:</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Fri, 28 Sep 2018 12:28:21 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/</guid>
-      <description>Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;#34;name&amp;#34;: &amp;#34;journal&amp;#34;, &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;main&amp;#34;: &amp;#34;index.js&amp;#34;, &amp;#34;scripts&amp;#34;:</description>
+      <description>Electron文档 1 2 3 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; 1 2 3 4 5 6 7</description>
     </item>
     
   </channel>

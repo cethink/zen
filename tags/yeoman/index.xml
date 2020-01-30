@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/yeoman/</link>
     <description>Recent content in Yeoman on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Wed, 16 Jul 2014 19:38:17 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Wed, 16 Jul 2014 19:38:17 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0716.%E4%BD%BF%E7%94%A8yeoman%E5%BC%80%E5%8F%91node-webkit%E7%A8%8B%E5%BA%8F/</guid>
-      <description>generator-node-webkit bower api#install sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-node-webkit mkdir nwapp cd nwapp yo node-webkit ## Yeoman Steps [?] What do you want to call your app? Allowed characters ^[a-zA-Z0-9]+$ Octoo [?] A little description for your app? Markdown Note based on node-webkit [?] Would you mind telling me your username on GitHub? mfkddcwy [?] Do you want to download latest node-webkit? No</description>
+      <description>generator-node-webkit bower api#install 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-node-webkit mkdir nwapp cd nwapp yo node-webkit ## Yeoman Steps [?] What do you want to call your app? Allowed characters ^[a-zA-Z0-9]+$ Octoo [?] A little description for your</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 16 Jul 2014 16:52:08 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0716.yeoman%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/</guid>
-      <description>OS: Fedora 20 参考 http://yeoman.io/learning/index.html 命令 sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-webapp mkdir yeoman cd yeoman yo webapp bower install &amp;amp; npm install grunt serve</description>
+      <description>OS: Fedora 20 参考 http://yeoman.io/learning/index.html 命令 1 2 3 4 5 6 7 8 9 sudo npm install -g yo bower grunt-cli gulp sudo npm install -g generator-webapp mkdir yeoman cd yeoman yo webapp bower install &amp;amp; npm install grunt serve</description>
     </item>
     
   </channel>

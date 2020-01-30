@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/shadowsocks/</link>
     <description>Recent content in Shadowsocks on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Fri, 21 Sep 2018 17:49:54 +0800</lastBuildDate>
     
@@ -27,7 +27,7 @@
       <pubDate>Mon, 03 Nov 2014 20:44:40 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/</guid>
-      <description>使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password</description>
+      <description>使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit</description>
     </item>
     
     <item>

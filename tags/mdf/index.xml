@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/mdf/</link>
     <description>Recent content in mdf on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sat, 23 Mar 2019 16:50:54 +0800</lastBuildDate>
     
@@ -19,8 +19,8 @@
       
       <guid>https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/</guid>
       <description>https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &amp;#39;/home/wuu/CSharp/Timeless.mdf&amp;#39;), (FILENAME = &amp;#39;/home/wuu/CSharp/Timeless_log.ldf&amp;#39;) FOR ATTACH; https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
-EXEC sp_detach_db &amp;#39;AdventureWorks2012&amp;#39;, &amp;#39;true&amp;#39;; </description>
+1 2 3 4  CREATE DATABASE Timeless ON (FILENAME = &amp;#39;/home/wuu/CSharp/Timeless.mdf&amp;#39;), (FILENAME = &amp;#39;/home/wuu/CSharp/Timeless_log.ldf&amp;#39;) FOR ATTACH;   https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+1  EXEC sp_detach_db &amp;#39;AdventureWorks2012&amp;#39;, &amp;#39;true&amp;#39;;   </description>
     </item>
     
   </channel>

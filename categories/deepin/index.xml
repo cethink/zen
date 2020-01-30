@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/categories/deepin/</link>
     <description>Recent content in Deepin on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Thu, 30 Jan 2020 15:52:31 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Thu, 30 Jan 2020 15:52:31 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</guid>
-      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包，修</description>
+      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 1 2 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 22 Jan 2020 20:37:30 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/</guid>
-      <description>首先使用add-apt-repository命令需要进行安装 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTemp</description>
+      <description>首先使用add-apt-repository命令需要进行安装 1 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTem</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Thu, 21 Mar 2019 16:56:24 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2019/0321.deepin%E4%B8%8Bwireshark%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</guid>
-      <description>解决方法如下： 1.添加wireshark用户组 sudo groupadd wireshark 2.将dumpcap更改为wireshark用户组 sudo chgrp wireshark /usr/bin/dumpcap 3.让wireshark用户组</description>
+      <description>解决方法如下： 1.添加wireshark用户组 1 sudo groupadd wireshark 2.将dumpcap更改为wireshark用户组 1 sudo chgrp wireshark /usr/bin/dumpcap 3.让wireshark用</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Sun, 30 Sep 2018 08:44:11 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/</guid>
-      <description>https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项</description>
+      <description>https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 1 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在</description>
     </item>
     
   </channel>

@@ -16,21 +16,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="夏末" />
-  <meta name="description" content="从命令行使用SSH登录AWS时报错 ssh -i &amp;quot;~/Documents/amazon.pem&amp;quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;quot;/home/wuu/Documents/amazon.pem&amp;quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命" />
-
-  <meta name="keywords" content="blog, evolution, zen" />
+<meta name="author" content="夏末" /><meta name="description" content="从命令行使用SSH登录AWS时报错 1 2 3 4 5 6 7 8 9 10 ssh -i &amp;#34;~/Documents/amazon.pem&amp;#34; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &amp;#39;/home/wuu/Documents/amazon.pem&amp;#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;#34;/home/wuu/Documents/amazon.pem&amp;#34;: bad" /><meta name="keywords" content="blog, evolution, zen" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.63.2 with theme even" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,34 +34,27 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-
-
-
-
-
-<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
-<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 <meta property="og:title" content="AWS SSH Permission denied (publickey)" />
-<meta property="og:description" content="从命令行使用SSH登录AWS时报错 ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命" />
+<meta property="og:description" content="从命令行使用SSH登录AWS时报错 1 2 3 4 5 6 7 8 9 10 ssh -i &#34;~/Documents/amazon.pem&#34; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &#34;/home/wuu/Documents/amazon.pem&#34;: bad" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/" />
 <meta property="article:published_time" content="2019-08-08T20:45:51+08:00" />
 <meta property="article:modified_time" content="2019-08-08T20:45:51+08:00" />
 <meta itemprop="name" content="AWS SSH Permission denied (publickey)">
-<meta itemprop="description" content="从命令行使用SSH登录AWS时报错 ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命">
+<meta itemprop="description" content="从命令行使用SSH登录AWS时报错 1 2 3 4 5 6 7 8 9 10 ssh -i &#34;~/Documents/amazon.pem&#34; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &#34;/home/wuu/Documents/amazon.pem&#34;: bad">
 <meta itemprop="datePublished" content="2019-08-08T20:45:51&#43;08:00" />
 <meta itemprop="dateModified" content="2019-08-08T20:45:51&#43;08:00" />
-<meta itemprop="wordCount" content="76">
+<meta itemprop="wordCount" content="87">
 
 
 
 <meta itemprop="keywords" content="AWS,SSH," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="AWS SSH Permission denied (publickey)"/>
-<meta name="twitter:description" content="从命令行使用SSH登录AWS时报错 ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命"/>
+<meta name="twitter:description" content="从命令行使用SSH登录AWS时报错 1 2 3 4 5 6 7 8 9 10 ssh -i &#34;~/Documents/amazon.pem&#34; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &#34;/home/wuu/Documents/amazon.pem&#34;: bad"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -137,44 +126,58 @@
       <div class="post-meta">
         <span class="post-time"> 2019-08-08 </span>
         
-        <span class="more-meta"> 约 76 字 </span>
-        <span class="more-meta"> 预计阅读 1 分钟 </span>
+          <span class="more-meta"> 约 87 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
     </header>
 
-    
-    
-<div class="post-toc" id="post-toc">
+    <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
-  
-  <div class="post-toc-content always-active">
+  <div class="post-toc-content">
     <nav id="TableOfContents"></nav>
   </div>
 </div>
-
-    
-    
-
-    
     <div class="post-content">
       <p>从命令行使用SSH登录AWS时报错</p>
-<pre><code>ssh -i &quot;~/Documents/amazon.pem&quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">ssh -i &#34;~/Documents/amazon.pem&#34; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-Permissions 0644 for '/home/wuu/Documents/amazon.pem' are too open.
+Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open.
 It is required that your private key files are NOT accessible by others.
 This private key will be ignored.
-Load key &quot;/home/wuu/Documents/amazon.pem&quot;: bad permissions
+Load key &#34;/home/wuu/Documents/amazon.pem&#34;: bad permissions
 ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey).
-</code></pre><p>执行如下命令即可</p>
-<pre><code>chmod 400 amazon.pem
-</code></pre>
+</code></pre></td></tr></table>
+</div>
+</div><p>执行如下命令即可</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">chmod 400 amazon.pem
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
-    
     <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
@@ -182,51 +185,40 @@ ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (pub
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2019-08-08</span>
+    <span class="item-content">
+        2019-08-08
+        
+    </span>
   </p>
   
   
 </div>
-
-    
-    
 <div class="post-reward">
   <input type="checkbox" name="reward" id="reward" hidden />
   <label class="reward-button" for="reward">赞赏支持</label>
   <div class="qr-code">
     
-    
-      <label class="qr-code-image" for="reward">
+    <label class="qr-code-image" for="reward">
         <img class="image" src="/wechatpay.png">
         <span>微信打赏</span>
       </label>
-    
-      <label class="qr-code-image" for="reward">
+    <label class="qr-code-image" for="reward">
         <img class="image" src="/alipay5.png">
         <span>支付宝打赏</span>
       </label>
   </div>
-</div>
-
-    <footer class="post-footer">
+</div><footer class="post-footer">
       <div class="post-tags">
-          
           <a href="/tags/aws/">AWS</a>
-          
           <a href="/tags/ssh/">SSH</a>
-          
-        </div>
-
-      
+          </div>
       <nav class="post-nav">
-        
-          <a class="prev" href="/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/">
+        <a class="prev" href="/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">Deepin伪装Ubuntu</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        
-          <a class="next" href="/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/">
+        <a class="next" href="/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/">
             <span class="next-text nav-default">Linux下pem转ppk</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
@@ -235,26 +227,27 @@ ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (pub
     </footer>
   </article>
         </div>
-        
+        <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var gitalk = new Gitalk({
+        id: '2019-08-08 20:45:51 \x2b0800 CST',
+        title: 'AWS SSH Permission denied (publickey)',
+        clientID: '2259f39afdd451aa1223',
+        clientSecret: '64eaa58031a8b3360547a4dc69c9923d99bcce01',
+        repo: 'zen-comments',
+        owner: 'cethink',
+        admin: ['cethink'],
+        body: decodeURI(location.href)
+      });
+      gitalk.render('gitalk-container');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+
   
 
-  <div id="gitalk-container"></div>
-  <link rel="stylesheet" href="/lib/gitalk/gitalk-1.2.2.min.css">
-    <script src="/lib/gitalk/gitalk-1.2.2.min.js"></script>
-  <script type="text/javascript">
-  var gitalk = new Gitalk({
-    id: '2019-08-08 20:45:51 \x2b0800 CST',
-    title: 'AWS SSH Permission denied (publickey)',
-    clientID: '2259f39afdd451aa1223',
-    clientSecret: '64eaa58031a8b3360547a4dc69c9923d99bcce01',
-    repo: 'zen-comments',
-    owner: 'cethink',
-    admin: ['cethink'],
-    body: decodeURI(location.href)
-  });
-  gitalk.render('gitalk-container');
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+  
 
       </div>
     </main>
@@ -281,8 +274,7 @@ ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (pub
 
   <span class="copyright-year">
     &copy; 
-    
-      2014 - 
+    2014 - 
     2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
@@ -297,30 +289,19 @@ ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (pub
     </div>
   </div>
   
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
-  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
-
-
-<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
   <script type="text/javascript">
     window.MathJax = {
       showProcessingMessages: false,
       messageStyle: 'none'
     };
   </script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
-<script id="baidu_analytics">
-  var _hmt = _hmt || [];
-  (function() {
-    if (window.location.hostname === 'localhost') return;
-    var hm = document.createElement("script"); hm.async = true;
-    hm.src = "https://hm.baidu.com/hm.js?388d579d8c736a7dc6988d03679abf85";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
-</script>
+
 
 
 

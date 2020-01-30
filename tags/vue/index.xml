@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/vue/</link>
     <description>Recent content in vue on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Thu, 27 Sep 2018 11:33:39 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Thu, 27 Sep 2018 11:33:39 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0927.vuido%E5%BC%80%E5%8F%91/</guid>
-      <description>Vuido, a framework for creating native desktop applications using Vue.js. 官网：https://vuido.mimec.org/ 开发环境：DeepinLinux 先安装系统依赖 sudo apt install build-essential libgtk-3-dev 全局安装 npm</description>
+      <description>Vuido, a framework for creating native desktop applications using Vue.js. 官网：https://vuido.mimec.org/ 开发环境：DeepinLinux 先安装系统依赖 1 sudo apt install build-essential libgtk-3-dev 全局安装</description>
     </item>
     
   </channel>

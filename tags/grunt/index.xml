@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/grunt/</link>
     <description>Recent content in Grunt on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Tue, 22 Jul 2014 18:20:02 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Tue, 22 Jul 2014 18:20:02 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</guid>
-      <description>Getting started 安装命令行工具 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是Gr</description>
+      <description>Getting started 安装命令行工具 1 sudo npm install -g grunt-cli Grunt：任务自动管理工具 关于Grunt，从一个简单的配置开始！ Grunt让Nodejs规范起来 一个几乎是G</description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/ftp/</link>
     <description>Recent content in FTP on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Tue, 04 Nov 2014 17:34:42 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Tue, 04 Nov 2014 17:34:42 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/1104.connecting-to-azure-website-via-ftp/</guid>
-      <description>http://weblogs.asp.net/bleroy/azure-web-sites-ftp-credentials 仪表板 -&amp;gt; 速览 -&amp;gt; 下载发布配置文件 &amp;lt;publishData&amp;gt; &amp;lt;publishProfile profileName=&amp;#34;nameofyoursite - Web Deploy&amp;#34; publishMethod=&amp;#34;MSDeploy&amp;#34; publishUrl=&amp;#34;waws-prod-blu-001.publish.azurewebsites.windows.net:443&amp;#34; msdeploySite=&amp;#34;nameofyoursite&amp;#34; userName=&amp;#34;$NameOfYourSite&amp;#34; userPWD=&amp;#34;sOmeCrYPTicL00kIngStr1nG&amp;#34; destinationAppUrl=&amp;#34;http://nameofyoursite.azurewebsites.net&amp;#34; SQLServerDBConnectionString=&amp;#34;&amp;#34; mySQLDBConnectionString=&amp;#34;&amp;#34; hostingProviderForumLink=&amp;#34;&amp;#34; controlPanelLink=&amp;#34;http://windows.azure.com&amp;#34;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;publishProfile profileName=&amp;#34;nameofyoursite - FTP&amp;#34; publishMethod=&amp;#34;FTP&amp;#34; publishUrl=&amp;#34;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;#34; ftpPassiveMode=&amp;#34;True&amp;#34; userName=&amp;#34;nameofyoursite\$nameofyoursite&amp;#34; userPWD=&amp;#34;sOmeCrYPTicL00kIngStr1nG&amp;#34; destinationAppUrl=&amp;#34;http://nameofyoursite.azurewebsites.net&amp;#34; SQLServerDBConnectionString=&amp;#34;&amp;#34; mySQLDBConnectionString=&amp;#34;&amp;#34; hostingProviderForumLink=&amp;#34;&amp;#34; controlPanelLink=&amp;#34;http://windows.azure.com&amp;#34;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;/publishData&amp;gt; 使用这三个数据即可 publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot;</description>
+      <description>http://weblogs.asp.net/bleroy/azure-web-sites-ftp-credentials 仪表板 -&amp;gt; 速览 -&amp;gt; 下载发布配置文件 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 &amp;lt;publishData&amp;gt; &amp;lt;publishProfile profileName=&amp;#34;nameofyoursite - Web Deploy&amp;#34; publishMethod=&amp;#34;MSDeploy&amp;#34; publishUrl=&amp;#34;waws-prod-blu-001.publish.azurewebsites.windows.net:443&amp;#34; msdeploySite=&amp;#34;nameofyoursite&amp;#34; userName=&amp;#34;$NameOfYourSite&amp;#34; userPWD=&amp;#34;sOmeCrYPTicL00kIngStr1nG&amp;#34; destinationAppUrl=&amp;#34;http://nameofyoursite.azurewebsites.net&amp;#34; SQLServerDBConnectionString=&amp;#34;&amp;#34; mySQLDBConnectionString=&amp;#34;&amp;#34; hostingProviderForumLink=&amp;#34;&amp;#34; controlPanelLink=&amp;#34;http://windows.azure.com&amp;#34;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;publishProfile profileName=&amp;#34;nameofyoursite - FTP&amp;#34; publishMethod=&amp;#34;FTP&amp;#34; publishUrl=&amp;#34;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;#34;</description>
     </item>
     
   </channel>

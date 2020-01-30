@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/aws/</link>
     <description>Recent content in AWS on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Thu, 08 Aug 2019 20:45:51 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Thu, 08 Aug 2019 20:45:51 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</guid>
-      <description>从命令行使用SSH登录AWS时报错 ssh -i &amp;quot;~/Documents/amazon.pem&amp;quot; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &#39;/home/wuu/Documents/amazon.pem&#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;quot;/home/wuu/Documents/amazon.pem&amp;quot;: bad permissions ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com: Permission denied (publickey). 执行如下命</description>
+      <description>从命令行使用SSH登录AWS时报错 1 2 3 4 5 6 7 8 9 10 ssh -i &amp;#34;~/Documents/amazon.pem&amp;#34; ubuntu@ec2-54-241-133-58.us-west-1.compute.amazonaws.com @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0644 for &amp;#39;/home/wuu/Documents/amazon.pem&amp;#39; are too open. It is required that your private key files are NOT accessible by others. This private key will be ignored. Load key &amp;#34;/home/wuu/Documents/amazon.pem&amp;#34;: bad</description>
     </item>
     
   </channel>

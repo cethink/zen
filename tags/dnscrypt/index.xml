@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/dnscrypt/</link>
     <description>Recent content in DNSCrypt on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Sat, 12 Jul 2014 01:07:40 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Sat, 12 Jul 2014 01:07:40 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</guid>
-      <description>OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html $ ./configure $ make &amp;amp;&amp;amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation $ ./configure --host=i686 $ make &amp;amp;&amp;amp; make check $ make install 修改DNS $ sudo kate /etc/resolv.conf # 替换为下面内容 # nameserver 127.0.0.1 这个文件</description>
+      <description>OS: Fedora 20 DNSCrypt项目 https://github.com/jedisct1/dnscrypt-proxy 下载 安装依赖 libsodium, http://doc.libsodium.org/installation/README.html 1 2 3 $ ./configure $ make &amp;amp;&amp;amp; make check $ make install 安装 https://github.com/jedisct1/dnscrypt-proxy#installation 1 2 3 $ ./configure --host=i686 $ make &amp;amp;&amp;amp; make check $ make install 修改DNS 1 2 3 $ sudo kate /etc/resolv.conf # 替换为下面</description>
     </item>
     
   </channel>

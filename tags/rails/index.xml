@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/rails/</link>
     <description>Recent content in Rails on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Fri, 12 Sep 2014 04:10:51 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Fri, 12 Sep 2014 04:10:51 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0912.ruby-on-rails/</guid>
-      <description>安装ruby sudo yum install ruby ruby-devel ruby -v #ruby 2.0.0p353 (2013-11-22 revision 43784) [i386-linux] 更新gem sudo gem update --system gem -v #2.4.1 安装rails gem install rails --no-ri --no-rdoc #27 gems installed rails -v #Rails 4.1.6 新建项目 rails new app/dir cd app/dir rails server 访问 http://0.0.0.0:3000/</description>
+      <description>安装ruby 1 2 3 4 sudo yum install ruby ruby-devel ruby -v #ruby 2.0.0p353 (2013-11-22 revision 43784) [i386-linux] 更新gem 1 2 3 4 sudo gem update --system gem -v #2.4.1 安装rails 1 2 3 4 5 6 7 gem install rails --no-ri --no-rdoc #27 gems installed rails -v #Rails 4.1.6 新建项目 1</description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/mysql/</link>
     <description>Recent content in mysql on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Wed, 30 Jan 2019 16:23:03 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Wed, 30 Jan 2019 16:23:03 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2019/0130.error-1045-28000-access-denied-for-user-rootlocalhost-using-password-no/</guid>
-      <description>在deepin下安装完mysql后登陆时没有密码，出现如下提示： ERROR 1045 (28000): Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: NO) 使用sudo可以不要密码进入 sudo mysql -u root -p 进入mysql命</description>
+      <description>在deepin下安装完mysql后登陆时没有密码，出现如下提示： 1 ERROR 1045 (28000): Access denied for user &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; (using password: NO) 使用sudo可以不要密码进入 1 sudo mysql -u root -p 进入mysq</description>
     </item>
     
   </channel>

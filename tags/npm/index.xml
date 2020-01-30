@@ -5,7 +5,7 @@
     <link>https://evolution.cethink.tk/tags/npm/</link>
     <description>Recent content in npm on 莫提时光</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>冒牌天神</copyright>
     <lastBuildDate>Fri, 20 Mar 2015 20:09:25 +0800</lastBuildDate>
     
@@ -18,7 +18,7 @@
       <pubDate>Fri, 20 Mar 2015 20:09:25 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</guid>
-      <description>安装 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash 重新打开命令行使用nvm nvm --version 0.24.0 在.bashrc添加镜像服务器 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/dist 重新登陆一下 查看可安装nodejs nvm ls-remote nvm install v0.12.0 查看安装路径 nvm which v0.12.0 查</description>
+      <description>安装 1 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash 重新打开命令行使用nvm 1 2 nvm --version 0.24.0 在.bashrc添加镜像服务器 1 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/dist 重新登陆一下 查看可安装nodejs 1 2 nvm ls-remote nvm install v0.12.0 查看安装</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sun, 11 Jan 2015 20:28:10 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2015/0111.%E4%BD%BF%E7%94%A8%E6%B7%98%E5%AE%9Dnpm%E9%95%9C%E5%83%8F/</guid>
-      <description>http://npm.taobao.org/ 这是一个完整npmjs.org镜像，你可以用此代替官方版本(只读)。 安装nodejs node -v v0.10.36 Win8.1下添加安装目录到当 前用户环境变量，否</description>
+      <description>http://npm.taobao.org/ 这是一个完整npmjs.org镜像，你可以用此代替官方版本(只读)。 安装nodejs 1 2 node -v v0.10.36 Win8.1下添加安装目录到当 前用户环境变量</description>
     </item>
     
     <item>
