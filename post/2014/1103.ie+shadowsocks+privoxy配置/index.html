@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/" />
-<meta property="article:published_time" content="2014-11-03T13:14:33&#43;08:00"/>
-<meta property="article:modified_time" content="2014-11-03T13:14:33&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-11-03T13:14:33+08:00" />
+<meta property="article:modified_time" content="2014-11-03T13:14:33+08:00" />
 <meta itemprop="name" content="IE&#43;Shadowsocks&#43;Privoxy配置">
 <meta itemprop="description" content="IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给">
-
-
 <meta itemprop="datePublished" content="2014-11-03T13:14:33&#43;08:00" />
 <meta itemprop="dateModified" content="2014-11-03T13:14:33&#43;08:00" />
 <meta itemprop="wordCount" content="760">
 
 
 
-<meta itemprop="keywords" content="Privoxy,Shadowsocks,COW," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Privoxy,Shadowsocks,COW," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="IE&#43;Shadowsocks&#43;Privoxy配置"/>
 <meta name="twitter:description" content="IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给"/>
 
@@ -154,16 +150,14 @@
   
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#config-txt">config.txt</a></li>
-<li><a href="#proxy-action">proxy.action</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#configtxt">config.txt</a></li>
+        <li><a href="#proxyaction">proxy.action</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -173,43 +167,29 @@
 
     
     <div class="post-content">
-      
-
-<p>IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给http代理privoxy，privoxy在将请求转发给socks代理，socks代理访问的internet。</p>
-
+      <p>IE没有代理自动匹配的功能，且不支持socks 5，使用shadowsocks代理之后需要用privoxy之类的工具转发。原理是浏览器请求发给http代理privoxy，privoxy在将请求转发给socks代理，socks代理访问的internet。</p>
 <p>在windows8.1下安装完成后，设置为以管理员权限启动，不然可能无法修改配置文件。</p>
-
 <p>在线管理
 <a href="http://config.privoxy.org/">http://config.privoxy.org/</a></p>
-
-<h3 id="config-txt">config.txt</h3>
-
+<h3 id="configtxt">config.txt</h3>
 <p>更改配置文件目录，可以放到同步盘中
 <code>confdir D:\Privoxy</code></p>
-
 <p>不要启用这一文件，不然可能什么都看不到
 <code>#trustfile trust.txt</code></p>
-
 <p>默认监听，将IE的代理改为这个
 <code>listen-address  127.0.0.1:8118</code></p>
-
 <p>启用，将0改为1，可以在线编辑模式
 <code>enable-edit-actions 1</code></p>
-
 <p>可以在forward-socks5这一节配置下面添加一句，全部走shadowsocks代理
 <code>forward-socks5  /  127.0.0.1:1080  .</code></p>
-
 <blockquote>
 <p>forward-socks5 表示使用父代理了，这个代理是 SOCKS5 代理。
 / 表示转发地址开头是 / 的请求，因为 http 的 header 中地址肯定开头是 /，它是部分匹配，所以这个 / 就表示所有 http 数据了。
 127.0.0.1:1080 这个就是父代理的地址。
 最后那个点，意思是父代理直接处理数据了。如果不是点而是个代理地址，那么父代理要把数据再转发到这个代理地址，这样组成一个代理链，穿过N层，防跨省必修技术！</p>
 </blockquote>
-
 <p>但这样即使国内的网站也会走代理，会变慢，可以使用action pattern文件来配置</p>
-
-<h3 id="proxy-action">proxy.action</h3>
-
+<h3 id="proxyaction">proxy.action</h3>
 <pre><code>{{alias}}
 direct = +forward-override{forward .}
 shadowsocks = +forward-override{forward-socks5 127.0.0.1:1080 .}
@@ -226,21 +206,14 @@ shadowsocks = +forward-override{forward-socks5 127.0.0.1:1080 .}
 .twimg.com
 .blogspot.com
 </code></pre>
-
 <p>可以在下面的地址管理
 <a href="http://config.privoxy.org/show-status">http://config.privoxy.org/show-status</a></p>
-
 <p>但似乎IE使用了代理之后，OneNote和Store就连不上网了，再研究</p>
-
-<p><a href="http://qixinglu.com/post/powerful_filter_proxy_privoxy.html">http://qixinglu.com/post/powerful_filter_proxy_privoxy.html</a><br />
+<p><a href="http://qixinglu.com/post/powerful_filter_proxy_privoxy.html">http://qixinglu.com/post/powerful_filter_proxy_privoxy.html</a><br>
 <a href="http://www.privoxy.org/user-manual/actions-file.html">http://www.privoxy.org/user-manual/actions-file.html</a></p>
-
-<hr />
-
+<hr>
 <p>更新，使用COW代理，内置了Shadowsocks支持，智能分析代理，有时会有点问题。</p>
-
 <p><a href="https://github.com/cyfdecyf/cow">https://github.com/cyfdecyf/cow</a></p>
-
 <pre><code>#开头的行是注释，会被忽略
 # 本地 HTTP 代理地址
 # 配置 HTTP 和 HTTPS 代理时请填入该地址
@@ -257,7 +230,6 @@ proxy = ss://aes-128-cfb:password@1.2.3.4:8388
 # cow 二级代理
 proxy = cow://aes-128-cfb:password@1.2.3.4:8388
 </code></pre>
-
 <p>访问<code>localhost</code>时有点问题，将<code>localhost;127.0.0.1;0.0.0.0</code>添加到例外站点。</p>
 
     </div>

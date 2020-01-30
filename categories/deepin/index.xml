@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deepin on 莫提时光</title>
@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
-    <lastBuildDate>Wed, 22 Jan 2020 20:37:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 15:52:31 +0800</lastBuildDate>
     
 	<atom:link href="https://evolution.cethink.tk/categories/deepin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Electron安装卡在node Install</title>
+      <link>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</link>
+      <pubDate>Thu, 30 Jan 2020 15:52:31 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</guid>
+      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包，修</description>
+    </item>
     
     <item>
       <title>Deepin伪装Ubuntu</title>

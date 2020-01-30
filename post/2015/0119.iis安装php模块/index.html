@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="IIS 8.5 &#43; PHP 5.6.5 PHP下载 选择NTS_VC11版，安装依赖Visual C&#43;&#43; Redistributable for Visual Studio 2012 Update 4。 将下载文件解压到C盘根目录，如C:\php。复制文件php" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/" />
-<meta property="article:published_time" content="2015-01-19T03:41:07&#43;08:00"/>
-<meta property="article:modified_time" content="2015-01-19T03:41:07&#43;08:00"/>
-
+<meta property="article:published_time" content="2015-01-19T03:41:07+08:00" />
+<meta property="article:modified_time" content="2015-01-19T03:41:07+08:00" />
 <meta itemprop="name" content="IIS安装PHP模块">
 <meta itemprop="description" content="IIS 8.5 &#43; PHP 5.6.5 PHP下载 选择NTS_VC11版，安装依赖Visual C&#43;&#43; Redistributable for Visual Studio 2012 Update 4。 将下载文件解压到C盘根目录，如C:\php。复制文件php">
-
-
 <meta itemprop="datePublished" content="2015-01-19T03:41:07&#43;08:00" />
 <meta itemprop="dateModified" content="2015-01-19T03:41:07&#43;08:00" />
 <meta itemprop="wordCount" content="319">
 
 
 
-<meta itemprop="keywords" content="IIS,PHP,KODExplorer," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="IIS,PHP,KODExplorer," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="IIS安装PHP模块"/>
 <meta name="twitter:description" content="IIS 8.5 &#43; PHP 5.6.5 PHP下载 选择NTS_VC11版，安装依赖Visual C&#43;&#43; Redistributable for Visual Studio 2012 Update 4。 将下载文件解压到C盘根目录，如C:\php。复制文件php"/>
 
@@ -154,22 +150,13 @@
   
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#修改-php-ini-配置">修改<code>php.ini</code>配置</a></li>
-<li><a href="#配置iis支持php">配置IIS支持PHP</a></li>
-<li><a href="#其他">其他</a></li>
-<li><a href="#参考">参考</a></li>
-<li><a href="#一个php云端桌面">一个PHP云端桌面</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -179,53 +166,36 @@
 
     
     <div class="post-content">
-      
-
-<p><em>IIS 8.5 + PHP 5.6.5</em></p>
-
+      <p><em>IIS 8.5 + PHP 5.6.5</em></p>
 <p><a href="http://windows.php.net/download/">PHP下载</a></p>
-
 <p>选择NTS_VC11版，安装依赖<a href="http://www.microsoft.com/en-us/download/details.aspx?id=30679">Visual C++ Redistributable for Visual Studio 2012 Update 4</a>。</p>
-
 <p>将下载文件解压到C盘根目录，如<code>C:\php</code>。复制文件<code>php.ini-development</code>并改名为<code>php.ini</code>。</p>
+<h4 id="修改phpini配置">修改<code>php.ini</code>配置</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#75715e">; 拓展目录</span>
+<span style="color:#a6e22e">extension_dir</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;C:\php\ext&#34;</span>
 
-<h4 id="修改-php-ini-配置">修改<code>php.ini</code>配置</h4>
+<span style="color:#75715e">; http://php.net/manual/en/timezones.asia.php</span>
+<span style="color:#a6e22e">date.timezone</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Asia/Shanghai&#34;</span>
 
-<pre><code class="language-ini">; 拓展目录
-extension_dir = &quot;C:\php\ext&quot;
-
-; http://php.net/manual/en/timezones.asia.php
-date.timezone = &quot;Asia/Shanghai&quot;
-
-; 启用拓展
-extension=php_gd2.dll
-extension=php_mbstring.dll
-extension=php_mysql.dll
-extension=php_pdo_mysql.dll
-</code></pre>
-
-<h4 id="配置iis支持php">配置IIS支持PHP</h4>
-
+<span style="color:#75715e">; 启用拓展</span>
+<span style="color:#a6e22e">extension</span><span style="color:#f92672">=</span><span style="color:#e6db74">php_gd2.dll</span>
+<span style="color:#a6e22e">extension</span><span style="color:#f92672">=</span><span style="color:#e6db74">php_mbstring.dll</span>
+<span style="color:#a6e22e">extension</span><span style="color:#f92672">=</span><span style="color:#e6db74">php_mysql.dll</span>
+<span style="color:#a6e22e">extension</span><span style="color:#f92672">=</span><span style="color:#e6db74">php_pdo_mysql.dll</span>
+</code></pre></div><h4 id="配置iis支持php">配置IIS支持PHP</h4>
 <p>在Internet信息服务(IIS)管理器中，选择“处理程序映射”双击，最右边选择“添加模块映射”。
 请求路径：<code>*.php</code>
 模块：<code>FastCgiModule</code>
 可执行文件：<code>C:\php\php-cgi.exe</code>
 名称：<code>PHP</code>
 确定，完成。</p>
-
 <p>添加默认文档：<code>default.php</code>和<code>index.php</code>。</p>
-
 <h4 id="其他">其他</h4>
-
 <p>还可以使用<a href="http://jingyan.baidu.com/article/cdddd41c5f1d3053cb00e109.html">phpStudy</a>这个一键安装包。</p>
-
 <h4 id="参考">参考</h4>
-
-<p><a href="http://www.myhack58.com/Article/sort099/sort0100/2012/35576.htm">http://www.myhack58.com/Article/sort099/sort0100/2012/35576.htm</a><br />
+<p><a href="http://www.myhack58.com/Article/sort099/sort0100/2012/35576.htm">http://www.myhack58.com/Article/sort099/sort0100/2012/35576.htm</a><br>
 <a href="http://www.111cn.net/sys/Windows/57728.htmhttp://www.111cn.net/sys/Windows/57728.htm">http://www.111cn.net/sys/Windows/57728.htmhttp://www.111cn.net/sys/Windows/57728.htm</a></p>
-
 <h4 id="一个php云端桌面">一个PHP云端桌面</h4>
-
 <p><a href="http://git.oschina.net/kalcaddle/KODExplorer">http://git.oschina.net/kalcaddle/KODExplorer</a></p>
 
     </div>

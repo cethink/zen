@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2018/0930.electorn%E5%AE%89%E8%A3%85sqlite3/" />
-<meta property="article:published_time" content="2018-09-30T08:44:11&#43;08:00"/>
-<meta property="article:modified_time" content="2018-09-30T08:44:11&#43;08:00"/>
-
+<meta property="article:published_time" content="2018-09-30T08:44:11+08:00" />
+<meta property="article:modified_time" content="2018-09-30T08:44:11+08:00" />
 <meta itemprop="name" content="DeepinLinux下为electron安装sqlite3">
 <meta itemprop="description" content="https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项">
-
-
 <meta itemprop="datePublished" content="2018-09-30T08:44:11&#43;08:00" />
 <meta itemprop="dateModified" content="2018-09-30T08:44:11&#43;08:00" />
 <meta itemprop="wordCount" content="109">
 
 
 
-<meta itemprop="keywords" content="electron,node-sqlite3,Deepin,linux," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="electron,node-sqlite3,Deepin,linux," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="DeepinLinux下为electron安装sqlite3"/>
 <meta name="twitter:description" content="https://newsn.net/say/electron-install-sqlite3.html 一行命令，从源码编译安装 npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save --target为electron的版本号。 不添加--dist-url参数会报错，但我原先已经在项"/>
 
@@ -159,7 +155,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -169,13 +165,9 @@
     
     <div class="post-content">
       <p><a href="https://newsn.net/say/electron-install-sqlite3.html">https://newsn.net/say/electron-install-sqlite3.html</a></p>
-
 <p>一行命令，从源码编译安装</p>
-
-<pre><code class="language-bash">npm install sqlite3@latest --build-from-source --runtime=electron --target=3.0.1 --dist-url=https://atom.io/download/electron --save
-</code></pre>
-
-<blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm install sqlite3@latest --build-from-source --runtime<span style="color:#f92672">=</span>electron --target<span style="color:#f92672">=</span>3.0.1 --dist-url<span style="color:#f92672">=</span>https://atom.io/download/electron --save
+</code></pre></div><blockquote>
 <p><code>--target</code>为electron的版本号。
 不添加<code>--dist-url</code>参数会报错，但我原先已经在项目中通过<code>npm install electron --save-dev</code>安装过electron了，所以无法验证。</p>
 </blockquote>

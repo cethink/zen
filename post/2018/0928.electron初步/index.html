@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="夏末" />
-  <meta name="description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;quot;name&amp;quot;: &amp;quot;journal&amp;quot;, &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;, &amp;quot;description&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;main&amp;quot;: &amp;quot;index.js&amp;quot;, &amp;quot;scripts&amp;quot;:" />
+  <meta name="description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;#34;name&amp;#34;: &amp;#34;journal&amp;#34;, &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;main&amp;#34;: &amp;#34;index.js&amp;#34;, &amp;#34;scripts&amp;#34;:" />
 
   <meta name="keywords" content="blog, evolution, zen" />
 
@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/" />
@@ -50,26 +50,22 @@
 
 
 <meta property="og:title" content="Electron初步" />
-<meta property="og:description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &quot;name&quot;: &quot;journal&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;:" />
+<meta property="og:description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &#34;name&#34;: &#34;journal&#34;, &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/" />
-<meta property="article:published_time" content="2018-09-28T12:28:21&#43;08:00"/>
-<meta property="article:modified_time" content="2018-09-28T12:28:21&#43;08:00"/>
-
+<meta property="article:published_time" content="2018-09-28T12:28:21+08:00" />
+<meta property="article:modified_time" content="2018-09-28T12:28:21+08:00" />
 <meta itemprop="name" content="Electron初步">
-<meta itemprop="description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &quot;name&quot;: &quot;journal&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;:">
-
-
+<meta itemprop="description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &#34;name&#34;: &#34;journal&#34;, &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;:">
 <meta itemprop="datePublished" content="2018-09-28T12:28:21&#43;08:00" />
 <meta itemprop="dateModified" content="2018-09-28T12:28:21&#43;08:00" />
 <meta itemprop="wordCount" content="259">
 
 
 
-<meta itemprop="keywords" content="electron," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="electron," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Electron初步"/>
-<meta name="twitter:description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &quot;name&quot;: &quot;journal&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;:"/>
+<meta name="twitter:description" content="Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&quot;start&quot;: &quot;electron .&quot; { &#34;name&#34;: &#34;journal&#34;, &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;:"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -157,7 +153,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -167,80 +163,64 @@
     
     <div class="post-content">
       <p><a href="https://electronjs.org/docs">Electron文档</a></p>
-
-<pre><code class="language-bash">mkdir myapp
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir myapp
 cd myapp
 npm init
-</code></pre>
-
-<p>生成的package.json如下，然后添加一行<code>&quot;start&quot;: &quot;electron .&quot;</code></p>
-
-<pre><code class="language-json">{
-  &quot;name&quot;: &quot;journal&quot;,
-  &quot;version&quot;: &quot;1.0.0&quot;,
-  &quot;description&quot;: &quot;&quot;,
-  &quot;main&quot;: &quot;index.js&quot;,
-  &quot;scripts&quot;: {
-    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;,
-    &quot;start&quot;: &quot;electron .&quot;
+</code></pre></div><p>生成的package.json如下，然后添加一行<code>&quot;start&quot;: &quot;electron .&quot;</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;journal&#34;</span>,
+  <span style="color:#f92672">&#34;version&#34;</span>: <span style="color:#e6db74">&#34;1.0.0&#34;</span>,
+  <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+  <span style="color:#f92672">&#34;main&#34;</span>: <span style="color:#e6db74">&#34;index.js&#34;</span>,
+  <span style="color:#f92672">&#34;scripts&#34;</span>: {
+    <span style="color:#f92672">&#34;test&#34;</span>: <span style="color:#e6db74">&#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;</span>,
+    <span style="color:#f92672">&#34;start&#34;</span>: <span style="color:#e6db74">&#34;electron .&#34;</span>
   },
-  &quot;keywords&quot;: [
-    &quot;journal&quot;
+  <span style="color:#f92672">&#34;keywords&#34;</span>: [
+    <span style="color:#e6db74">&#34;journal&#34;</span>
   ],
-  &quot;author&quot;: &quot;Octo&quot;,
-  &quot;license&quot;: &quot;ISC&quot;,
+  <span style="color:#f92672">&#34;author&#34;</span>: <span style="color:#e6db74">&#34;Octo&#34;</span>,
+  <span style="color:#f92672">&#34;license&#34;</span>: <span style="color:#e6db74">&#34;ISC&#34;</span>,
 }
-</code></pre>
-
-<p>安装electron，也可全局安装，不过不好对不同app做版本控制</p>
-
-<pre><code class="language-bash">npm install electron --save-dev
-# 全局安装
+</code></pre></div><p>安装electron，也可全局安装，不过不好对不同app做版本控制</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm install electron --save-dev
+<span style="color:#75715e"># 全局安装</span>
 npm install electron -g
-</code></pre>
-
-<p>package.json文件更新如下</p>
-
-<pre><code class="language-json">  &quot;devDependencies&quot;: {
-    &quot;electron&quot;: &quot;^3.0.1&quot;
+</code></pre></div><p>package.json文件更新如下</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">  <span style="color:#e6db74">&#34;devDependencies&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+    <span style="color:#f92672">&#34;electron&#34;</span>: <span style="color:#e6db74">&#34;^3.0.1&#34;</span>
   }
-</code></pre>
+</code></pre></div><p>当前目录下新建index.js文件 <a href="https://github.com/electron/electron-quick-start/blob/master/main.js">https://github.com/electron/electron-quick-start/blob/master/main.js</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> {
+    <span style="color:#a6e22e">app</span>,
+    <span style="color:#a6e22e">BrowserWindow</span>
+} <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;electron&#34;</span>);
 
-<p>当前目录下新建index.js文件 <a href="https://github.com/electron/electron-quick-start/blob/master/main.js">https://github.com/electron/electron-quick-start/blob/master/main.js</a></p>
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">mainWindow</span>;
 
-<pre><code class="language-js">const {
-    app,
-    BrowserWindow
-} = require(&quot;electron&quot;);
-
-let mainWindow;
-
-function createWindow() {
-    mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">createWindow</span>() {
+    <span style="color:#a6e22e">mainWindow</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">BrowserWindow</span>({
+        <span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">800</span>,
+        <span style="color:#a6e22e">height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">600</span>
     });
-    mainWindow.loadFile(&quot;../src/index.html&quot;);
-    mainWindow.on(&quot;closed&quot;, function() {
-        mainWindow = null;
+    <span style="color:#a6e22e">mainWindow</span>.<span style="color:#a6e22e">loadFile</span>(<span style="color:#e6db74">&#34;../src/index.html&#34;</span>);
+    <span style="color:#a6e22e">mainWindow</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;closed&#34;</span>, <span style="color:#66d9ef">function</span>() {
+        <span style="color:#a6e22e">mainWindow</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
     });
 };
 
-app.on(&quot;ready&quot;, createWindow);
-app.on(&quot;window-all-closed&quot;, function() {
-    if (process.platform !== &quot;darwin&quot;) {
-        app.quit();
+<span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;ready&#34;</span>, <span style="color:#a6e22e">createWindow</span>);
+<span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;window-all-closed&#34;</span>, <span style="color:#66d9ef">function</span>() {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">platform</span> <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#34;darwin&#34;</span>) {
+        <span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">quit</span>();
     }
 });
-app.on(&quot;activate&quot;, function() {
-    if (mainWindow === null) {
-        createWindow();
+<span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;activate&#34;</span>, <span style="color:#66d9ef">function</span>() {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">mainWindow</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">null</span>) {
+        <span style="color:#a6e22e">createWindow</span>();
     }
 });
-</code></pre>
-
-<p>运行<code>npm start</code>即可查看效果。</p>
-
+</code></pre></div><p>运行<code>npm start</code>即可查看效果。</p>
 <p><a href="https://github.com/electron/electron-api-demos">Electron API 演示应用程序</a></p>
 
     </div>

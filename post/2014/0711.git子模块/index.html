@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="夏末" />
-  <meta name="description" content="参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看" />
+  <meta name="description" content="参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &amp;#39;git submodule&amp;#39; # 查看" />
 
   <meta name="keywords" content="blog, evolution, zen" />
 
@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/" />
-<meta property="article:published_time" content="2014-07-11T13:09:05&#43;08:00"/>
-<meta property="article:modified_time" content="2014-07-11T13:09:05&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-07-11T13:09:05+08:00" />
+<meta property="article:modified_time" content="2014-07-11T13:09:05+08:00" />
 <meta itemprop="name" content="Git子模块">
 <meta itemprop="description" content="参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看">
-
-
 <meta itemprop="datePublished" content="2014-07-11T13:09:05&#43;08:00" />
 <meta itemprop="dateModified" content="2014-07-11T13:09:05&#43;08:00" />
 <meta itemprop="wordCount" content="482">
 
 
 
-<meta itemprop="keywords" content="Git,Git Submodule," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Git,Git Submodule," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git子模块"/>
 <meta name="twitter:description" content="参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看"/>
 
@@ -158,18 +154,16 @@
   
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#将项目中的子目录转换为子模块-记得先备份文件">将项目中的子目录转换为子模块，记得先备份文件</a></li>
-<li><a href="#克隆一个带子模块的项目">克隆一个带子模块的项目</a></li>
-<li><a href="#子模块的问题-http-git-scm-com-book-zh-git-工具-子模块-子模块的问题"><a href="http://git-scm.com/book/zh/Git-工具-子模块#子模块的问题">子模块的问题</a></a></li>
-<li><a href="#how-do-i-remove-a-git-submodule-http-stackoverflow-com-questions-1260748-how-do-i-remove-a-git-submodule"><a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule">How do I remove a Git submodule?</a></a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#将项目中的子目录转换为子模块记得先备份文件">将项目中的子目录转换为子模块，记得先备份文件</a></li>
+        <li><a href="#克隆一个带子模块的项目">克隆一个带子模块的项目</a></li>
+        <li><a href="#子模块的问题httpgit-scmcombookzhgit-工具-子模块子模块的问题">子模块的问题</a></li>
+        <li><a href="#how-do-i-remove-a-git-submodulehttpstackoverflowcomquestions1260748how-do-i-remove-a-git-submodule">How do I remove a Git submodule?</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -179,54 +173,40 @@
 
     
     <div class="post-content">
-      
-
-<p><a href="http://git-scm.com/book/zh/Git-工具-子模块">参考文档</a></p>
-
-<h3 id="将项目中的子目录转换为子模块-记得先备份文件">将项目中的子目录转换为子模块，记得先备份文件</h3>
-
-<pre><code class="language-bash"># 先将子目录撤回
+      <p><a href="http://git-scm.com/book/zh/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97">参考文档</a></p>
+<h3 id="将项目中的子目录转换为子模块记得先备份文件">将项目中的子目录转换为子模块，记得先备份文件</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 先将子目录撤回</span>
 git rm -rf themes/light/
-# 加入子模块
+<span style="color:#75715e"># 加入子模块</span>
 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/
-# 查看状态
+<span style="color:#75715e"># 查看状态</span>
 git status
-# 提交修改
-git commit -a -m 'git submodule'
+<span style="color:#75715e"># 提交修改</span>
+git commit -a -m <span style="color:#e6db74">&#39;git submodule&#39;</span>
 
-# 查看状态
+<span style="color:#75715e"># 查看状态</span>
 git submodule status
-</code></pre>
-
-<h3 id="克隆一个带子模块的项目">克隆一个带子模块的项目</h3>
-
-<pre><code class="language-bash"># 初始化你的本地配置文件
+</code></pre></div><h3 id="克隆一个带子模块的项目">克隆一个带子模块的项目</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 初始化你的本地配置文件</span>
 git submodule init
 
-# 从项目拉取所有数据并检出你上层项目里所列的合适的提交
+<span style="color:#75715e"># 从项目拉取所有数据并检出你上层项目里所列的合适的提交</span>
 git submodule update
-</code></pre>
-
-<h3 id="子模块的问题-http-git-scm-com-book-zh-git-工具-子模块-子模块的问题"><a href="http://git-scm.com/book/zh/Git-工具-子模块#子模块的问题">子模块的问题</a></h3>
-
+</code></pre></div><h3 id="子模块的问题httpgit-scmcombookzhgit-工具-子模块子模块的问题"><a href="http://git-scm.com/book/zh/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97#%E5%AD%90%E6%A8%A1%E5%9D%97%E7%9A%84%E9%97%AE%E9%A2%98">子模块的问题</a></h3>
 <blockquote>
 <p>使用子模块并非没有任何缺点。首先，你在子模块目录中工作时必须相对小心。当你运行<code>git submodule update</code>，它会检出项目的指定版本，但是不在分支内。这叫做获得一个分离的头——这意味着 HEAD 文件直接指向一次提交，而不是一个符号引用。问题在于你通常并不想在一个分离的头的环境下工作，因为太容易丢失变更了。如果你先执行了一次<code>submodule update</code>，然后在那个子模块目录里不创建分支就进行提交，然后再次从上层项目里运行<code>git submodule update</code>同时不进行提交，Git会毫无提示地覆盖你的变更。技术上讲你不会丢失工作，但是你将失去指向它的分支，因此会很难取到。</p>
 </blockquote>
-
-<h3 id="how-do-i-remove-a-git-submodule-http-stackoverflow-com-questions-1260748-how-do-i-remove-a-git-submodule"><a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule">How do I remove a Git submodule?</a></h3>
-
+<h3 id="how-do-i-remove-a-git-submodulehttpstackoverflowcomquestions1260748how-do-i-remove-a-git-submodule"><a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule">How do I remove a Git submodule?</a></h3>
 <p>To remove a submodule you need to:</p>
-
 <ol>
-<li>Delete the relevant section from the <code>.gitmodules</code> file.<br /></li>
-<li>Stage the <code>.gitmodules</code> changes <code>git add .gitmodules</code>.<br /></li>
-<li>Delete the relevant section from <code>.git/config</code>.<br /></li>
-<li>Run <code>git rm --cached path_to_submodule</code> (no trailing slash (没有斜线)).<br /></li>
-<li>Run <code>rm -rf .git/modules/path_to_submodule</code>.<br /></li>
-<li>Commit <code>git commit -m &quot;Removed submodule &lt;name&gt;&quot;</code>.<br /></li>
+<li>Delete the relevant section from the <code>.gitmodules</code> file.</li>
+<li>Stage the <code>.gitmodules</code> changes <code>git add .gitmodules</code>.</li>
+<li>Delete the relevant section from <code>.git/config</code>.</li>
+<li>Run <code>git rm --cached path_to_submodule</code> (no trailing slash (没有斜线)).</li>
+<li>Run <code>rm -rf .git/modules/path_to_submodule</code>.</li>
+<li>Commit <code>git commit -m &quot;Removed submodule &lt;name&gt;&quot;</code>.</li>
 <li>Delete the now untracked submodule files <code>rm -rf path_to_submodule</code>.</li>
 </ol>
-
 <p>Via the page <a href="https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal">https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal</a></p>
 
     </div>

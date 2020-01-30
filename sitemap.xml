@@ -1,10 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="https://evolution.cethink.tk/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://evolution.cethink.tk/about/</loc>
     <lastmod>2018-09-16T18:44:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/categories/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/categories/deepin/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/deepin/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/categories/electron/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/electron/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/linux/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/post/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/</loc>
+    <lastmod>2020-01-30T15:52:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,7 +86,21 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/aws/</loc>
+    <lastmod>2019-08-08T20:45:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2019/0808.aws-ssh-permission-denied-publickey/</loc>
+    <lastmod>2019-08-08T20:45:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/ssh/</loc>
     <lastmod>2019-08-08T20:45:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -26,6 +109,34 @@
   <url>
     <loc>https://evolution.cethink.tk/post/2019/0808.linux%E4%B8%8Bpem%E8%BD%ACppk/</loc>
     <lastmod>2019-08-08T20:01:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/pem/</loc>
+    <lastmod>2019-08-08T20:01:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/ppk/</loc>
+    <lastmod>2019-08-08T20:01:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/mdf/</loc>
+    <lastmod>2019-03-23T16:50:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/mssql/</loc>
+    <lastmod>2019-03-23T16:50:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,8 +156,43 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/wireshark/</loc>
+    <lastmod>2019-03-21T16:56:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2019/0130.error-1045-28000-access-denied-for-user-rootlocalhost-using-password-no/</loc>
     <lastmod>2019-01-30T16:23:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/mysql/</loc>
+    <lastmod>2019-01-30T16:23:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/crack/</loc>
+    <lastmod>2019-01-25T10:48:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/keygen/</loc>
+    <lastmod>2019-01-25T10:48:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/navicat/</loc>
+    <lastmod>2019-01-25T10:48:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,7 +205,28 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/categories/android/</loc>
+    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/android/</loc>
+    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2019/0123.android-grant-current-user-access-to-dev-kvm/</loc>
+    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/kvm/</loc>
     <lastmod>2019-01-23T11:23:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -80,6 +247,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/node-sqlite3/</loc>
+    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2018-09-30T07:42:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -94,8 +268,36 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/vue/</loc>
+    <lastmod>2018-09-27T11:33:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/vuido/</loc>
+    <lastmod>2018-09-27T11:33:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2018/0927.vuido%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2018-09-27T11:33:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/css/</loc>
+    <lastmod>2018-09-24T14:57:21+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/ellipsis/</loc>
+    <lastmod>2018-09-24T14:57:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -108,6 +310,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/mac/</loc>
+    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/</loc>
     <lastmod>2018-09-21T17:49:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,7 +324,49 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/privacy/</loc>
+    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/proxy/</loc>
+    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/shadowsocks/</loc>
+    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/terminal/</loc>
+    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/div/</loc>
+    <lastmod>2018-09-17T13:26:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</loc>
+    <lastmod>2018-09-17T13:26:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/%E5%B1%85%E4%B8%AD/</loc>
     <lastmod>2018-09-17T13:26:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -129,8 +380,36 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/javascript/</loc>
+    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/this/</loc>
+    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
     <lastmod>2015-04-11T21:41:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/fedora/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/categories/fedora/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -143,7 +422,42 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/fsck/</loc>
+    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/cnpm/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2015/0320.fedora-21-install-nodejs-via-nvm/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/nodejs/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/npm/</loc>
+    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/nvm/</loc>
     <lastmod>2015-03-20T20:09:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -157,7 +471,35 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/grub2/</loc>
+    <lastmod>2015-03-18T19:38:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/iis/</loc>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2015/0119.iis%E5%AE%89%E8%A3%85php%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/kodexplorer/</loc>
+    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/php/</loc>
     <lastmod>2015-01-19T03:41:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -171,7 +513,21 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/azure/</loc>
+    <lastmod>2014-11-04T17:34:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/1104.connecting-to-azure-website-via-ftp/</loc>
+    <lastmod>2014-11-04T17:34:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/ftp/</loc>
     <lastmod>2014-11-04T17:34:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -185,8 +541,29 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/cow/</loc>
+    <lastmod>2014-11-03T13:14:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/1103.ie&#43;shadowsocks&#43;privoxy%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2014-11-03T13:14:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/privoxy/</loc>
+    <lastmod>2014-11-03T13:14:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/jshint/</loc>
+    <lastmod>2014-11-02T18:32:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -199,8 +576,29 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/ef/</loc>
+    <lastmod>2014-11-02T04:36:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/</loc>
     <lastmod>2014-11-02T04:36:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/git/</loc>
+    <lastmod>2014-11-02T04:36:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/visual-studio/</loc>
+    <lastmod>2014-11-02T04:36:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -213,6 +611,13 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/cmder/</loc>
+    <lastmod>2014-11-02T01:55:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/1102.cmder/</loc>
     <lastmod>2014-11-02T01:55:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -220,8 +625,29 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/vim/</loc>
+    <lastmod>2014-10-31T19:50:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/1031.vim%E5%88%9D%E6%AD%A5/</loc>
     <lastmod>2014-10-31T19:50:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/rails/</loc>
+    <lastmod>2014-09-12T04:10:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/ruby/</loc>
+    <lastmod>2014-09-12T04:10:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -241,8 +667,29 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/semantic-version/</loc>
+    <lastmod>2014-09-07T17:36:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/node-webkit/</loc>
+    <lastmod>2014-09-06T18:34:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/0906.%E5%9C%A8win8.1%E4%B8%AD%E4%B8%BAnode-webkit%E7%BC%96%E8%AF%91node-sqlite3/</loc>
     <lastmod>2014-09-06T18:34:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/editorconfig/</loc>
+    <lastmod>2014-07-23T21:48:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -255,8 +702,22 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/grunt/</loc>
+    <lastmod>2014-07-22T18:20:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2014-07-22T18:20:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/node-orm2/</loc>
+    <lastmod>2014-07-22T16:13:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -269,8 +730,29 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/sublimetext/</loc>
+    <lastmod>2014-07-21T18:32:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/0721.sublimetext3%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2014-07-21T18:32:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/generator-node-webkit/</loc>
+    <lastmod>2014-07-16T19:38:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/yeoman/</loc>
+    <lastmod>2014-07-16T19:38:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -290,6 +772,20 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/tags/dns/</loc>
+    <lastmod>2014-07-12T01:07:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/dnscrypt/</loc>
+    <lastmod>2014-07-12T01:07:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/0712.fedora%E4%B8%8B%E4%BD%BF%E7%94%A8dnscrypt%E5%8A%A0%E5%AF%86dns%E9%98%B2%E5%8A%AB%E6%8C%81/</loc>
     <lastmod>2014-07-12T01:07:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -297,8 +793,29 @@
   </url>
   
   <url>
+    <loc>https://evolution.cethink.tk/categories/git/</loc>
+    <lastmod>2014-07-11T13:09:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/git-submodule/</loc>
+    <lastmod>2014-07-11T13:09:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2014-07-11T13:09:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://evolution.cethink.tk/tags/sqlite3/</loc>
+    <lastmod>2014-07-10T21:03:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -322,517 +839,6 @@
     <lastmod>2014-07-10T14:47:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/aws/</loc>
-    <lastmod>2019-08-08T20:45:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/categories/android/</loc>
-    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/azure/</loc>
-    <lastmod>2014-11-04T17:34:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/cow/</loc>
-    <lastmod>2014-11-03T13:14:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/categories/</loc>
-    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/cmder/</loc>
-    <lastmod>2014-11-02T01:55:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/dns/</loc>
-    <lastmod>2014-07-12T01:07:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/dnscrypt/</loc>
-    <lastmod>2014-07-12T01:07:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/deepin/</loc>
-    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/categories/deepin/</loc>
-    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/ef/</loc>
-    <lastmod>2014-11-02T04:36:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/editorconfig/</loc>
-    <lastmod>2014-07-23T21:48:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/categories/electron/</loc>
-    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/ftp/</loc>
-    <lastmod>2014-11-04T17:34:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/fedora/</loc>
-    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/categories/fedora/</loc>
-    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/git/</loc>
-    <lastmod>2014-11-02T04:36:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/categories/git/</loc>
-    <lastmod>2014-07-11T13:09:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/git-submodule/</loc>
-    <lastmod>2014-07-11T13:09:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/grunt/</loc>
-    <lastmod>2014-07-22T18:20:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/iis/</loc>
-    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/jshint/</loc>
-    <lastmod>2014-11-02T18:32:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/kodexplorer/</loc>
-    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/mac/</loc>
-    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/php/</loc>
-    <lastmod>2015-01-19T03:41:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/post/</loc>
-    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/privacy/</loc>
-    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/privoxy/</loc>
-    <lastmod>2014-11-03T13:14:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/rails/</loc>
-    <lastmod>2014-09-12T04:10:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/ruby/</loc>
-    <lastmod>2014-09-12T04:10:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/ssh/</loc>
-    <lastmod>2019-08-08T20:45:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/shadowsocks/</loc>
-    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/sublimetext/</loc>
-    <lastmod>2014-07-21T18:32:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/</loc>
-    <lastmod>2019-08-08T20:45:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/vim/</loc>
-    <lastmod>2014-10-31T19:50:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/visual-studio/</loc>
-    <lastmod>2014-11-02T04:36:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/yeoman/</loc>
-    <lastmod>2014-07-16T19:38:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/android/</loc>
-    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/cnpm/</loc>
-    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/crack/</loc>
-    <lastmod>2019-01-25T10:48:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/css/</loc>
-    <lastmod>2018-09-24T14:57:21+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/div/</loc>
-    <lastmod>2018-09-17T13:26:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/electron/</loc>
-    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/ellipsis/</loc>
-    <lastmod>2018-09-24T14:57:21+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/fsck/</loc>
-    <lastmod>2015-04-11T18:16:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/generator-node-webkit/</loc>
-    <lastmod>2014-07-16T19:38:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/grub2/</loc>
-    <lastmod>2015-03-18T19:38:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/javascript/</loc>
-    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/keygen/</loc>
-    <lastmod>2019-01-25T10:48:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/kvm/</loc>
-    <lastmod>2019-01-23T11:23:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/linux/</loc>
-    <lastmod>2020-01-22T20:37:30+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/mdf/</loc>
-    <lastmod>2019-03-23T16:50:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/mssql/</loc>
-    <lastmod>2019-03-23T16:50:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/mysql/</loc>
-    <lastmod>2019-01-30T16:23:03+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/navicat/</loc>
-    <lastmod>2019-01-25T10:48:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/node-orm2/</loc>
-    <lastmod>2014-07-22T16:13:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/node-sqlite3/</loc>
-    <lastmod>2018-09-30T08:44:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/node-webkit/</loc>
-    <lastmod>2014-09-06T18:34:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/nodejs/</loc>
-    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/npm/</loc>
-    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/nvm/</loc>
-    <lastmod>2015-03-20T20:09:25+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/pem/</loc>
-    <lastmod>2019-08-08T20:01:13+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/ppk/</loc>
-    <lastmod>2019-08-08T20:01:13+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/proxy/</loc>
-    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/semantic-version/</loc>
-    <lastmod>2014-09-07T17:36:03+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/sqlite3/</loc>
-    <lastmod>2014-07-10T21:03:43+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/terminal/</loc>
-    <lastmod>2018-09-21T17:49:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/this/</loc>
-    <lastmod>2015-04-11T21:41:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/vue/</loc>
-    <lastmod>2018-09-27T11:33:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/vuido/</loc>
-    <lastmod>2018-09-27T11:33:39+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/wireshark/</loc>
-    <lastmod>2019-03-21T16:56:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/tags/%E5%B1%85%E4%B8%AD/</loc>
-    <lastmod>2018-09-17T13:26:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://evolution.cethink.tk/</loc>
-    <lastmod>2018-09-16T18:44:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>莫提时光</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
-    <lastBuildDate>Sun, 16 Sep 2018 18:44:45 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 15:52:31 +0800</lastBuildDate>
     
 	<atom:link href="https://evolution.cethink.tk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       
       <guid>https://evolution.cethink.tk/about/</guid>
       <description>不忘初心，方能始终。</description>
+    </item>
+    
+    <item>
+      <title>Electron安装卡在node Install</title>
+      <link>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</link>
+      <pubDate>Thu, 30 Jan 2020 15:52:31 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</guid>
+      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包，修</description>
     </item>
     
     <item>
@@ -55,8 +64,8 @@
       
       <guid>https://evolution.cethink.tk/post/2019/0323.mssql-attach-mdf/</guid>
       <description>https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017#to-attach-a-database-1
-CREATE DATABASE Timeless ON (FILENAME = &#39;/home/wuu/CSharp/Timeless.mdf&#39;), (FILENAME = &#39;/home/wuu/CSharp/Timeless_log.ldf&#39;) FOR ATTACH;  https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
-EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
+CREATE DATABASE Timeless ON (FILENAME = &amp;#39;/home/wuu/CSharp/Timeless.mdf&amp;#39;), (FILENAME = &amp;#39;/home/wuu/CSharp/Timeless_log.ldf&amp;#39;) FOR ATTACH; https://docs.microsoft.com/en-us/sql/relational-databases/databases/detach-a-database?view=sql-server-2017#to-detach-a-database-1
+EXEC sp_detach_db &amp;#39;AdventureWorks2012&amp;#39;, &amp;#39;true&amp;#39;; </description>
     </item>
     
     <item>
@@ -101,7 +110,7 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
       <pubDate>Mon, 10 Dec 2018 20:23:33 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/1210.linux%E4%B8%8B%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C/</guid>
-      <description>一、批量删除目录 # 批量删除名为.git的目录 find ./ -type d -name &amp;quot;.git&amp;quot; -exec rm -rf {} \; 说明： ./ 为待查询的开始目录，从此目录开始搜索，包括本目录下的子目录 -type d 目标</description>
+      <description>一、批量删除目录 # 批量删除名为.git的目录 find ./ -type d -name &amp;#34;.git&amp;#34; -exec rm -rf {} \; 说明： ./ 为待查询的开始目录，从此目录开始搜索，包括本目录下的子目录 -type d 目标</description>
     </item>
     
     <item>
@@ -128,7 +137,7 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
       <pubDate>Fri, 28 Sep 2018 12:28:21 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/</guid>
-      <description>Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;quot;name&amp;quot;: &amp;quot;journal&amp;quot;, &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;, &amp;quot;description&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;main&amp;quot;: &amp;quot;index.js&amp;quot;, &amp;quot;scripts&amp;quot;:</description>
+      <description>Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;#34;name&amp;#34;: &amp;#34;journal&amp;#34;, &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;main&amp;#34;: &amp;#34;index.js&amp;#34;, &amp;#34;scripts&amp;#34;:</description>
     </item>
     
     <item>
@@ -164,7 +173,7 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
       <pubDate>Mon, 17 Sep 2018 13:26:07 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0917.%E5%AD%90div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</guid>
-      <description>&amp;lt;div id=&amp;quot;outer&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;inner&amp;quot;&amp;gt; 居个中 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }</description>
+      <description>&amp;lt;div id=&amp;#34;outer&amp;#34;&amp;gt; &amp;lt;div id=&amp;#34;inner&amp;#34;&amp;gt; 居个中 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 利用绝对布局 #outer { width: 300px; height: 200px; position: relative; } #inner { width: 50px; height: 20px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; } 利用vertical-align #outer { width: 300px; height: 200px; display: table-cell; vertical-align: middle; }</description>
     </item>
     
     <item>
@@ -173,7 +182,7 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
       <pubDate>Tue, 14 Aug 2018 21:27:07 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</guid>
-      <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;quot;xxx@163.com&amp;quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
+      <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;#34;xxx@163.com&amp;#34; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
     </item>
     
     <item>
@@ -236,7 +245,7 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
       <pubDate>Tue, 04 Nov 2014 17:34:42 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/1104.connecting-to-azure-website-via-ftp/</guid>
-      <description>http://weblogs.asp.net/bleroy/azure-web-sites-ftp-credentials 仪表板 -&amp;gt; 速览 -&amp;gt; 下载发布配置文件 &amp;lt;publishData&amp;gt; &amp;lt;publishProfile profileName=&amp;quot;nameofyoursite - Web Deploy&amp;quot; publishMethod=&amp;quot;MSDeploy&amp;quot; publishUrl=&amp;quot;waws-prod-blu-001.publish.azurewebsites.windows.net:443&amp;quot; msdeploySite=&amp;quot;nameofyoursite&amp;quot; userName=&amp;quot;$NameOfYourSite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot; destinationAppUrl=&amp;quot;http://nameofyoursite.azurewebsites.net&amp;quot; SQLServerDBConnectionString=&amp;quot;&amp;quot; mySQLDBConnectionString=&amp;quot;&amp;quot; hostingProviderForumLink=&amp;quot;&amp;quot; controlPanelLink=&amp;quot;http://windows.azure.com&amp;quot;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;publishProfile profileName=&amp;quot;nameofyoursite - FTP&amp;quot; publishMethod=&amp;quot;FTP&amp;quot; publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; ftpPassiveMode=&amp;quot;True&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot; destinationAppUrl=&amp;quot;http://nameofyoursite.azurewebsites.net&amp;quot; SQLServerDBConnectionString=&amp;quot;&amp;quot; mySQLDBConnectionString=&amp;quot;&amp;quot; hostingProviderForumLink=&amp;quot;&amp;quot; controlPanelLink=&amp;quot;http://windows.azure.com&amp;quot;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;/publishData&amp;gt; 使用这三个数据即可 publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot;</description>
+      <description>http://weblogs.asp.net/bleroy/azure-web-sites-ftp-credentials 仪表板 -&amp;gt; 速览 -&amp;gt; 下载发布配置文件 &amp;lt;publishData&amp;gt; &amp;lt;publishProfile profileName=&amp;#34;nameofyoursite - Web Deploy&amp;#34; publishMethod=&amp;#34;MSDeploy&amp;#34; publishUrl=&amp;#34;waws-prod-blu-001.publish.azurewebsites.windows.net:443&amp;#34; msdeploySite=&amp;#34;nameofyoursite&amp;#34; userName=&amp;#34;$NameOfYourSite&amp;#34; userPWD=&amp;#34;sOmeCrYPTicL00kIngStr1nG&amp;#34; destinationAppUrl=&amp;#34;http://nameofyoursite.azurewebsites.net&amp;#34; SQLServerDBConnectionString=&amp;#34;&amp;#34; mySQLDBConnectionString=&amp;#34;&amp;#34; hostingProviderForumLink=&amp;#34;&amp;#34; controlPanelLink=&amp;#34;http://windows.azure.com&amp;#34;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;publishProfile profileName=&amp;#34;nameofyoursite - FTP&amp;#34; publishMethod=&amp;#34;FTP&amp;#34; publishUrl=&amp;#34;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;#34; ftpPassiveMode=&amp;#34;True&amp;#34; userName=&amp;#34;nameofyoursite\$nameofyoursite&amp;#34; userPWD=&amp;#34;sOmeCrYPTicL00kIngStr1nG&amp;#34; destinationAppUrl=&amp;#34;http://nameofyoursite.azurewebsites.net&amp;#34; SQLServerDBConnectionString=&amp;#34;&amp;#34; mySQLDBConnectionString=&amp;#34;&amp;#34; hostingProviderForumLink=&amp;#34;&amp;#34; controlPanelLink=&amp;#34;http://windows.azure.com&amp;#34;&amp;gt; &amp;lt;databases/&amp;gt; &amp;lt;/publishProfile&amp;gt; &amp;lt;/publishData&amp;gt; 使用这三个数据即可 publishUrl=&amp;quot;ftp://waws-prod-blu-001.ftp.azurewebsites.windows.net/site/wwwroot&amp;quot; userName=&amp;quot;nameofyoursite\$nameofyoursite&amp;quot; userPWD=&amp;quot;sOmeCrYPTicL00kIngStr1nG&amp;quot;</description>
     </item>
     
     <item>
@@ -265,8 +274,8 @@ EXEC sp_detach_db &#39;AdventureWorks2012&#39;, &#39;true&#39;;  </description>
       <guid>https://evolution.cethink.tk/post/2014/1102.jshint-strict-mode-and-jquery-is-not-defined/</guid>
       <description>http://stackoverflow.com/questions/8852765/jshint-strict-mode-and-jquery-is-not-defined
 Add this at the top of the script file
-/*global $:false*/  Or can also add two lines to your .jshintrc
-&amp;quot;globals&amp;quot;: { &amp;quot;$&amp;quot;:false, &amp;quot;jQuery&amp;quot;:false, // other explicit global names to exclude }  </description>
+/*global $:false*/ Or can also add two lines to your .jshintrc
+&amp;#34;globals&amp;#34;: { &amp;#34;$&amp;#34;:false, &amp;#34;jQuery&amp;#34;:false, // other explicit global names to exclude } </description>
     </item>
     
     <item>
@@ -356,7 +365,7 @@ Add this at the top of the script file
       <pubDate>Tue, 22 Jul 2014 16:13:47 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0722.node-orm2%E4%BD%BF%E7%94%A8/</guid>
-      <description>https://github.com/dresende/node-orm2 npm install orm --save The drivers and versions that are tested. driver npm package version mysql mysql 2.0.0-alpha9 postgres redshift pg 2.6.2 [1] sqlite sqlite3 2.1.7 mongodb mongodb 1.3.19 [1] If you&amp;rsquo;re connecting to Heroku, use version 2.5.0. sqlite 字符串连接数据库 连接字符串语法: driver://username:password@hostname/database?option1=value1&amp;amp;option2=value2.. https://github.com/dresende/node-orm2/issues/20 https://github.com/dresende/node-orm2/commit/691470accace4e59079960410e20140ee556de4b // if use sqlite orm.connect(&#39;sqlite:///path/to/file&#39;, function (err, db) { // ...</description>
+      <description>https://github.com/dresende/node-orm2 npm install orm --save The drivers and versions that are tested. driver npm package version mysql mysql 2.0.0-alpha9 postgres redshift pg 2.6.2 [1] sqlite sqlite3 2.1.7 mongodb mongodb 1.3.19 [1]If you&amp;rsquo;re connecting to Heroku, use version 2.5.0. sqlite 字符串连接数据库 连接字符串语法: driver://username:password@hostname/database?option1=value1&amp;amp;option2=value2.. https://github.com/dresende/node-orm2/issues/20 https://github.com/dresende/node-orm2/commit/691470accace4e59079960410e20140ee556de4b // if use sqlite orm.connect(&amp;#39;sqlite:///path/to/file&amp;#39;, function (err, db) { // ... });</description>
     </item>
     
     <item>
@@ -401,7 +410,7 @@ Add this at the top of the script file
       <pubDate>Fri, 11 Jul 2014 13:09:05 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2014/0711.git%E5%AD%90%E6%A8%A1%E5%9D%97/</guid>
-      <description>参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &#39;git submodule&#39; # 查看</description>
+      <description>参考文档 将项目中的子目录转换为子模块，记得先备份文件 # 先将子目录撤回 git rm -rf themes/light/ # 加入子模块 git submodule add git@github.com:mfkddcwy/hexo-theme-light.git themes/light/ # 查看状态 git status # 提交修改 git commit -a -m &amp;#39;git submodule&amp;#39; # 查看</description>
     </item>
     
     <item>

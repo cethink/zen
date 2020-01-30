@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭 可以去 https://www.privoxy.org/ 下载安装包 http://www.wllog.net/2014/10/16/1042.html forward-socks5 / 127.0.0.1:1080 . 修改配置文" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2018/0921.mac-terminal-proxy/" />
-<meta property="article:published_time" content="2018-09-21T17:49:54&#43;08:00"/>
-<meta property="article:modified_time" content="2018-09-21T17:49:54&#43;08:00"/>
-
+<meta property="article:published_time" content="2018-09-21T17:49:54+08:00" />
+<meta property="article:modified_time" content="2018-09-21T17:49:54+08:00" />
 <meta itemprop="name" content="Mac terminal proxy">
 <meta itemprop="description" content="使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭 可以去 https://www.privoxy.org/ 下载安装包 http://www.wllog.net/2014/10/16/1042.html forward-socks5 / 127.0.0.1:1080 . 修改配置文">
-
-
 <meta itemprop="datePublished" content="2018-09-21T17:49:54&#43;08:00" />
 <meta itemprop="dateModified" content="2018-09-21T17:49:54&#43;08:00" />
 <meta itemprop="wordCount" content="338">
 
 
 
-<meta itemprop="keywords" content="Mac,proxy,terminal,Privacy,Shadowsocks," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Mac,proxy,terminal,Privacy,Shadowsocks," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mac terminal proxy"/>
 <meta name="twitter:description" content="使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭 可以去 https://www.privoxy.org/ 下载安装包 http://www.wllog.net/2014/10/16/1042.html forward-socks5 / 127.0.0.1:1080 . 修改配置文"/>
 
@@ -153,7 +149,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -163,50 +159,33 @@
     
     <div class="post-content">
       <p>使用privacy代理shadowsocks,当然,先安装shadowsocksx软件,配置好后先关闭</p>
-
 <p>可以去 <a href="https://www.privoxy.org/">https://www.privoxy.org/</a> 下载安装包</p>
-
 <p><a href="http://www.wllog.net/2014/10/16/1042.html">http://www.wllog.net/2014/10/16/1042.html</a></p>
-
 <pre><code>forward-socks5 / 127.0.0.1:1080 .
 </code></pre>
-
 <p>修改配置文件 <code>sudo nano /usr/local/etc/privoxy/config</code>,配置好后Chrome好像无法识别 <a href="http://config.privoxy.org">http://config.privoxy.org</a> 这
 个地址,其他浏览器倒是可以</p>
-
 <p>配置terminal代理</p>
-
 <p><a href="https://discussions.apple.com/message/22377820#22377820">https://discussions.apple.com/message/22377820#22377820</a></p>
-
-<pre><code class="language-bash">nano .bash_profile
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nano .bash_profile
 open -a TextEdit ~/.bash_profile
 
-# 使用:open -a TextEdit settings.xml 参数说明:-a指定应用  
-# 也可以是:open -e settings.xml 参数说明:-e使用文本编辑器打开  
-# 也可以是:open -t settings.xml 参数说明:-t使用默认编辑器打开
+<span style="color:#75715e"># 使用:open -a TextEdit settings.xml 参数说明:-a指定应用</span>  
+<span style="color:#75715e"># 也可以是:open -e settings.xml 参数说明:-e使用文本编辑器打开</span>  
+<span style="color:#75715e"># 也可以是:open -t settings.xml 参数说明:-t使用默认编辑器打开</span>
 
-export HTTP_PROXY=&quot;http://127.0.0.1:8118&quot;
-export HTTPS_PROXY=$HTTP_PROXY”
+export HTTP_PROXY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:8118&#34;</span>
+export HTTPS_PROXY<span style="color:#f92672">=</span>$HTTP_PROXY”
 
 ls -a
-</code></pre>
-
-<p>试一下,安装cow <a href="https://github.com/cyfdecyf/cow">https://github.com/cyfdecyf/cow</a></p>
-
-<pre><code class="language-bash">curl -L git.io/cow | bash
-</code></pre>
-
-<p>配置 <code>open -a TextEdit ~/.cow/rc</code> 文件,运行主目录下的 <code>./cow &amp;</code> 即可</p>
-
+</code></pre></div><p>试一下,安装cow <a href="https://github.com/cyfdecyf/cow">https://github.com/cyfdecyf/cow</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L git.io/cow | bash
+</code></pre></div><p>配置 <code>open -a TextEdit ~/.cow/rc</code> 文件,运行主目录下的 <code>./cow &amp;</code> 即可</p>
 <p>配置代理 <code>127.0.0.1:7777</code> 即可,将终端代理也改为这个</p>
-
 <p>将cow添加到用户启动项</p>
-
 <p>安装brew, <a href="http://brew.sh/index_zh-cn.html">http://brew.sh/index_zh-cn.html</a></p>
-
-<pre><code class="language-bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/usr/bin/ruby -e <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div>
     </div>
 
     

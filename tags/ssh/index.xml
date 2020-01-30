@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSH on 莫提时光</title>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 14 Aug 2018 21:27:07 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0814.%E7%94%9F%E6%88%90ssh-key/</guid>
-      <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;quot;xxx@163.com&amp;quot; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
+      <description>参考：生成并部署SSH key 查看 ssh-keygen 帮助文档 ssh-keygen help 按如下命令生成 sshkey ssh-keygen -t rsa -C &amp;#34;xxx@163.com&amp;#34; -f ~/.ssh/giteekey # 或者 ssh-keygen # 可按提示输入密码 查看 public key cat ~/.ssh/id_rsa.pub 将公钥添加到码云中，然后在终端</description>
     </item>
     
   </channel>

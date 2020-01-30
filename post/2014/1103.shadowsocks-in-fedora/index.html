@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/1103.shadowsocks-in-fedora/" />
-<meta property="article:published_time" content="2014-11-03T20:44:40&#43;08:00"/>
-<meta property="article:modified_time" content="2014-11-03T20:44:40&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-11-03T20:44:40+08:00" />
+<meta property="article:modified_time" content="2014-11-03T20:44:40+08:00" />
 <meta itemprop="name" content="Shadowsocks in Fedora">
 <meta itemprop="description" content="使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password">
-
-
 <meta itemprop="datePublished" content="2014-11-03T20:44:40&#43;08:00" />
 <meta itemprop="dateModified" content="2014-11-03T20:44:40&#43;08:00" />
 <meta itemprop="wordCount" content="91">
 
 
 
-<meta itemprop="keywords" content="Shadowsocks,linux,Fedora," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Shadowsocks,linux,Fedora," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Shadowsocks in Fedora"/>
 <meta name="twitter:description" content="使用 shadowsocks-nodejs 客户端 https://github.com/clowwindy/shadowsocks-nodejs sudo cnpm install -g shadowsocks /usr/lib/node_modules/shadowsocks/config.json sslocal sslocal -h shadowsocks v1.5.3 usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config] optional arguments: -h, --help show this help message and exit -s SERVER_ADDR server address -p SERVER_PORT server port -b LOCAL_ADDR local binding address, default is 127.0.0.1 -l LOCAL_PORT local port -k PASSWORD password"/>
 
@@ -157,7 +153,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -168,8 +164,7 @@
     <div class="post-content">
       <p>使用 shadowsocks-nodejs 客户端
 <a href="https://github.com/clowwindy/shadowsocks-nodejs">https://github.com/clowwindy/shadowsocks-nodejs</a></p>
-
-<pre><code class="language-bash">sudo cnpm install -g shadowsocks
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo cnpm install -g shadowsocks
 
 /usr/lib/node_modules/shadowsocks/config.json
 
@@ -177,7 +172,7 @@ sslocal
 
 sslocal -h
 shadowsocks v1.5.3
-usage: sslocal [-h] -s SERVER_ADDR -p SERVER_PORT [-b LOCAL_ADDR] -l LOCAL_PORT -k PASSWORD -m METHOD [-t TIMEOUT] [-c config]
+usage: sslocal <span style="color:#f92672">[</span>-h<span style="color:#f92672">]</span> -s SERVER_ADDR -p SERVER_PORT <span style="color:#f92672">[</span>-b LOCAL_ADDR<span style="color:#f92672">]</span> -l LOCAL_PORT -k PASSWORD -m METHOD <span style="color:#f92672">[</span>-t TIMEOUT<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-c config<span style="color:#f92672">]</span>
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -186,14 +181,13 @@ optional arguments:
   -b LOCAL_ADDR         local binding address, default is 127.0.0.1
   -l LOCAL_PORT         local port
   -k PASSWORD           password
-  -m METHOD             encryption method, for example, aes-256-cfb
+  -m METHOD             encryption method, <span style="color:#66d9ef">for</span> example, aes-256-cfb
   -t TIMEOUT            timeout in seconds
   -c CONFIG             path to config file
 
 
 sslocal -c /etc/shadowsocks.json
-</code></pre>
-
+</code></pre></div>
     </div>
 
     

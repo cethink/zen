@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="首先使用add-apt-repository命令需要进行安装 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTemp" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2020/deepin%E4%BC%AA%E8%A3%85ubuntu/" />
-<meta property="article:published_time" content="2020-01-22T20:37:30&#43;08:00"/>
-<meta property="article:modified_time" content="2020-01-22T20:37:30&#43;08:00"/>
-
+<meta property="article:published_time" content="2020-01-22T20:37:30+08:00" />
+<meta property="article:modified_time" content="2020-01-22T20:37:30+08:00" />
 <meta itemprop="name" content="Deepin伪装Ubuntu">
 <meta itemprop="description" content="首先使用add-apt-repository命令需要进行安装 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTemp">
-
-
 <meta itemprop="datePublished" content="2020-01-22T20:37:30&#43;08:00" />
 <meta itemprop="dateModified" content="2020-01-22T20:37:30&#43;08:00" />
-<meta itemprop="wordCount" content="139">
+<meta itemprop="wordCount" content="183">
 
 
 
-<meta itemprop="keywords" content="Deepin,linux," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Deepin,linux," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Deepin伪装Ubuntu"/>
 <meta name="twitter:description" content="首先使用add-apt-repository命令需要进行安装 sudo apt-get install software-properties-common 添加源时出现aptsources.distro.NoDistroTemp"/>
 
@@ -145,7 +141,7 @@
               <a href="/categories/deepin/"> Deepin </a>
             
           </div>
-        <span class="more-meta"> 约 139 字 </span>
+        <span class="more-meta"> 约 183 字 </span>
         <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -157,7 +153,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -167,16 +163,10 @@
     
     <div class="post-content">
       <p>首先使用<code>add-apt-repository</code>命令需要进行安装</p>
-
 <pre><code>sudo apt-get install software-properties-common
-</code></pre>
-
-<p>添加源时出现<code>aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Deepin/stable</code></p>
-
+</code></pre><p>添加源时出现<code>aptsources.distro.NoDistroTemplateException: Error: could not find a distribution template for Deepin/stable</code></p>
 <p>运行<code>sudo gedit /etc/lsb-release</code></p>
-
 <p>修改成如下内容，伪装为Ubuntu</p>
-
 <pre><code>#DISTRIB_ID=Deepin
 #DISTRIB_RELEASE=&quot;15.11&quot;
 #DISTRIB_DESCRIPTION=&quot;Deepin 15.11 &quot;
@@ -186,9 +176,10 @@ DISTRIB_ID=Ubuntu
 DISTRIB_RELEASE=18.04
 DISTRIB_DESCRIPTION=&quot;Ubuntu 18.04.3 LTS&quot;
 DISTRIB_CODENAME=trusty
-</code></pre>
-
-<p>添加完再改回来即可</p>
+</code></pre><p>添加完再改回来即可</p>
+<p>提示<code>找不到有效的 OpenPGP 数据</code></p>
+<pre><code>sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 &lt;2EE5793634EF4A35&gt;
+</code></pre><p>运行上面命令，&lt;&gt;中为提示中给出的key</p>
 
     </div>
 
@@ -238,6 +229,11 @@ DISTRIB_CODENAME=trusty
       
       <nav class="post-nav">
         
+          <a class="prev" href="/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Electron安装卡在node Install</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         
           <a class="next" href="/post/2019/0808.aws-ssh-permission-denied-publickey/">
             <span class="next-text nav-default">AWS SSH Permission denied (publickey)</span>

@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="EditorConfig 主页 相关说明 When opening a file, EditorConfig plugins look for a file named .editorconfig in the directory of the opened file and in every parent directory. A search for .editorconfig files will stop if the root filepath is reached or an EditorConfig file with root=true is found. For Windows Users: To create an .editorconfig file within Windows Explorer, you need to create a file named" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/0723.editorconfig%E9%85%8D%E7%BD%AE/" />
-<meta property="article:published_time" content="2014-07-23T21:48:23&#43;08:00"/>
-<meta property="article:modified_time" content="2014-07-23T21:48:23&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-07-23T21:48:23+08:00" />
+<meta property="article:modified_time" content="2014-07-23T21:48:23+08:00" />
 <meta itemprop="name" content="EditorConfig配置">
 <meta itemprop="description" content="EditorConfig 主页 相关说明 When opening a file, EditorConfig plugins look for a file named .editorconfig in the directory of the opened file and in every parent directory. A search for .editorconfig files will stop if the root filepath is reached or an EditorConfig file with root=true is found. For Windows Users: To create an .editorconfig file within Windows Explorer, you need to create a file named">
-
-
 <meta itemprop="datePublished" content="2014-07-23T21:48:23&#43;08:00" />
 <meta itemprop="dateModified" content="2014-07-23T21:48:23&#43;08:00" />
 <meta itemprop="wordCount" content="426">
 
 
 
-<meta itemprop="keywords" content="EditorConfig," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="EditorConfig," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="EditorConfig配置"/>
 <meta name="twitter:description" content="EditorConfig 主页 相关说明 When opening a file, EditorConfig plugins look for a file named .editorconfig in the directory of the opened file and in every parent directory. A search for .editorconfig files will stop if the root filepath is reached or an EditorConfig file with root=true is found. For Windows Users: To create an .editorconfig file within Windows Explorer, you need to create a file named"/>
 
@@ -154,20 +150,14 @@
   
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#相关说明">相关说明</a></li>
-<li><a href="#配置">配置</a>
-<ul>
-<li><a href="#wildcard-patterns">Wildcard Patterns</a></li>
-<li><a href="#supported-properties-https-github-com-editorconfig-editorconfig-wiki-editorconfig-properties"><a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">Supported Properties</a></a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#相关说明">相关说明</a></li>
+        <li><a href="#配置">配置</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -177,22 +167,14 @@
 
     
     <div class="post-content">
-      
-
-<p><a href="http://editorconfig.org/">EditorConfig 主页</a></p>
-
+      <p><a href="http://editorconfig.org/">EditorConfig 主页</a></p>
 <h3 id="相关说明">相关说明</h3>
-
 <blockquote>
 <p>When opening a file, EditorConfig plugins look for a file named <code>.editorconfig</code> in the directory of the opened file and in every parent directory. A search for <code>.editorconfig</code> files will stop if the root filepath is reached or an EditorConfig file with <code>root=true</code> is found.</p>
-
 <p><strong>For Windows Users</strong>: To create an <code>.editorconfig</code> file within Windows Explorer, you need to create a file named <code>.editorconfig.</code>, which Windows Explorer will automatically rename to <code>.editorconfig</code>.</p>
 </blockquote>
-
 <h3 id="配置">配置</h3>
-
 <h4 id="wildcard-patterns">Wildcard Patterns</h4>
-
 <table>
 <thead>
 <tr>
@@ -200,64 +182,46 @@
 <th align="left">说明</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="left">*</td>
 <td align="left">Matches any string of characters, except path separators (/)</td>
 </tr>
-
 <tr>
 <td align="left">**</td>
 <td align="left">Matches any string of characters</td>
 </tr>
-
 <tr>
 <td align="left">?</td>
 <td align="left">Matches any single character</td>
 </tr>
-
 <tr>
 <td align="left">[name]</td>
 <td align="left">Matches any single character in name</td>
 </tr>
-
 <tr>
 <td align="left">[!name]</td>
 <td align="left">Matches any single character not in name</td>
 </tr>
-
 <tr>
 <td align="left">{s1,s2,s3}</td>
 <td align="left">Matches any of the strings given (separated by commas) (Available since EditorConfig Core 0.11.0)</td>
 </tr>
 </tbody>
 </table>
-
-<h4 id="supported-properties-https-github-com-editorconfig-editorconfig-wiki-editorconfig-properties"><a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">Supported Properties</a></h4>
-
+<h4 id="supported-propertieshttpsgithubcomeditorconfigeditorconfigwikieditorconfig-properties"><a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">Supported Properties</a></h4>
 <p><strong>indent_style</strong>: set to <code>tab</code> or <code>space</code> to use hard tabs or soft tabs respectively.</p>
-
 <p><strong>indent_size</strong>: a whole number defining the number of columns used for each indentation level and the width of soft tabs (when supported). When set to <code>tab</code>, the value of <code>tab_width</code> (if specified) will be used.</p>
-
 <p><strong>tab_width</strong>: a whole number defining the number of columns used to represent a tab character. This defaults to the value of <code>indent_size</code> and doesn&rsquo;t usually need to be specified.</p>
-
 <p><strong>end_of_line</strong>: set to <code>lf</code>, <code>cr</code>, or <code>crlf</code> to control how line breaks are represented.</p>
-
 <p><strong>charset</strong>: set to <code>latin1</code>, <code>utf-8</code>, <code>utf-8-bom</code>, <code>utf-16be</code> or <code>utf-16le</code> to control the character set. Use of <code>utf-8-bom</code> is discouraged.</p>
-
 <p><strong>trim_trailing_whitespace</strong>: set to <code>true</code> to remove any whitespace characters preceding newline characters and <code>false</code> to ensure it doesn&rsquo;t.</p>
-
 <p><strong>insert_final_newline</strong>: set to <code>true</code> ensure file ends with a newline when saving and <code>false</code> to ensure it doesn&rsquo;t.</p>
-
 <p><strong>root</strong>: special property that should be specified at the top of the file outside of any sections. Set to <code>true</code> to stop <code>.editorconfig</code> files search on current file.</p>
-
 <blockquote>
 <p>Currently all properties and values are case-insensitive. They are lowercased when parsed. Generally, if a property is not specified, the editor settings will be used, i.e. EditorConfig takes no effect on that part.</p>
-
 <p>It is acceptable and often preferred to leave certain EditorConfig properties unspecified. For example, <code>tab_width</code> need not be specified unless it differs from the value of <code>indent_size</code>. Also, when <code>indent_style</code> is set to <code>tab</code>, it may be desirable to leave <code>indent_size</code> unspecified so readers may view the file using their preferred indentation format. Additionally, if a property is not standardized in your project (<code>end_of_line</code> for example), it may be best to leave it blank.</p>
 </blockquote>
-
 <p><a href="https://sublime.wbond.net/packages/EditorConfig">Sublime Text plugin</a></p>
 
     </div>

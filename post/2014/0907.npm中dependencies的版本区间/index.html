@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/0907.npm%E4%B8%ADdependencies%E7%9A%84%E7%89%88%E6%9C%AC%E5%8C%BA%E9%97%B4/" />
-<meta property="article:published_time" content="2014-09-07T17:36:03&#43;08:00"/>
-<meta property="article:modified_time" content="2014-09-07T17:36:03&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-09-07T17:36:03+08:00" />
+<meta property="article:modified_time" content="2014-09-07T17:36:03+08:00" />
 <meta itemprop="name" content="npm中dependencies的版本区间">
 <meta itemprop="description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1">
-
-
 <meta itemprop="datePublished" content="2014-09-07T17:36:03&#43;08:00" />
 <meta itemprop="dateModified" content="2014-09-07T17:36:03&#43;08:00" />
 <meta itemprop="wordCount" content="159">
 
 
 
-<meta itemprop="keywords" content="npm,semantic version," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="npm,semantic version," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="npm中dependencies的版本区间"/>
 <meta name="twitter:description" content="dependencies - https://www.npmjs.org/doc/files/package.json.html#dependencies version Must match version exactly &gt;version Must be greater than version &gt;=version etc &lt;version &lt;=version ~version &ldquo;Approximately equivalent to version&rdquo; See semver(7) ^version &ldquo;Compatible with version&rdquo; See semver(7) 1.2.x 1.2.0, 1.2.1, etc., but not 1.3.0 http://... See &lsquo;URLs as Dependencies&rsquo; below * Matches any version &quot;&quot; (just an empty string) Same as * version1 - version2 Same as &gt;=version1 &lt;=version2. range1 || range2 Passes if either range1"/>
 
@@ -154,19 +150,13 @@
   
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#dependencies-https-www-npmjs-org-doc-files-package-json-html-dependencies">dependencies - <a href="https://www.npmjs.org/doc/files/package.json.html#dependencies">https://www.npmjs.org/doc/files/package.json.html#dependencies</a></a></li>
-<li><a href="#semver-https-www-npmjs-org-doc-misc-semver-html-ranges">semver - <a href="https://www.npmjs.org/doc/misc/semver.html#Ranges">https://www.npmjs.org/doc/misc/semver.html#Ranges</a></a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -176,10 +166,7 @@
 
     
     <div class="post-content">
-      
-
-<h4 id="dependencies-https-www-npmjs-org-doc-files-package-json-html-dependencies">dependencies - <a href="https://www.npmjs.org/doc/files/package.json.html#dependencies">https://www.npmjs.org/doc/files/package.json.html#dependencies</a></h4>
-
+      <h4 id="dependencies---httpswwwnpmjsorgdocfilespackagejsonhtmldependencies">dependencies - <a href="https://www.npmjs.org/doc/files/package.json.html#dependencies">https://www.npmjs.org/doc/files/package.json.html#dependencies</a></h4>
 <ul>
 <li><code>version</code> Must match <code>version</code> exactly</li>
 <li><code>&gt;version</code> Must be greater than <code>version</code></li>
@@ -197,31 +184,24 @@
 <li><code>git...</code> See &lsquo;Git URLs as Dependencies&rsquo; below</li>
 <li><code>user/repo</code> See &lsquo;GitHub URLs&rsquo; below</li>
 </ul>
-
 <p>For example, these are all valid:</p>
-
-<pre><code class="language-json">{ &quot;dependencies&quot; :
-  { &quot;foo&quot; : &quot;1.0.0 - 2.9999.9999&quot;
-  , &quot;bar&quot; : &quot;&gt;=1.0.2 &lt;2.1.2&quot;
-  , &quot;baz&quot; : &quot;&gt;1.0.2 &lt;=2.3.4&quot;
-  , &quot;boo&quot; : &quot;2.0.1&quot;
-  , &quot;qux&quot; : &quot;&lt;1.0.0 || &gt;=2.3.1 &lt;2.4.5 || &gt;=2.5.2 &lt;3.0.0&quot;
-  , &quot;asd&quot; : &quot;http://asdf.com/asdf.tar.gz&quot;
-  , &quot;til&quot; : &quot;~1.2&quot;
-  , &quot;elf&quot; : &quot;~1.2.3&quot;
-  , &quot;two&quot; : &quot;2.x&quot;
-  , &quot;thr&quot; : &quot;3.3.x&quot;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{ <span style="color:#f92672">&#34;dependencies&#34;</span> :
+  { <span style="color:#f92672">&#34;foo&#34;</span> : <span style="color:#e6db74">&#34;1.0.0 - 2.9999.9999&#34;</span>
+  , <span style="color:#f92672">&#34;bar&#34;</span> : <span style="color:#e6db74">&#34;&gt;=1.0.2 &lt;2.1.2&#34;</span>
+  , <span style="color:#f92672">&#34;baz&#34;</span> : <span style="color:#e6db74">&#34;&gt;1.0.2 &lt;=2.3.4&#34;</span>
+  , <span style="color:#f92672">&#34;boo&#34;</span> : <span style="color:#e6db74">&#34;2.0.1&#34;</span>
+  , <span style="color:#f92672">&#34;qux&#34;</span> : <span style="color:#e6db74">&#34;&lt;1.0.0 || &gt;=2.3.1 &lt;2.4.5 || &gt;=2.5.2 &lt;3.0.0&#34;</span>
+  , <span style="color:#f92672">&#34;asd&#34;</span> : <span style="color:#e6db74">&#34;http://asdf.com/asdf.tar.gz&#34;</span>
+  , <span style="color:#f92672">&#34;til&#34;</span> : <span style="color:#e6db74">&#34;~1.2&#34;</span>
+  , <span style="color:#f92672">&#34;elf&#34;</span> : <span style="color:#e6db74">&#34;~1.2.3&#34;</span>
+  , <span style="color:#f92672">&#34;two&#34;</span> : <span style="color:#e6db74">&#34;2.x&#34;</span>
+  , <span style="color:#f92672">&#34;thr&#34;</span> : <span style="color:#e6db74">&#34;3.3.x&#34;</span>
   }
 }
-</code></pre>
-
-<p>URLs as Dependencies</p>
-
+</code></pre></div><p>URLs as Dependencies</p>
 <p>Git URLs as Dependencies</p>
-
 <p>GitHub URLs</p>
-
-<h4 id="semver-https-www-npmjs-org-doc-misc-semver-html-ranges">semver - <a href="https://www.npmjs.org/doc/misc/semver.html#Ranges">https://www.npmjs.org/doc/misc/semver.html#Ranges</a></h4>
+<h4 id="semver---httpswwwnpmjsorgdocmiscsemverhtmlranges">semver - <a href="https://www.npmjs.org/doc/misc/semver.html#Ranges">https://www.npmjs.org/doc/misc/semver.html#Ranges</a></h4>
 
     </div>
 

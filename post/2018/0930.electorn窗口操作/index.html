@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2018/0930.electorn%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C/" />
-<meta property="article:published_time" content="2018-09-30T07:42:33&#43;08:00"/>
-<meta property="article:modified_time" content="2018-09-30T07:42:33&#43;08:00"/>
-
+<meta property="article:published_time" content="2018-09-30T07:42:33+08:00" />
+<meta property="article:modified_time" content="2018-09-30T07:42:33+08:00" />
 <meta itemprop="name" content="Electron窗口操作">
 <meta itemprop="description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false">
-
-
 <meta itemprop="datePublished" content="2018-09-30T07:42:33&#43;08:00" />
 <meta itemprop="dateModified" content="2018-09-30T07:42:33&#43;08:00" />
 <meta itemprop="wordCount" content="287">
 
 
 
-<meta itemprop="keywords" content="electron," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="electron," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Electron窗口操作"/>
 <meta name="twitter:description" content="无边框窗口 https://electronjs.org/docs/api/frameless-window#创建无框窗口 mainWindow = new BrowserWindow({ width: 900, height: 700, frame: false"/>
 
@@ -158,18 +154,16 @@
   
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#无边框窗口">无边框窗口</a></li>
-<li><a href="#可拖拽区">可拖拽区</a></li>
-<li><a href="#页面渲染完成再加载">页面渲染完成再加载</a></li>
-<li><a href="#页面中关闭窗口">页面中关闭窗口</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#无边框窗口">无边框窗口</a></li>
+        <li><a href="#可拖拽区">可拖拽区</a></li>
+        <li><a href="#页面渲染完成再加载">页面渲染完成再加载</a></li>
+        <li><a href="#页面中关闭窗口">页面中关闭窗口</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -179,49 +173,31 @@
 
     
     <div class="post-content">
-      
-
-<h3 id="无边框窗口">无边框窗口</h3>
-
-<p><a href="https://electronjs.org/docs/api/frameless-window#创建无框窗口">https://electronjs.org/docs/api/frameless-window#创建无框窗口</a></p>
-
-<pre><code class="language-js">mainWindow = new BrowserWindow({
-    width: 900,
-    height: 700,
-    frame: false // 无边框
-});
-</code></pre>
-
-<h3 id="可拖拽区">可拖拽区</h3>
-
-<p><a href="https://electronjs.org/docs/api/frameless-window#可拖拽区">https://electronjs.org/docs/api/frameless-window#可拖拽区</a></p>
-
+      <h3 id="无边框窗口">无边框窗口</h3>
+<p><a href="https://electronjs.org/docs/api/frameless-window#%E5%88%9B%E5%BB%BA%E6%97%A0%E6%A1%86%E7%AA%97%E5%8F%A3">https://electronjs.org/docs/api/frameless-window#创建无框窗口</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">mainWindow</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">BrowserWindow</span>({
+    <span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">900</span>,
+    <span style="color:#a6e22e">height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">700</span>,
+    <span style="color:#a6e22e">frame</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span> <span style="color:#75715e">// 无边框
+</span><span style="color:#75715e"></span>});
+</code></pre></div><h3 id="可拖拽区">可拖拽区</h3>
+<p><a href="https://electronjs.org/docs/api/frameless-window#%E5%8F%AF%E6%8B%96%E6%8B%BD%E5%8C%BA">https://electronjs.org/docs/api/frameless-window#可拖拽区</a></p>
 <p>请注意, 如果您已使整个窗口draggable, 则必须将按钮标记为 non-draggable, 否则用户将无法单击它们。</p>
-
-<pre><code class="language-css">{
-    -webkit-app-region: drag;
-    -webkit-app-region: no-drag;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">{
+    <span style="color:#66d9ef">-webkit-</span>app-region: drag;
+    <span style="color:#66d9ef">-webkit-</span>app-region: no-drag;
 }
-</code></pre>
-
-<h3 id="页面渲染完成再加载">页面渲染完成再加载</h3>
-
-<p><a href="https://electronjs.org/docs/api/browser-window#优雅地显示窗口">https://electronjs.org/docs/api/browser-window#优雅地显示窗口</a></p>
-
-<pre><code class="language-js">const {BrowserWindow} = require('electron');
-let win = new BrowserWindow({show: false});
-win.once('ready-to-show', () =&gt; {
-    win.show()
+</code></pre></div><h3 id="页面渲染完成再加载">页面渲染完成再加载</h3>
+<p><a href="https://electronjs.org/docs/api/browser-window#%E4%BC%98%E9%9B%85%E5%9C%B0%E6%98%BE%E7%A4%BA%E7%AA%97%E5%8F%A3">https://electronjs.org/docs/api/browser-window#优雅地显示窗口</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> {<span style="color:#a6e22e">BrowserWindow</span>} <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;electron&#39;</span>);
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">win</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">BrowserWindow</span>({<span style="color:#a6e22e">show</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>});
+<span style="color:#a6e22e">win</span>.<span style="color:#a6e22e">once</span>(<span style="color:#e6db74">&#39;ready-to-show&#39;</span>, () =&gt; {
+    <span style="color:#a6e22e">win</span>.<span style="color:#a6e22e">show</span>()
 });
-</code></pre>
-
-<h3 id="页面中关闭窗口">页面中关闭窗口</h3>
-
+</code></pre></div><h3 id="页面中关闭窗口">页面中关闭窗口</h3>
 <p>使用<code>window</code>的<code>close</code>方法。</p>
-
-<pre><code class="language-js">javascript:window.close()
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">javascript</span><span style="color:#f92672">:</span>window.<span style="color:#a6e22e">close</span>()
+</code></pre></div>
     </div>
 
     

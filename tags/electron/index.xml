@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>electron on 莫提时光</title>
@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>冒牌天神</copyright>
-    <lastBuildDate>Sun, 30 Sep 2018 08:44:11 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 15:52:31 +0800</lastBuildDate>
     
 	<atom:link href="https://evolution.cethink.tk/tags/electron/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Electron安装卡在node Install</title>
+      <link>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</link>
+      <pubDate>Thu, 30 Jan 2020 15:52:31 +0800</pubDate>
+      
+      <guid>https://evolution.cethink.tk/post/2020/electron%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A8node-install.js/</guid>
+      <description>https://segmentfault.com/q/1010000007594059 https://blog.csdn.net/qq_27005821/article/details/102748201 https://www.v2ex.com/t/616680 解决的方法就是在~/.npmrc里做如下设置 registry=https://registry.npm.taobao.org electron_mirror=https://npm.taobao.org/mirrors/electron/ 不过这个方法我没有成功，我用下面的方法 用npm install安装后，手动下载镜相包，修</description>
+    </item>
     
     <item>
       <title>DeepinLinux下为electron安装sqlite3</title>
@@ -36,7 +45,7 @@
       <pubDate>Fri, 28 Sep 2018 12:28:21 +0800</pubDate>
       
       <guid>https://evolution.cethink.tk/post/2018/0928.electron%E5%88%9D%E6%AD%A5/</guid>
-      <description>Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;quot;name&amp;quot;: &amp;quot;journal&amp;quot;, &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;, &amp;quot;description&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;main&amp;quot;: &amp;quot;index.js&amp;quot;, &amp;quot;scripts&amp;quot;:</description>
+      <description>Electron文档 mkdir myapp cd myapp npm init 生成的package.json如下，然后添加一行&amp;quot;start&amp;quot;: &amp;quot;electron .&amp;quot; { &amp;#34;name&amp;#34;: &amp;#34;journal&amp;#34;, &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;main&amp;#34;: &amp;#34;index.js&amp;#34;, &amp;#34;scripts&amp;#34;:</description>
     </item>
     
   </channel>

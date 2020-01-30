@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="数据库连接字符串使用Integrated Security=True验证，在VS2013中可以运行，但在IIS中会报如下错误 System.Data.Entity.Core.EntityException Message=The underlying provider failed on Open. Source=EntityFramework InnerException:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/1102.entityframework-the-underlying-provider-failed-on-open/" />
-<meta property="article:published_time" content="2014-11-02T04:36:41&#43;08:00"/>
-<meta property="article:modified_time" content="2014-11-02T04:36:41&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-11-02T04:36:41+08:00" />
+<meta property="article:modified_time" content="2014-11-02T04:36:41+08:00" />
 <meta itemprop="name" content="EntityFramework: The underlying provider failed on Open">
 <meta itemprop="description" content="数据库连接字符串使用Integrated Security=True验证，在VS2013中可以运行，但在IIS中会报如下错误 System.Data.Entity.Core.EntityException Message=The underlying provider failed on Open. Source=EntityFramework InnerException:">
-
-
 <meta itemprop="datePublished" content="2014-11-02T04:36:41&#43;08:00" />
 <meta itemprop="dateModified" content="2014-11-02T04:36:41&#43;08:00" />
 <meta itemprop="wordCount" content="210">
 
 
 
-<meta itemprop="keywords" content="EF,IIS," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="EF,IIS," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="EntityFramework: The underlying provider failed on Open"/>
 <meta name="twitter:description" content="数据库连接字符串使用Integrated Security=True验证，在VS2013中可以运行，但在IIS中会报如下错误 System.Data.Entity.Core.EntityException Message=The underlying provider failed on Open. Source=EntityFramework InnerException:"/>
 
@@ -153,7 +149,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -163,24 +159,19 @@
     
     <div class="post-content">
       <p>数据库连接字符串使用<code>Integrated Security=True</code>验证，在VS2013中可以运行，但在IIS中会报如下错误</p>
-
 <blockquote>
 <p>System.Data.Entity.Core.EntityException
 Message=The underlying provider failed on Open.
 Source=EntityFramework
 InnerException: System.Data.SqlClient.SqlException
-  Message=Cannot open database &ldquo;OctooDb&rdquo; requested by the login. The login failed. Login failed for user &lsquo;IIS APPPOOL\app&rsquo;.</p>
+Message=Cannot open database &ldquo;OctooDb&rdquo; requested by the login. The login failed. Login failed for user &lsquo;IIS APPPOOL\app&rsquo;.</p>
 </blockquote>
-
 <p>解决方法参考</p>
-
 <p><a href="http://stackoverflow.com/questions/2475008/the-underlying-provider-failed-on-open">http://stackoverflow.com/questions/2475008/the-underlying-provider-failed-on-open</a></p>
-
 <blockquote>
 <p>Looking at your connection string, it looks valid. I found this blog post, the problem here is that they were using Integrated Security. If you are running on IIS, your IIS user needs access to the database.
 If you are using Entity Framework with Transactions, Entity Framework automatically opens and closes a connection with each database call. So when using transactions, you are attempting to spread a transaction out over multiple connections. This elevates to MSDTC.</p>
 </blockquote>
-
 <p>这里将连接字符串改为用户验证<code>User ID=sa;Password=123</code>即可。</p>
 
     </div>

@@ -26,7 +26,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.63.2" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/1102.visual-studio-and-libgit2-git-push-error/" />
@@ -53,21 +53,17 @@
 <meta property="og:description" content="在VS2013中使用Git作为版本控制时，向远程push出现如下错误 An error was raised by libgit2. Category = Tag (Error). This transport isn&rsquo;t implemented. Sorry 解决方法参考 http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution Unfortunately, Visual Studio Tools for Git do not yet support remote repositories using the" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://evolution.cethink.tk/post/2014/1102.visual-studio-and-libgit2-git-push-error/" />
-<meta property="article:published_time" content="2014-11-02T04:36:12&#43;08:00"/>
-<meta property="article:modified_time" content="2014-11-02T04:36:12&#43;08:00"/>
-
+<meta property="article:published_time" content="2014-11-02T04:36:12+08:00" />
+<meta property="article:modified_time" content="2014-11-02T04:36:12+08:00" />
 <meta itemprop="name" content="Visual Studio and libgit2 Git Push Error">
 <meta itemprop="description" content="在VS2013中使用Git作为版本控制时，向远程push出现如下错误 An error was raised by libgit2. Category = Tag (Error). This transport isn&rsquo;t implemented. Sorry 解决方法参考 http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution Unfortunately, Visual Studio Tools for Git do not yet support remote repositories using the">
-
-
 <meta itemprop="datePublished" content="2014-11-02T04:36:12&#43;08:00" />
 <meta itemprop="dateModified" content="2014-11-02T04:36:12&#43;08:00" />
 <meta itemprop="wordCount" content="168">
 
 
 
-<meta itemprop="keywords" content="Visual Studio,Git," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Visual Studio,Git," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Visual Studio and libgit2 Git Push Error"/>
 <meta name="twitter:description" content="在VS2013中使用Git作为版本控制时，向远程push出现如下错误 An error was raised by libgit2. Category = Tag (Error). This transport isn&rsquo;t implemented. Sorry 解决方法参考 http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution Unfortunately, Visual Studio Tools for Git do not yet support remote repositories using the"/>
 
@@ -153,7 +149,7 @@
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
 
@@ -163,21 +159,16 @@
     
     <div class="post-content">
       <p>在VS2013中使用Git作为版本控制时，向远程push出现如下错误</p>
-
 <blockquote>
 <p>An error was raised by libgit2. Category = Tag (Error).
 This transport isn&rsquo;t implemented. Sorry</p>
 </blockquote>
-
 <p>解决方法参考</p>
-
 <p><a href="http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution">http://stackoverflow.com/questions/21194969/visual-studio-and-libgit2-git-commit-error-in-different-solution</a></p>
-
 <blockquote>
 <p>Unfortunately, Visual Studio Tools for Git do not yet support remote repositories using the SSH protocol, only HTTP and HTTPS.
 Investigate the .git/config in each repository to ensure that you did not clone one repository with SSH. If you did, try to switch the remote to an HTTPS endpoint.</p>
 </blockquote>
-
 <p>VS中的Git工具暂不支持远程SSH端口，修改每个版本库<code>.git/config</code>中对应的remote url为https形式即可。</p>
 
     </div>
