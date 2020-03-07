@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.63.2 with theme even" />
+<meta name="generator" content="Hugo 0.65.3 with theme even" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/0710.sqlite3%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" />
@@ -173,13 +173,13 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">ocnote</span> <span class="p">(</span>
-  <span class="s2">&#34;</span><span class="s2">id</span><span class="s2">&#34;</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
-  <span class="s2">&#34;</span><span class="s2">title</span><span class="s2">&#34;</span> <span class="n">NVARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="p">,</span>
-  <span class="s2">&#34;</span><span class="s2">content</span><span class="s2">&#34;</span> <span class="nb">TEXT</span><span class="p">,</span>
-  <span class="s2">&#34;</span><span class="s2">createtime</span><span class="s2">&#34;</span> <span class="n">DATETIME</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
-  <span class="s2">&#34;</span><span class="s2">updatetime</span><span class="s2">&#34;</span> <span class="n">DATETIME</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
-  <span class="s2">&#34;</span><span class="s2">delstate</span><span class="s2">&#34;</span> <span class="nb">INTEGER</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">DEFAULT</span> <span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-<span class="p">)</span><span class="p">;</span>
+  <span class="s2">&#34;id&#34;</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+  <span class="s2">&#34;title&#34;</span> <span class="n">NVARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span>
+  <span class="s2">&#34;content&#34;</span> <span class="nb">TEXT</span><span class="p">,</span>
+  <span class="s2">&#34;createtime&#34;</span> <span class="n">DATETIME</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+  <span class="s2">&#34;updatetime&#34;</span> <span class="n">DATETIME</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+  <span class="s2">&#34;delstate&#34;</span> <span class="nb">INTEGER</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">DEFAULT</span> <span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>查询表</strong></p>
@@ -223,13 +223,13 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">ocnote</span> <span class="k">VALUES</span> <span class="p">(</span>
-  <span class="s1">&#39;</span><span class="s1">w8ehewfwklds</span><span class="s1">&#39;</span><span class="p">,</span>
-  <span class="s1">&#39;</span><span class="s1">这是一段测试文字</span><span class="s1">&#39;</span><span class="p">,</span>
-  <span class="s1">&#39;</span><span class="s1">内容也是空空的，么么哒。</span><span class="s1">&#39;</span><span class="p">,</span>
-  <span class="s1">&#39;</span><span class="s1">2014-07-10 19:55:26</span><span class="s1">&#39;</span><span class="p">,</span>
-  <span class="s1">&#39;</span><span class="s1">2014-07-10 19:55:26</span><span class="s1">&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;w8ehewfwklds&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;这是一段测试文字&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;内容也是空空的，么么哒。&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;2014-07-10 19:55:26&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;2014-07-10 19:55:26&#39;</span><span class="p">,</span>
   <span class="mi">0</span>
-<span class="p">)</span><span class="p">;</span>
+<span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>修改数据</strong></p>
@@ -238,7 +238,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">UPDATE</span> <span class="n">ocnote</span> <span class="k">SET</span> <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="s1">blablabla</span><span class="s1">&#39;</span> <span class="k">WHERE</span> <span class="n">ROWID</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">UPDATE</span> <span class="n">ocnote</span> <span class="k">SET</span> <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;blablabla&#39;</span> <span class="k">WHERE</span> <span class="n">ROWID</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>删除数据</strong></p>
@@ -247,7 +247,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">DELETE</span> <span class="k">FROM</span> <span class="n">ocnote</span> <span class="k">WHERE</span> <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="s1">blablabla</span><span class="s1">&#39;</span><span class="p">;</span>
+<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">DELETE</span> <span class="k">FROM</span> <span class="n">ocnote</span> <span class="k">WHERE</span> <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;blablabla&#39;</span><span class="p">;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>查询数据</strong></p>

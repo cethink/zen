@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.63.2 with theme even" />
+<meta name="generator" content="Hugo 0.65.3 with theme even" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2015/0411.%E7%90%86%E8%A7%A3javascript%E4%B8%AD%E7%9A%84this%E5%85%B3%E9%94%AE%E5%AD%97/" />
@@ -141,12 +141,12 @@
       <ul>
         <li><a href="#执行上下文">执行上下文</a></li>
         <li><a href="#全局对象">全局对象</a></li>
-        <li><a href="#确定this的值">确定this的值</a></li>
+        <li><a href="#确定this的值">确定<code>this</code>的值</a></li>
         <li><a href="#方法调用">方法调用</a></li>
         <li><a href="#new运算符">new运算符</a></li>
-        <li><a href="#call--apply">Call & Apply</a></li>
+        <li><a href="#call--apply">Call &amp; Apply</a></li>
         <li><a href="#总结">总结</a></li>
-        <li><a href="#补充eval打破上面所有规则">补充：eval打破上面所有规则</a></li>
+        <li><a href="#补充eval打破上面所有规则">补充：<code>eval</code>打破上面所有规则</a></li>
       </ul>
     </li>
   </ul>
@@ -185,14 +185,14 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">counter</span> <span class="o">=</span> <span class="p">{</span>
   <span class="nx">val</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
-  <span class="nx">increment</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">increment</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">val</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
   <span class="p">}</span>
-<span class="p">}</span><span class="p">;</span>
-<span class="nx">counter</span><span class="p">.</span><span class="nx">increment</span><span class="p">(</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">counter</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// 1
-</span><span class="c1"></span><span class="nx">counter</span><span class="p">[</span><span class="s1">&#39;increment&#39;</span><span class="p">]</span><span class="p">(</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">counter</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// 2
+<span class="p">};</span>
+<span class="nx">counter</span><span class="p">.</span><span class="nx">increment</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">counter</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// 1
+</span><span class="c1"></span><span class="nx">counter</span><span class="p">[</span><span class="s1">&#39;increment&#39;</span><span class="p">]();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">counter</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// 2
 </span></code></pre></td></tr></table>
 </div>
 </div><p>这是第二条规则：函数被当作父对象的属性来调用时，在函数代码中的<code>this</code>指向函数的父对象。</p>
@@ -206,9 +206,9 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">inc</span> <span class="o">=</span> <span class="nx">counter</span><span class="p">.</span><span class="nx">increment</span><span class="p">;</span>
-<span class="nx">inc</span><span class="p">(</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">counter</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// 2
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// NaN
+<span class="nx">inc</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">counter</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// 2
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// NaN
 </span></code></pre></td></tr></table>
 </div>
 </div><p>当<code>inc</code>被调用时，这里的<code>this</code>不会改变，所以它还是指向全局对象。</p>
@@ -246,9 +246,9 @@
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">F</span> <span class="p">(</span><span class="nx">v</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">this</span><span class="p">.</span><span class="nx">val</span> <span class="o">=</span> <span class="nx">v</span><span class="p">;</span>
 <span class="p">}</span>
-<span class="kd">var</span> <span class="nx">f</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">F</span><span class="p">(</span><span class="s2">&#34;Woohoo!&#34;</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">f</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// Woohoo!
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// ReferenceError
+<span class="kd">var</span> <span class="nx">f</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">F</span><span class="p">(</span><span class="s2">&#34;Woohoo!&#34;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">f</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// Woohoo!
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// ReferenceError
 </span></code></pre></td></tr></table>
 </div>
 </div><p>这就是我们的第三条规则：在用<code>new</code>运算符调用的函数代码中的<code>this</code>指向新创建的对象。</p>
@@ -260,9 +260,9 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">f</span> <span class="o">=</span> <span class="nx">F</span><span class="p">(</span><span class="s2">&#34;Oops!&#34;</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">f</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// undefined
-</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// Oops!
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">f</span> <span class="o">=</span> <span class="nx">F</span><span class="p">(</span><span class="s2">&#34;Oops!&#34;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">f</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// undefined
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// Oops!
 </span></code></pre></td></tr></table>
 </div>
 </div><p>在这个例子中，<code>F(&quot;Oops!&quot;)</code>是一个通常调用，<code>this</code>没有指向新的对象，因为没有用<code>new</code>创建新的对象，<code>this</code>继续指向全局对象。</p>
@@ -282,12 +282,12 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">add</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span> <span class="p">{</span>
       <span class="k">this</span><span class="p">.</span><span class="nx">val</span> <span class="o">=</span> <span class="nx">x</span> <span class="o">+</span> <span class="nx">y</span><span class="p">;</span>
-    <span class="p">}</span><span class="p">,</span>
+    <span class="p">},</span>
     <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
       <span class="nx">val</span><span class="o">:</span> <span class="mi">0</span>
-    <span class="p">}</span><span class="p">;</span>
-<span class="nx">add</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">obj</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// 10
+    <span class="p">};</span>
+<span class="nx">add</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="p">]);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">obj</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// 10
 </span></code></pre></td></tr></table>
 </div>
 </div><p><code>call</code>方法和<code>apply</code>方法是完全一样的，只不过要逐个的传递参数，而不是用一个数组：</p>
@@ -297,8 +297,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">add</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">obj</span><span class="p">.</span><span class="nx">val</span><span class="p">)</span><span class="p">;</span> <span class="c1">// 10
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">add</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">obj</span><span class="p">.</span><span class="nx">val</span><span class="p">);</span> <span class="c1">// 10
 </span></code></pre></td></tr></table>
 </div>
 </div><p>这是第四条规则：当使用<code>call</code>或<code>apply</code>调用函数时，函数代码中的<code>this</code>被设置为<code>call</code>或<code>apply</code>中的第一个参数。</p>
@@ -326,11 +326,11 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
   <span class="nx">val</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
-  <span class="nx">func</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nb">eval</span><span class="p">(</span><span class="s2">&#34;console.log(this.val)&#34;</span><span class="p">)</span><span class="p">;</span>
+  <span class="nx">func</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nb">eval</span><span class="p">(</span><span class="s2">&#34;console.log(this.val)&#34;</span><span class="p">);</span>
   <span class="p">}</span>
-<span class="p">}</span><span class="p">;</span>
-<span class="nx">obj</span><span class="p">.</span><span class="nx">func</span><span class="p">(</span><span class="p">)</span><span class="p">;</span> <span class="c1">// 0
+<span class="p">};</span>
+<span class="nx">obj</span><span class="p">.</span><span class="nx">func</span><span class="p">();</span> <span class="c1">// 0
 </span></code></pre></td></tr></table>
 </div>
 </div><p>That works likely as you expect it to. However, there are many cases with <code>eval</code> where <code>this</code> will probably not work as you expect:</p>
@@ -339,7 +339,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nb">eval</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="p">{</span><span class="nx">val</span><span class="o">:</span> <span class="mi">0</span><span class="p">}</span><span class="p">,</span> <span class="s2">&#34;console.log(this.val)&#34;</span><span class="p">)</span><span class="p">;</span> <span class="c1">// depends on browser
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nb">eval</span><span class="p">.</span><span class="nx">call</span><span class="p">({</span><span class="nx">val</span><span class="o">:</span> <span class="mi">0</span><span class="p">},</span> <span class="s2">&#34;console.log(this.val)&#34;</span><span class="p">);</span> <span class="c1">// depends on browser
 </span></code></pre></td></tr></table>
 </div>
 </div><p>The output of the above code depends on your browser. If your JavaScript runtime implements <a href="http://www.ecma-international.org/publications/standards/Ecma-262.htm">ECMAScript 5</a>, <code>this</code> will refer to the global object and the above should print <code>undefined</code>, because it’s an “indirect” call of <code>eval</code>. That’s what the latest versions of Chrome and Firefox do. Safari 5.1 actually throws an error (<em>“The ‘this’ value passed to eval must be the global object from which eval originated”</em>), which is kosher according to <a href="http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf">ECMAScript 3</a>.</p>

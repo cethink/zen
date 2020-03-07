@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.63.2 with theme even" />
+<meta name="generator" content="Hugo 0.65.3 with theme even" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2014/0722.grunt%E4%BD%BF%E7%94%A8/" />
@@ -139,7 +139,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#getting-startedhttpgruntjscomgetting-started">Getting started</a></li>
+        <li><a href="#getting-startedhttpgruntjscomgetting-started"><a href="http://gruntjs.com/getting-started">Getting started</a></a></li>
         <li><a href="#常用模块">常用模块</a></li>
       </ul>
     </li>
@@ -172,10 +172,10 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">grunt</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">(</span><span class="p">{</span>
-    <span class="nx">pkg</span><span class="o">:</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">file</span><span class="p">.</span><span class="nx">readJSON</span><span class="p">(</span><span class="s1">&#39;package.json&#39;</span><span class="p">)</span><span class="p">;</span>
-  <span class="p">}</span><span class="p">)</span><span class="p">;</span>
-<span class="p">}</span><span class="p">;</span>
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">({</span>
+    <span class="nx">pkg</span><span class="o">:</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">file</span><span class="p">.</span><span class="nx">readJSON</span><span class="p">(</span><span class="s1">&#39;package.json&#39;</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>示例：</p>
@@ -207,24 +207,24 @@
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">grunt</span><span class="p">)</span> <span class="p">{</span>
 
   <span class="c1">// 配置Grunt各种模块的参数
-</span><span class="c1"></span>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">(</span><span class="p">{</span>
-    <span class="nx">jshint</span><span class="o">:</span> <span class="p">{</span> <span class="cm">/* jshint的参数 */</span> <span class="p">}</span><span class="p">,</span>
-    <span class="nx">concat</span><span class="o">:</span> <span class="p">{</span> <span class="cm">/* concat的参数 */</span> <span class="p">}</span><span class="p">,</span>
-    <span class="nx">uglify</span><span class="o">:</span> <span class="p">{</span> <span class="cm">/* uglify的参数 */</span> <span class="p">}</span><span class="p">,</span>
+</span><span class="c1"></span>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">({</span>
+    <span class="nx">jshint</span><span class="o">:</span> <span class="p">{</span> <span class="cm">/* jshint的参数 */</span> <span class="p">},</span>
+    <span class="nx">concat</span><span class="o">:</span> <span class="p">{</span> <span class="cm">/* concat的参数 */</span> <span class="p">},</span>
+    <span class="nx">uglify</span><span class="o">:</span> <span class="p">{</span> <span class="cm">/* uglify的参数 */</span> <span class="p">},</span>
     <span class="nx">watch</span><span class="o">:</span>  <span class="p">{</span> <span class="cm">/* watch的参数 */</span> <span class="p">}</span>
-  <span class="p">}</span><span class="p">)</span><span class="p">;</span>
+  <span class="p">});</span>
 
   <span class="c1">// 从node_modules目录加载模块文件
-</span><span class="c1"></span>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-jshint&#39;</span><span class="p">)</span><span class="p">;</span>
-  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-concat&#39;</span><span class="p">)</span><span class="p">;</span>
-  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-uglify&#39;</span><span class="p">)</span><span class="p">;</span>
-  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-watch&#39;</span><span class="p">)</span><span class="p">;</span>
+</span><span class="c1"></span>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-jshint&#39;</span><span class="p">);</span>
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-concat&#39;</span><span class="p">);</span>
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-uglify&#39;</span><span class="p">);</span>
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-contrib-watch&#39;</span><span class="p">);</span>
 
   <span class="c1">// 每行registerTask定义一个任务
-</span><span class="c1"></span>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;jshint&#39;</span><span class="p">,</span> <span class="s1">&#39;concat&#39;</span><span class="p">,</span> <span class="s1">&#39;uglify&#39;</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
-  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;check&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;jshint&#39;</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
+</span><span class="c1"></span>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;jshint&#39;</span><span class="p">,</span> <span class="s1">&#39;concat&#39;</span><span class="p">,</span> <span class="s1">&#39;uglify&#39;</span><span class="p">]);</span>
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;check&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;jshint&#39;</span><span class="p">]);</span>
 
-<span class="p">}</span><span class="p">;</span>
+<span class="p">};</span>
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -239,7 +239,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;load-grunt-tasks&#39;</span><span class="p">)</span><span class="p">(</span><span class="nx">grunt</span><span class="p">)</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;load-grunt-tasks&#39;</span><span class="p">)(</span><span class="nx">grunt</span><span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>这条语句的作用是自动分析package.json文件，自动加载所找到的grunt模块。</p>
@@ -248,7 +248,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;time-grunt&#39;</span><span class="p">)</span><span class="p">(</span><span class="nx">grunt</span><span class="p">)</span><span class="p">;</span>
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;time-grunt&#39;</span><span class="p">)(</span><span class="nx">grunt</span><span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>在命令行中显示执行grunt任务所花的时间</p>

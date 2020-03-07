@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.63.2 with theme even" />
+<meta name="generator" content="Hugo 0.65.3 with theme even" />
 
 
 <link rel="canonical" href="https://evolution.cethink.tk/post/2019/0123.android-grant-current-user-access-to-dev-kvm/" />
@@ -48,7 +48,7 @@
 <meta itemprop="description" content="安装android模拟器时提示 1 2 3 4 KVM is required to run this AVD. /dev/kvm device: permission denied. Grant current user access to /dev/kvm 需要添加当前用户到kvm组以获取权限 sudo adduser your_linux_user kvm 如果提示组不存在，安装一">
 <meta itemprop="datePublished" content="2019-01-23T11:23:06&#43;08:00" />
 <meta itemprop="dateModified" content="2019-01-23T11:23:06&#43;08:00" />
-<meta itemprop="wordCount" content="103">
+<meta itemprop="wordCount" content="129">
 
 
 
@@ -128,7 +128,7 @@
         <div class="post-category">
             <a href="/categories/android/"> Android </a>
             </div>
-          <span class="more-meta"> 约 103 字 </span>
+          <span class="more-meta"> 约 129 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -161,7 +161,18 @@ Grant current user access to /dev/kvm
 <p>如果提示组不存在，安装一下<code>qemu-kvm</code>组件再添加一次</p>
 <p><code>sudo apt install qemu-kvm</code></p>
 <p>添加成功后注销或重启即可。</p>
-
+<hr>
+<p>2020-03-07更新</p>
+<p>运行如下命令即可</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo chown username -R /dev/kvm
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     <div class="post-copyright">
